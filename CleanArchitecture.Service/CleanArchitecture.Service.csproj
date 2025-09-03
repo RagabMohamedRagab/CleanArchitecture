@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Data\CleanArchitecture.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IMangers\IAuthService\" />
+    <Folder Include="Features\" />
+    <Folder Include="Managers\AuthService\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+</Project>
