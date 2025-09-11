@@ -15,17 +15,13 @@ namespace CleanArchitecture.Infrastructure.Repositories.Auth
         private readonly SignInManager<UserApp> _signInManager = signInManager;
         public async Task<bool> Authenticate(string Email, string Password)
         {
-            var isSignIn=await _signInManager.PasswordSignInAsync(Email, Password,isPersistent:false,true);
+            var isSignIn=await _signInManager.PasswordSignInAsync(Email, Password,isPersistent:false,false);
             return isSignIn.Succeeded;
         }
 
-        public async Task<bool> Regsitertion(UserApp userApp, string Password)
+        public async Task<bool> Regsitertion(UserApp user, string Password)
         {
-            UserApp user = new UserApp() {
-                Email = userApp.Email,
-                UserName = userApp.UserName,
-            };
-
+           
             var result = await _userManager.CreateAsync(user, Password);
             if (result.Succeeded) {
                 await _signInManager.SignInAsync(user, isPersistent: false);

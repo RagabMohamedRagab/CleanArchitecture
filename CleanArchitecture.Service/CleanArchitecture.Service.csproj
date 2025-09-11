@@ -11,10 +11,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="IMangers\IAuthService\" />
     <Folder Include="Features\" />
-    <Folder Include="Managers\AuthService\" />
     <Folder Include="ViewModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.8" />
+    <PackageReference Include="Snail.Toolkit.Authentication.JwtBearer" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

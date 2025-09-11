@@ -7,14 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Exceptions\" />
     <Folder Include="Enums\" />
     <Folder Include="ValueObjects\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.13.0" />
     <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.2.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.8" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.8" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="9.0.8" />
   </ItemGroup>
 
