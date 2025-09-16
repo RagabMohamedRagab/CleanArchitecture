@@ -3,6 +3,7 @@
 using System.Threading.Tasks;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Data.Exceptions;
+using CleanArchitecture.Data.IEmailService;
 using CleanArchitecture.Data.IRpositories.IAuth;
 using CleanArchitecture.Service.Dtos.AuthDtos;
 using CleanArchitecture.Service.DTOS.AuthDTOS;
@@ -12,10 +13,11 @@ using CleanArchitecture.Service.Responseobject;
 
 namespace CleanArchitecture.Service.Managers.AuthService
 {
-    public class AuthService(IAuthRepository authRepository,AuthJwt authJwt) : IAuthService
+    public class AuthService(IAuthRepository authRepository,AuthJwt authJwt,IEmailSender emailSender) : IAuthService
     {
         private readonly IAuthRepository _authRepository = authRepository;
         private readonly AuthJwt _authJwt=authJwt;
+        private readonly IEmailSender _emailSender = emailSender;
         public async Task<ResponseResult<ResponseAuthenticatedDto>> Authenticate(LoginDto loginDto)
         {
             if (loginDto is null) {
@@ -25,7 +27,7 @@ namespace CleanArchitecture.Service.Managers.AuthService
             var isSave= await _authRepository.Authenticate(loginDto.Email, loginDto.Password);
             if (!isSave)
                 throw new FaliedRequestException($"Failed To Login User with Email:  {loginDto.Email} and Password :{loginDto.Password} ");
-            
+            await _emailSender.SendEmailAsync(loginDto.Email, "Application Confirm","Thanks For Login");
             return new ResponseResult<ResponseAuthenticatedDto> {
                 Entity = new ResponseAuthenticatedDto {
                                     Email = loginDto.Email,
