@@ -1,7 +1,6 @@
 ﻿
 
 using System.Threading.Tasks;
-using CleanArchitecture.Data.EmailService;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Data.Exceptions;
 using CleanArchitecture.Data.IRpositories.IAuth;
@@ -13,11 +12,10 @@ using CleanArchitecture.Service.Responseobject;
 
 namespace CleanArchitecture.Service.Managers.AuthService
 {
-    public class AuthService(IAuthRepository authRepository,AuthJwt authJwt,IEmailSend emailSend) : IAuthService
+    public class AuthService(IAuthRepository authRepository,AuthJwt authJwt) : IAuthService
     {
         private readonly IAuthRepository _authRepository = authRepository;
         private readonly AuthJwt _authJwt=authJwt;
-        private readonly IEmailSend _emailSend=emailSend;
         public async Task<ResponseResult<ResponseAuthenticatedDto>> Authenticate(LoginDto loginDto)
         {
             if (loginDto is null) {

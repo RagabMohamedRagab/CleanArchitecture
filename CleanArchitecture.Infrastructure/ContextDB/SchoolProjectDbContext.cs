@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 namespace CleanArchitecture.Infrastructure.ContextDB
 {
-    public  class SchoolProjectDbContext : IdentityDbContext<UserApp,RoleApp,Guid>
+    public  class SchoolProjectDbContext : IdentityDbContext<UserApp,RoleApp,string>
     {
        
         public SchoolProjectDbContext(DbContextOptions<SchoolProjectDbContext> options) : base(options) { }

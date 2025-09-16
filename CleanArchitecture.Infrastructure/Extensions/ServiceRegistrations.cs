@@ -1,5 +1,4 @@
 ﻿
-using CleanArchitecture.Data.EmailService;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Data.IRpositories.IAuth;
 using CleanArchitecture.Data.IRpositories.IGenericRepositories;
@@ -30,8 +29,6 @@ namespace CleanArchitecture.Infrastructure.Extensions
             services.AddScoped<IAuthRepository,AuthRepository>();
 
             services.AddDbContext<SchoolProjectDbContext>(option => option.UseSqlServer(configuration.GetConnectionString("Connection")));
-            services.AddScoped<IEmailSend, EmailSend>();
-            services.Configure<EmailSettings>(configuration.GetSection("EmailSettings"));
 
 
         }

@@ -1,15 +1,44 @@
-using System.Text;
+﻿using System.Text;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Infrastructure.ContextDB;
 using CleanArchitecture.Infrastructure.Extensions;
+using CleanArchitecture.Infrastructure.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c => {
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {
+        Name = "Authorization",
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Enter 'Bearer' [space] and then your valid token.\r\nExample: \"Bearer abc123xyz\""
+    });
+
+    // 2- إضافة Requirement عشان الـ Swagger يفهم إن لازم Authorization
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
 builder.Services.AddAuthentication(options => {
 
@@ -30,14 +59,13 @@ builder.Services.AddAuthentication(options => {
                 );
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
 
 builder.Services.ConfigureServices(builder.Configuration);
 
+builder.Services.AddLoggerApplication(builder);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -53,7 +81,7 @@ if (app.Environment.IsDevelopment()) {
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseMiddleware<CustomeMiddleware>();
 app.MapControllers();
 
 app.Run();

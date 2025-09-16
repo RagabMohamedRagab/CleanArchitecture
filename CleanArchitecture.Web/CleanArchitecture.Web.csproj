@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Middlewares\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CleanArchitecture.Data\CleanArchitecture.Data.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Service\CleanArchitecture.Service.csproj" />

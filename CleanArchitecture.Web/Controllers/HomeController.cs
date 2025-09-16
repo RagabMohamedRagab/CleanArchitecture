@@ -14,6 +14,10 @@ namespace CleanArchitecture.Web.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("This is Information log");
+            _logger.LogError("This is Error log");
+            _logger.LogDebug("This is Debug log");
+            _logger.LogWarning("this is WARING");
             return View();
         }
 

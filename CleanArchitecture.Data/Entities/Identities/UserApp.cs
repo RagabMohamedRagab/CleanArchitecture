@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace CleanArchitecture.Data.Entities.Identities
 {
-    public class UserApp:IdentityUser<Guid>
+    public class UserApp:IdentityUser<string>
     {
 
     }
