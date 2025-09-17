@@ -1,14 +1,17 @@
-﻿using CleanArchitecture.Service.Dtos.AuthDtos;
+﻿using Asp.Versioning;
+using CleanArchitecture.Service.Dtos.AuthDtos;
 using CleanArchitecture.Service.DTOS.AuthDTOS;
 using CleanArchitecture.Service.IMangers.IAuthManger;
 using CleanArchitecture.Service.Responseobject;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.API.Controllers
+namespace CleanArchitecture.API.Controllers.v1
 {
-    [Route("api/[controller]/[Action]")]
     [ApiController]
+    [Route("api/[controller]/[action]")]
+    [Route("api/v{version:apiVersion}/[controller]/[action]")]
+
+    [ApiVersion("1.0")]
     public class AccountsController(IAuthService authService) : ControllerBase
     {
         private readonly IAuthService _authService=authService;

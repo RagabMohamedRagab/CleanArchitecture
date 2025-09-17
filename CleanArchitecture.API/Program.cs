@@ -66,6 +66,9 @@ builder.Services.AddOpenApi();
 builder.Services.ConfigureServices(builder.Configuration);
 
 builder.Services.AddLoggerApplication(builder);
+
+builder.Services.EnableVersion();
+builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

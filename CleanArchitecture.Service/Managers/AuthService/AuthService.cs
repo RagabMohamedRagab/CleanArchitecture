@@ -53,7 +53,7 @@ namespace CleanArchitecture.Service.Managers.AuthService
           var isaved= await _authRepository.Regsitertion(userapp, regsiter.Password);
             if (!isaved)
                 throw new FaliedRequestException($"Failed To Login User with Email:  {regsiter.Email} and Password :{regsiter.Password} ");
-           //  await _emailSend.SendEmailAsync(regsiter.Email, "Regsitertion Complete", "Done");
+             await _emailSender.SendEmailAsync(regsiter.Email, "Regsitertion Complete", "Done");
             return new ResponseResult<ResponseAuthenticatedDto> {
                 Entity = new ResponseAuthenticatedDto {
                     Email = regsiter.Email,

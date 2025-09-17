@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.API.Controllers
+namespace CleanArchitecture.API.Controllers.v2
 {
+    [ApiVersion("2.0")]
     [Route("api/[controller]/[action]")]
+    [Route("api/v{version:apiVersion}/[controller]/[action]")]
     [ApiController]
     [Authorize]
     public class HomeController(ILogger<HomeController> logger) : ControllerBase
@@ -17,7 +20,7 @@ namespace CleanArchitecture.API.Controllers
             _logger.LogError("This is Error log");
             _logger.LogDebug("This is Debug log");
             _logger.LogWarning("this is WARING");
-            return "welcome Application";
+            return "welcome Application in V2";
         }
     }
 }
