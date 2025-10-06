@@ -1,0 +1,5 @@
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Service\obj\Release\net9.0\CleanArchitecture.Service.csproj.AssemblyReference.cache
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Service\obj\Release\net9.0\CleanArchitecture.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Service\obj\Release\net9.0\CleanArchitecture.Service.AssemblyInfoInputs.cache
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Service\obj\Release\net9.0\CleanArchitecture.Service.AssemblyInfo.cs
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Service\obj\Release\net9.0\CleanArchitecture.Service.csproj.CoreCompileInputs.cache

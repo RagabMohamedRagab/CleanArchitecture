@@ -1,0 +1,83 @@
+2025-10-01 23:33:33.705 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.814 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.919 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.919 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.922 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.949 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:33.962 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:34.399 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:34.416 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:45.229 +03:00 [VRB] All hosts are allowed.
+2025-10-01 23:33:45.248 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-01 23:33:45.304 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-01 23:33:45.304 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-01 23:33:45.305 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-01 23:33:45.305 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-01 23:33:45.305 +03:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Asp.Versioning.ReportApiVersionsAttribute.
+2025-10-01 23:33:45.324 +03:00 [VRB] Request Headers:
+Authorization: *
+Content-Type: *
+
+2025-10-01 23:33:45.325 +03:00 [VRB] Request Headers:
+Authorization: *
+Content-Type: *
+
+2025-10-01 23:33:46.063 +03:00 [VRB] Response Headers:
+Connection: *
+Server: *
+Access-Control-Expose-Headers: *
+Cache-Control: *
+Paypal-Debug-Id: *
+Pragma: *
+Server-Timing: *
+X-Paypal-Token-Service: *
+HTTP_X_PP_AZ_LOCATOR: *
+Strict-Transport-Security: *
+Accept-Ranges: *
+Via: *
+Edge-Control: *
+Date: *
+X-Served-By: *
+X-Cache: *
+X-Cache-Hits: *
+X-Timer: *
+Vary: *
+Content-Length: *
+Content-Type: *
+
+2025-10-01 23:33:46.064 +03:00 [VRB] Response Headers:
+Connection: *
+Server: *
+Access-Control-Expose-Headers: *
+Cache-Control: *
+Paypal-Debug-Id: *
+Pragma: *
+Server-Timing: *
+X-Paypal-Token-Service: *
+HTTP_X_PP_AZ_LOCATOR: *
+Strict-Transport-Security: *
+Accept-Ranges: *
+Via: *
+Edge-Control: *
+Date: *
+X-Served-By: *
+X-Cache: *
+X-Cache-Hits: *
+X-Timer: *
+Vary: *
+Content-Length: *
+Content-Type: *
+
+2025-10-01 23:33:46.080 +03:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Asp.Versioning.ReportApiVersionsAttribute.
+2025-10-01 23:33:46.080 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-01 23:33:46.080 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-01 23:33:46.081 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-01 23:33:46.081 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-01 23:33:46.082 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-01 23:33:46.082 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-01 23:33:46.082 +03:00 [VRB] Result Filter: Before executing OnResultExecutionAsync on filter Asp.Versioning.ReportApiVersionsAttribute.
+2025-10-01 23:33:46.083 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-01 23:33:46.098 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-01 23:33:46.098 +03:00 [VRB] Result Filter: After executing OnResultExecutionAsync on filter Asp.Versioning.ReportApiVersionsAttribute.
+2025-10-01 23:33:46.098 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-01 23:33:46.098 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.

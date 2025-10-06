@@ -1,0 +1,471 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
+        "projectName": "CleanArchitecture.Data",
+        "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj",
+        "packagesPath": "C:\\Users\\itblocks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\itblocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "projectName": "CleanArchitecture.Infrastructure",
+        "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\itblocks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\itblocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj"
+              },
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.13.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\CleanArchitecture.Resources.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\CleanArchitecture.Resources.csproj",
+        "projectName": "CleanArchitecture.Resources",
+        "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\CleanArchitecture.Resources.csproj",
+        "packagesPath": "C:\\Users\\itblocks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\itblocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj",
+        "projectName": "CleanArchitecture.Service",
+        "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj",
+        "packagesPath": "C:\\Users\\itblocks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\itblocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj"
+              },
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\CleanArchitecture.Resources.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Resources\\CleanArchitecture.Resources.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "Snail.Toolkit.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[48.6.0-beta.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
+        "projectName": "CleanArchitecture.Web",
+        "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Web\\CleanArchitecture.Web.csproj",
+        "packagesPath": "C:\\Users\\itblocks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\itblocks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Data\\CleanArchitecture.Data.csproj"
+              },
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+              },
+              "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj": {
+                "projectPath": "C:\\Users\\itblocks\\source\\repos\\RagabMohamedRagab\\CleanArchitecture\\CleanArchitecture.Service\\CleanArchitecture.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

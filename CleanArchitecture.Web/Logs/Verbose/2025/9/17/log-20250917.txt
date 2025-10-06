@@ -1,0 +1,491 @@
+2025-09-17 01:15:54.546 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:15:54.557 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:15:54.559 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:15:54.560 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:15:54.560 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:15:54.560 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 1 with length 462 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:54.585 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:15:54.962 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.082 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.200 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.201 +03:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.205 +03:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:15:55.205 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:15:55.206 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:15:55.248 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:15:55.249 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:15:55.249 +03:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:15:55.249 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.249 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.250 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:15:55.260 +03:00 [VRB] Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2025-09-17 01:15:55.265 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2025-09-17 01:15:55.265 +03:00 [VRB] Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2025-09-17 01:15:55.266 +03:00 [VRB] Could not find a file for view at path '/_ViewStart.cshtml'.
+2025-09-17 01:15:55.333 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2025-09-17 01:15:55.333 +03:00 [VRB] Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2025-09-17 01:15:55.512 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:15:55.512 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.513 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.513 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.513 +03:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:15:55.514 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 1 with length 67 and flags "END_HEADERS".
+2025-09-17 01:15:55.514 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 1 with length 3035 and flags "NONE".
+2025-09-17 01:15:55.517 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:55.576 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 3 with length 177 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.578 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 5 with length 69 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.579 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 7 with length 149 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.579 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 9 with length 112 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.579 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.579 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 11 with length 87 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.579 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.579 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.580 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 13 with length 99 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.581 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 15 with length 111 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.592 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.593 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.662 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:15:55.817 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.817 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.847 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.846 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.847 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.847 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.853 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:15:55.859 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 5 with length 60 and flags "END_HEADERS".
+2025-09-17 01:15:55.860 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 5 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.861 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 5 with length 143 and flags "NONE".
+2025-09-17 01:15:55.880 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:55.894 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 7 with length 191 and flags "END_HEADERS".
+2025-09-17 01:15:55.894 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 7 with length 1172 and flags "NONE".
+2025-09-17 01:15:55.894 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 9 with length 144 and flags "END_HEADERS".
+2025-09-17 01:15:55.895 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 9 with length 700 and flags "NONE".
+2025-09-17 01:15:55.895 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 15 with length 130 and flags "END_HEADERS".
+2025-09-17 01:15:55.895 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 15 with length 264 and flags "END_STREAM".
+2025-09-17 01:15:55.895 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:55.895 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 3 with length 117 and flags "END_HEADERS".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.905 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.906 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 3495 and flags "NONE".
+2025-09-17 01:15:55.923 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:55.929 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" received "HEADERS" frame for stream ID 17 with length 59 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 13 with length 116 and flags "END_HEADERS".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:15:55.996 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 15228 and flags "NONE".
+2025-09-17 01:15:55.998 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 13 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:56.012 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 17 with length 119 and flags "END_HEADERS".
+2025-09-17 01:15:56.012 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 9986 and flags "NONE".
+2025-09-17 01:15:56.016 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.017 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.017 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.017 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.017 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.018 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.018 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.018 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.018 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.019 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.019 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.020 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.020 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.020 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:15:56.021 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 1806 and flags "NONE".
+2025-09-17 01:15:56.026 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 17 with length 0 and flags "END_STREAM".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "HEADERS" frame for stream ID 11 with length 116 and flags "END_HEADERS".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:15:56.038 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 5656 and flags "NONE".
+2025-09-17 01:15:56.041 +03:00 [VRB] Connection id "0HNFLDQD2LUO8" sending "DATA" frame for stream ID 11 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:49.237 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:19:49.248 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:19:49.248 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:19:49.249 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:19:49.249 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:19:49.249 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 1 with length 462 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.271 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:19:49.462 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.563 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:49.628 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.628 +03:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.631 +03:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:19:49.631 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:19:49.631 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:19:49.660 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:19:49.660 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:19:49.660 +03:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:19:49.661 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.661 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.662 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:19:49.669 +03:00 [VRB] Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2025-09-17 01:19:49.673 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2025-09-17 01:19:49.673 +03:00 [VRB] Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2025-09-17 01:19:49.673 +03:00 [VRB] Could not find a file for view at path '/_ViewStart.cshtml'.
+2025-09-17 01:19:49.717 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2025-09-17 01:19:49.717 +03:00 [VRB] Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2025-09-17 01:19:49.798 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:19:49.799 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.799 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.799 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.799 +03:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:19:49.799 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 1 with length 67 and flags "END_HEADERS".
+2025-09-17 01:19:49.800 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 1 with length 3035 and flags "NONE".
+2025-09-17 01:19:49.803 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:49.848 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 3 with length 177 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.850 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 5 with length 112 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.850 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 7 with length 149 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.850 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 9 with length 69 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.850 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.850 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.850 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.850 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 11 with length 87 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.851 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 13 with length 99 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.852 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 15 with length 111 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.863 +03:00 [VRB] Connection id "0HNFLDSIV54E3" received "HEADERS" frame for stream ID 17 with length 59 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:19:49.869 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.918 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:49.925 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.073 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.082 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:19:50.085 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 9 with length 90 and flags "END_HEADERS".
+2025-09-17 01:19:50.086 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 9 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.086 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 9 with length 143 and flags "NONE".
+2025-09-17 01:19:50.157 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.168 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 15 with length 197 and flags "END_HEADERS".
+2025-09-17 01:19:50.168 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 15 with length 264 and flags "NONE".
+2025-09-17 01:19:50.169 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 7 with length 154 and flags "END_HEADERS".
+2025-09-17 01:19:50.169 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 7 with length 1172 and flags "NONE".
+2025-09-17 01:19:50.169 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 5 with length 114 and flags "END_HEADERS".
+2025-09-17 01:19:50.169 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 5 with length 700 and flags "NONE".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 11 with length 116 and flags "END_HEADERS".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.170 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.171 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 5656 and flags "NONE".
+2025-09-17 01:19:50.175 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 13 with length 116 and flags "END_HEADERS".
+2025-09-17 01:19:50.175 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.175 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.175 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.175 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.176 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 15228 and flags "NONE".
+2025-09-17 01:19:50.187 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.187 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.187 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 15 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 3 with length 117 and flags "END_HEADERS".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.188 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.189 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.189 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.189 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.189 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.189 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.190 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.190 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.190 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.190 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:19:50.190 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 3495 and flags "NONE".
+2025-09-17 01:19:50.194 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 13 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.194 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 11 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.195 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-09-17 01:19:50.204 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "HEADERS" frame for stream ID 17 with length 149 and flags "END_HEADERS".
+2025-09-17 01:19:50.204 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 9986 and flags "NONE".
+2025-09-17 01:19:50.208 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.209 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.210 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.212 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.213 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.213 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.214 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.215 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.215 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.217 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.218 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.219 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.221 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.222 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:19:50.222 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 1806 and flags "NONE".
+2025-09-17 01:19:50.224 +03:00 [VRB] Connection id "0HNFLDSIV54E3" sending "DATA" frame for stream ID 17 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:36.851 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:25:36.860 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:25:36.860 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:25:36.861 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:25:36.861 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:25:36.861 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 1 with length 462 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:36.881 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:25:37.014 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.094 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.156 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.156 +03:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.158 +03:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:25:37.158 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:25:37.159 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:25:37.187 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:25:37.187 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:25:37.187 +03:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:25:37.188 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.188 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.188 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:25:37.192 +03:00 [VRB] Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2025-09-17 01:25:37.195 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2025-09-17 01:25:37.195 +03:00 [VRB] Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2025-09-17 01:25:37.196 +03:00 [VRB] Could not find a file for view at path '/_ViewStart.cshtml'.
+2025-09-17 01:25:37.249 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2025-09-17 01:25:37.249 +03:00 [VRB] Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2025-09-17 01:25:37.326 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:25:37.326 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.326 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.326 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.326 +03:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:25:37.326 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 1 with length 67 and flags "END_HEADERS".
+2025-09-17 01:25:37.327 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 1 with length 3035 and flags "NONE".
+2025-09-17 01:25:37.329 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.371 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 3 with length 177 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.372 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 5 with length 112 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.372 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 7 with length 69 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.373 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 9 with length 149 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.373 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 11 with length 87 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.373 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.373 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.373 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.373 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 13 with length 99 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.374 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 15 with length 111 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.404 +03:00 [VRB] Connection id "0HNFLDVQDL94P" received "HEADERS" frame for stream ID 17 with length 59 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:25:37.406 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.411 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.412 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.545 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:25:37.564 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 7 with length 60 and flags "END_HEADERS".
+2025-09-17 01:25:37.564 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.565 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 7 with length 143 and flags "NONE".
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.567 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:25:37.582 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.592 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 5 with length 190 and flags "END_HEADERS".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 5 with length 700 and flags "NONE".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 15 with length 130 and flags "END_HEADERS".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 15 with length 264 and flags "NONE".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 9 with length 145 and flags "END_HEADERS".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 9 with length 1172 and flags "NONE".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 13 with length 116 and flags "END_HEADERS".
+2025-09-17 01:25:37.593 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.594 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.594 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.594 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.594 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 15228 and flags "NONE".
+2025-09-17 01:25:37.596 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 11 with length 116 and flags "END_HEADERS".
+2025-09-17 01:25:37.597 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.597 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.598 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.598 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.598 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.598 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 5656 and flags "NONE".
+2025-09-17 01:25:37.606 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 15 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 3 with length 117 and flags "END_HEADERS".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.607 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.608 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:25:37.609 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 3495 and flags "NONE".
+2025-09-17 01:25:37.610 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 13 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.610 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 11 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.610 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "HEADERS" frame for stream ID 17 with length 149 and flags "END_HEADERS".
+2025-09-17 01:25:37.610 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 9986 and flags "NONE".
+2025-09-17 01:25:37.610 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-09-17 01:25:37.612 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.612 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.613 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.613 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.614 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.614 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.615 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.615 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.616 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.616 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.616 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.617 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.617 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.617 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:25:37.618 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 1806 and flags "NONE".
+2025-09-17 01:25:37.619 +03:00 [VRB] Connection id "0HNFLDVQDL94P" sending "DATA" frame for stream ID 17 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.041 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:29:46.050 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:29:46.051 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "SETTINGS" frame for stream ID 0 with length 24 and flags "NONE".
+2025-09-17 01:29:46.051 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:29:46.052 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "WINDOW_UPDATE" frame for stream ID 0 with length 4 and flags 0x0.
+2025-09-17 01:29:46.052 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 1 with length 462 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.074 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "SETTINGS" frame for stream ID 0 with length 0 and flags "ACK".
+2025-09-17 01:29:46.175 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.237 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.280 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.280 +03:00 [VRB] Resource Filter: After executing OnResourceExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.282 +03:00 [VRB] Action Filter: Before executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:29:46.282 +03:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:29:46.283 +03:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:29:46.319 +03:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:29:46.319 +03:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-09-17 01:29:46.319 +03:00 [VRB] Action Filter: After executing OnActionExecutionAsync on filter Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter.
+2025-09-17 01:29:46.319 +03:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.319 +03:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.320 +03:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:29:46.332 +03:00 [VRB] Located compiled view for view at path '/Views/Home/Index.cshtml'.
+2025-09-17 01:29:46.337 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_ViewStart.cshtml'.
+2025-09-17 01:29:46.337 +03:00 [VRB] Located compiled view for view at path '/Views/_ViewStart.cshtml'.
+2025-09-17 01:29:46.338 +03:00 [VRB] Could not find a file for view at path '/_ViewStart.cshtml'.
+2025-09-17 01:29:46.386 +03:00 [VRB] Could not find a file for view at path '/Views/Home/_Layout.cshtml'.
+2025-09-17 01:29:46.386 +03:00 [VRB] Located compiled view for view at path '/Views/Shared/_Layout.cshtml'.
+2025-09-17 01:29:46.490 +03:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.ViewResult.
+2025-09-17 01:29:46.490 +03:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.490 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 1 with length 67 and flags "END_HEADERS".
+2025-09-17 01:29:46.490 +03:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.490 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 1 with length 3035 and flags "NONE".
+2025-09-17 01:29:46.491 +03:00 [VRB] Resource Filter: Before executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.491 +03:00 [VRB] Resource Filter: After executing OnResourceExecuted on filter Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter.
+2025-09-17 01:29:46.496 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 1 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.546 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 3 with length 177 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.546 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 5 with length 112 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.547 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 7 with length 69 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.547 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 9 with length 149 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.547 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.547 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.547 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 11 with length 87 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.547 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 13 with length 99 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.547 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.548 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 15 with length 111 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.548 +03:00 [VRB] Connection id "0HNFLE2500P0C" received "HEADERS" frame for stream ID 17 with length 59 and flags "END_STREAM, END_HEADERS, PRIORITY".
+2025-09-17 01:29:46.548 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.548 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.549 +03:00 [VRB] All hosts are allowed.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.553 +03:00 [VRB] The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-09-17 01:29:46.558 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.559 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.558 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.559 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.559 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.559 +03:00 [VRB] Range header's value is empty.
+2025-09-17 01:29:46.560 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 7 with length 60 and flags "END_HEADERS".
+2025-09-17 01:29:46.560 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 7 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.560 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 7 with length 143 and flags "NONE".
+2025-09-17 01:29:46.567 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 7 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.572 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 15 with length 197 and flags "END_HEADERS".
+2025-09-17 01:29:46.572 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 15 with length 264 and flags "NONE".
+2025-09-17 01:29:46.572 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 5 with length 123 and flags "END_HEADERS".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 5 with length 700 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 9 with length 145 and flags "END_HEADERS".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 9 with length 1172 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 13 with length 116 and flags "END_HEADERS".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.573 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 15228 and flags "NONE".
+2025-09-17 01:29:46.575 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 5 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.576 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 9 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.576 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 15 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.576 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 11 with length 116 and flags "END_HEADERS".
+2025-09-17 01:29:46.576 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.577 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.577 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.577 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.577 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.577 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 5656 and flags "NONE".
+2025-09-17 01:29:46.583 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 3 with length 117 and flags "END_HEADERS".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.584 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.585 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.585 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.585 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 16384 and flags "NONE".
+2025-09-17 01:29:46.585 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 3495 and flags "NONE".
+2025-09-17 01:29:46.587 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 13 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.587 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 11 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.588 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 3 with length 0 and flags "END_STREAM".
+2025-09-17 01:29:46.588 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "HEADERS" frame for stream ID 17 with length 119 and flags "END_HEADERS".
+2025-09-17 01:29:46.588 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 9986 and flags "NONE".
+2025-09-17 01:29:46.591 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.591 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.592 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.592 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.592 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.593 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.593 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.593 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.593 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.594 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.594 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.594 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.595 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.595 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 10240 and flags "NONE".
+2025-09-17 01:29:46.595 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 1806 and flags "NONE".
+2025-09-17 01:29:46.596 +03:00 [VRB] Connection id "0HNFLE2500P0C" sending "DATA" frame for stream ID 17 with length 0 and flags "END_STREAM".

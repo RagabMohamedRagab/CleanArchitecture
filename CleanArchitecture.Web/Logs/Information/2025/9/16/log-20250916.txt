@@ -1,0 +1,422 @@
+2025-09-16 16:41:33.474 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-16 16:41:33.716 +03:00 [INF] Now listening on: https://localhost:7281
+2025-09-16 16:41:33.716 +03:00 [INF] Now listening on: http://localhost:5291
+2025-09-16 16:41:33.766 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-16 16:41:33.766 +03:00 [INF] Hosting environment: Development
+2025-09-16 16:41:33.767 +03:00 [INF] Content root path: D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web
+2025-09-16 16:41:34.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/ - null null
+2025-09-16 16:41:34.500 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.543 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:34.559 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:41:34.566 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:41:34.566 +03:00 [INF] This is Information log
+2025-09-16 16:41:34.579 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.8447ms.
+2025-09-16 16:41:34.599 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:41:34.660 +03:00 [INF] Executed ViewResult - view Index executed in 67.4858ms.
+2025-09-16 16:41:34.660 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 98.3167ms
+2025-09-16 16:41:34.660 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:34.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/ - 200 null text/html; charset=utf-8 230.4325ms
+2025-09-16 16:41:34.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:41:34.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:41:34.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:41:34.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:41:34.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:41:34.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:41:34.689 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:41:34.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:41:34.690 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.690 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.690 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.690 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.690 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.692 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.693 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 13.5212ms
+2025-09-16 16:41:34.705 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:41:34.705 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:41:34.705 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.705 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:41:34.706 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.706 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 16.1994ms
+2025-09-16 16:41:34.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 17.1622ms
+2025-09-16 16:41:34.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 17.2592ms
+2025-09-16 16:41:34.709 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:41:34.710 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 23.7999ms
+2025-09-16 16:41:34.713 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:41:34.713 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.713 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 24.1896ms
+2025-09-16 16:41:34.714 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:41:34.715 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:34.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 26.1925ms
+2025-09-16 16:41:34.721 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.4669ms
+2025-09-16 16:41:37.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/ - null null
+2025-09-16 16:41:37.114 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.114 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:37.114 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:41:37.115 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:41:37.115 +03:00 [INF] This is Information log
+2025-09-16 16:41:37.115 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1961ms.
+2025-09-16 16:41:37.116 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:41:37.118 +03:00 [INF] Executed ViewResult - view Index executed in 2.6903ms.
+2025-09-16 16:41:37.118 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 3.9209ms
+2025-09-16 16:41:37.118 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:37.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/ - 200 null text/html; charset=utf-8 8.055ms
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:41:37.148 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.148 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.148 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7882ms
+2025-09-16 16:41:37.148 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.148 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.149 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:37.153 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.153 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.153 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.154 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:41:37.154 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.154 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.154 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:41:37.154 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 5.9311ms
+2025-09-16 16:41:37.154 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:41:37.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 6.0245ms
+2025-09-16 16:41:37.154 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 5.7728ms
+2025-09-16 16:41:37.167 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.170 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:41:37.170 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.170 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 22.0199ms
+2025-09-16 16:41:37.171 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:41:37.171 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.172 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 23.9883ms
+2025-09-16 16:41:37.173 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.2528ms
+2025-09-16 16:41:37.212 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.213 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:41:37.213 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:37.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 65.3274ms
+2025-09-16 16:41:38.332 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/Home/Privacy - null null
+2025-09-16 16:41:38.334 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.334 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Privacy (CleanArchitecture.Web)'
+2025-09-16 16:41:38.336 +03:00 [INF] Route matched with {action = "Privacy", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Privacy() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:41:38.336 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Privacy (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:41:38.337 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Privacy (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2849ms.
+2025-09-16 16:41:38.338 +03:00 [INF] Executing ViewResult, running view Privacy.
+2025-09-16 16:41:38.340 +03:00 [INF] Executed ViewResult - view Privacy executed in 3.4873ms.
+2025-09-16 16:41:38.340 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Privacy (CleanArchitecture.Web) in 4.6287ms
+2025-09-16 16:41:38.341 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Privacy (CleanArchitecture.Web)'
+2025-09-16 16:41:38.341 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/Home/Privacy - 200 null text/html; charset=utf-8 8.8066ms
+2025-09-16 16:41:38.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:41:38.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:41:38.366 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.5026ms
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:41:38.367 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.367 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:38.367 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.367 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.367 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.368 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.368 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.368 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:41:38.368 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.368 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:41:38.369 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 2.0021ms
+2025-09-16 16:41:38.369 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:41:38.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 1.802ms
+2025-09-16 16:41:38.369 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 2.11ms
+2025-09-16 16:41:38.370 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:41:38.370 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 3.3669ms
+2025-09-16 16:41:38.370 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:41:38.370 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 3.8259ms
+2025-09-16 16:41:38.372 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:41:38.372 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:38.372 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 5.8993ms
+2025-09-16 16:41:38.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.8482ms
+2025-09-16 16:41:44.348 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/Home/index - null null
+2025-09-16 16:41:44.350 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.352 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:44.352 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:41:44.352 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:41:44.352 +03:00 [INF] This is Information log
+2025-09-16 16:41:44.353 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3539ms.
+2025-09-16 16:41:44.353 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:41:44.355 +03:00 [INF] Executed ViewResult - view Index executed in 1.7086ms.
+2025-09-16 16:41:44.355 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 2.6636ms
+2025-09-16 16:41:44.355 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:41:44.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/Home/index - 200 null text/html; charset=utf-8 6.5654ms
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:41:44.388 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:41:44.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7038ms
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.389 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.390 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:41:44.390 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:41:44.392 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.392 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 3.0514ms
+2025-09-16 16:41:44.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 3.7462ms
+2025-09-16 16:41:44.392 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:41:44.392 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.392 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 3.5676ms
+2025-09-16 16:41:44.394 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:41:44.394 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 5.1415ms
+2025-09-16 16:41:44.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.1143ms
+2025-09-16 16:41:44.396 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:41:44.396 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 8.3267ms
+2025-09-16 16:41:44.402 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:41:44.402 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:41:44.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 14.0697ms
+2025-09-16 16:44:47.021 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-16 16:44:47.224 +03:00 [INF] Now listening on: https://localhost:7281
+2025-09-16 16:44:47.225 +03:00 [INF] Now listening on: http://localhost:5291
+2025-09-16 16:44:47.286 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-16 16:44:47.286 +03:00 [INF] Hosting environment: Development
+2025-09-16 16:44:47.286 +03:00 [INF] Content root path: D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web
+2025-09-16 16:44:47.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/Home/index - null null
+2025-09-16 16:44:47.721 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.761 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:44:47.776 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:44:47.782 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:44:47.782 +03:00 [INF] This is Information log
+2025-09-16 16:44:47.791 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.3377ms.
+2025-09-16 16:44:47.809 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:44:47.861 +03:00 [INF] Executed ViewResult - view Index executed in 57.5967ms.
+2025-09-16 16:44:47.861 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 83.2461ms
+2025-09-16 16:44:47.861 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:44:47.864 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/Home/index - 200 null text/html; charset=utf-8 207.3611ms
+2025-09-16 16:44:47.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:44:47.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:44:47.888 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:44:47.890 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.890 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.890 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.897 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.897 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.897 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.905 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:44:47.905 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.905 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:44:47.905 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.905 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 16.8518ms
+2025-09-16 16:44:47.905 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 16.8631ms
+2025-09-16 16:44:47.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:44:47.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:44:47.914 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.914 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.915 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.916 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:44:47.916 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.916 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.917 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:44:47.917 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 28.3692ms
+2025-09-16 16:44:47.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 5.3135ms
+2025-09-16 16:44:47.918 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:44:47.918 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.918 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 6.4181ms
+2025-09-16 16:44:47.921 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:44:47.922 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.923 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.924 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:44:47.924 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 2.8475ms
+2025-09-16 16:44:47.926 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:44:47.928 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.6191ms
+2025-09-16 16:44:47.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:44:47.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0421ms
+2025-09-16 16:44:47.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/favicon.ico - null null
+2025-09-16 16:44:47.961 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:44:47.961 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.969 +03:00 [INF] Sending file. Request path: 'favicon.ico'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\4ostxnak31-61n19gt1b8.gz'
+2025-09-16 16:44:47.969 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:44:47.970 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/favicon.ico - 200 5463 image/x-icon 9.2952ms
+2025-09-16 16:57:32.598 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-16 16:57:32.752 +03:00 [INF] Now listening on: https://localhost:7281
+2025-09-16 16:57:32.753 +03:00 [INF] Now listening on: http://localhost:5291
+2025-09-16 16:57:32.798 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-16 16:57:32.798 +03:00 [INF] Hosting environment: Development
+2025-09-16 16:57:32.798 +03:00 [INF] Content root path: D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web
+2025-09-16 16:57:32.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/Home/index - null null
+2025-09-16 16:57:33.047 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.049 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.049 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:57:33.064 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:57:33.071 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:57:33.071 +03:00 [INF] This is Information log
+2025-09-16 16:57:33.080 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.1699ms.
+2025-09-16 16:57:33.098 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:57:33.149 +03:00 [INF] Executed ViewResult - view Index executed in 56.3451ms.
+2025-09-16 16:57:33.149 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 82.5988ms
+2025-09-16 16:57:33.149 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:57:33.149 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.152 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/Home/index - 200 null text/html; charset=utf-8 211.6534ms
+2025-09-16 16:57:33.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:57:33.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:57:33.172 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:57:33.177 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.177 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.177 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.177 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.177 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.177 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.177 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.177 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.177 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.184 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:57:33.184 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.184 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.184 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:57:33.184 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.184 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 12.6905ms
+2025-09-16 16:57:33.184 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 12.7414ms
+2025-09-16 16:57:33.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:57:33.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:57:33.192 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.192 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.192 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.192 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.192 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.192 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.194 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:57:33.194 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:57:33.194 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.194 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.194 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.194 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.194 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:57:33.195 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.195 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 23.7922ms
+2025-09-16 16:57:33.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 6.7734ms
+2025-09-16 16:57:33.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 6.7915ms
+2025-09-16 16:57:33.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:57:33.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:57:33.199 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:57:33.200 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.200 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.200 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.201 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:57:33.201 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.201 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 1.3285ms
+2025-09-16 16:57:33.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.1085ms
+2025-09-16 16:57:33.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.9002ms
+2025-09-16 16:57:33.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/favicon.ico - null null
+2025-09-16 16:57:33.244 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-09-16 16:57:33.244 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:57:33.244 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.245 +03:00 [INF] Sending file. Request path: 'favicon.ico'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\4ostxnak31-61n19gt1b8.gz'
+2025-09-16 16:57:33.245 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:57:33.245 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:57:33.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/favicon.ico - 200 5463 image/x-icon 1.7657ms
+2025-09-16 16:58:37.947 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-09-16 16:58:38.127 +03:00 [INF] Now listening on: https://localhost:7281
+2025-09-16 16:58:38.127 +03:00 [INF] Now listening on: http://localhost:5291
+2025-09-16 16:58:38.175 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-16 16:58:38.175 +03:00 [INF] Hosting environment: Development
+2025-09-16 16:58:38.175 +03:00 [INF] Content root path: D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web
+2025-09-16 16:58:39.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/ - null null
+2025-09-16 16:58:39.396 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.397 +03:00 [INF] Executing endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:58:39.427 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web).
+2025-09-16 16:58:39.436 +03:00 [INF] Executing action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) - Validation state: "Valid"
+2025-09-16 16:58:39.436 +03:00 [INF] This is Information log
+2025-09-16 16:58:39.448 +03:00 [INF] Executed action method CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.8609ms.
+2025-09-16 16:58:39.477 +03:00 [INF] Executing ViewResult, running view Index.
+2025-09-16 16:58:39.553 +03:00 [INF] Executed ViewResult - view Index executed in 85.7248ms.
+2025-09-16 16:58:39.554 +03:00 [INF] Executed action CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web) in 124.9697ms
+2025-09-16 16:58:39.554 +03:00 [INF] Executed endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-16 16:58:39.554 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.557 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/ - 200 null text/html; charset=utf-8 343.826ms
+2025-09-16 16:58:39.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-09-16 16:58:39.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-16 16:58:39.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - null null
+2025-09-16 16:58:39.723 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - null null
+2025-09-16 16:58:39.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - null null
+2025-09-16 16:58:39.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-09-16 16:58:39.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-09-16 16:58:39.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7281/_vs/browserLink - null null
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.728 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.729 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.728 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-09-16 16:58:39.728 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.729 +03:00 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 14.8043ms
+2025-09-16 16:58:39.742 +03:00 [INF] Sending file. Request path: 'css/site.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\m5ts5kgld6-b9sayid5wm.gz'
+2025-09-16 16:58:39.742 +03:00 [INF] Sending file. Request path: 'CleanArchitecture.Web.styles.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\7xje4vdqbt-l61tdjwoas.gz'
+2025-09-16 16:58:39.742 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.742 +03:00 [INF] Sending file. Request path: 'js/site.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\vlyrm9ilpk-xtxxf3hu2r.gz'
+2025-09-16 16:58:39.743 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.742 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.743 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.743 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.743 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/css/site.css?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg - 200 700 text/css 19.5972ms
+2025-09-16 16:58:39.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/CleanArchitecture.Web.styles.css?v=w_sxSkRwkjzquLO80Bu5BxyiGG4aaNEZB81PnclLt7o - 200 1172 text/css 19.5327ms
+2025-09-16 16:58:39.743 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 264 text/javascript 18.7547ms
+2025-09-16 16:58:39.747 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\jjrfaportx-493y06b0oq.gz'
+2025-09-16 16:58:39.748 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.748 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.749 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 80764 text/javascript 24.9511ms
+2025-09-16 16:58:39.750 +03:00 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.js'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\pfuc5l2msr-o1o13a6vjx.gz'
+2025-09-16 16:58:39.750 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.750 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/jquery/dist/jquery.min.js - 200 87576 text/javascript 27.0821ms
+2025-09-16 16:58:39.753 +03:00 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Task Assignment\CleanArchitecture\CleanArchitecture.Web\obj\Debug\net9.0\compressed\gkp3btwg8k-46ein0sx1k.gz'
+2025-09-16 16:58:39.753 +03:00 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-09-16 16:58:39.753 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-09-16 16:58:39.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/lib/bootstrap/dist/css/bootstrap.min.css - 200 232871 text/css 30.022ms
+2025-09-16 16:58:39.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7281/_vs/browserLink - 200 null text/javascript; charset=UTF-8 36.0878ms

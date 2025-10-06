@@ -1,0 +1,17 @@
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\CleanArchitecture.Resources.deps.json
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\CleanArchitecture.Resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\CleanArchitecture.Resources.pdb
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\ar\CleanArchitecture.Resources.resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.csproj.GenerateResource.cache
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.GeneratedMSBuildEditorConfig.editorconfig
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.AssemblyInfoInputs.cache
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.AssemblyInfo.cs
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.csproj.CoreCompileInputs.cache
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.sourcelink.json
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\ar\CleanArchitecture.Resources.resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\refint\CleanArchitecture.Resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.pdb
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\ref\CleanArchitecture.Resources.dll
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.MessageService.resources
+D:\Task Assignment\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.MessageService.ar.resources

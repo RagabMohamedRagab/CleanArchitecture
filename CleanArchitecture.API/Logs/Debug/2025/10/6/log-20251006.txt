@@ -1,0 +1,99 @@
+2025-10-06 21:00:20.356 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-06 21:00:20.415 +03:00 [DBG] Hosting starting
+2025-10-06 21:00:20.435 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-06 21:00:20.464 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-06 21:00:20.477 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-06 21:00:20.492 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-06 21:00:20.501 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-06 21:00:20.502 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-06 21:00:20.505 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-06 21:00:20.508 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 21:00:20.509 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-06 21:00:20.510 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 21:00:20.513 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-06 21:00:20.513 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-06 21:00:20.514 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-06 21:00:20.514 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-06 21:00:20.517 +03:00 [DBG] Middleware loaded
+2025-10-06 21:00:20.517 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-06 21:00:20.519 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-06 21:00:20.585 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-06 21:00:20.586 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-06 21:00:20.590 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-06 21:00:20.650 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-06 21:00:20.650 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-06 21:00:20.650 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-06 21:00:20.650 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-06 21:00:20.654 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 21:00:20.654 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 21:00:20.661 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-06 21:00:21.038 +03:00 [DBG] Connection id "0HNG508RM2ATE" accepted.
+2025-10-06 21:00:21.039 +03:00 [DBG] Connection id "0HNG508RM2ATE" started.
+2025-10-06 21:00:21.047 +03:00 [DBG] Connection id "0HNG508RM2ATE" received FIN.
+2025-10-06 21:00:21.057 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-06 21:00:21.522 +03:00 [DBG] Connection id "0HNG508RM2ATE" stopped.
+2025-10-06 21:00:21.524 +03:00 [DBG] Connection id "0HNG508RM2ATE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 21:00:21.641 +03:00 [DBG] Hosting started
+2025-10-06 21:00:22.302 +03:00 [DBG] Connection id "0HNG508RM2ATF" accepted.
+2025-10-06 21:00:22.302 +03:00 [DBG] Connection id "0HNG508RM2ATF" started.
+2025-10-06 21:00:22.378 +03:00 [DBG] Connection 0HNG508RM2ATF established using the following protocol: "Tls13"
+2025-10-06 21:00:22.629 +03:00 [DBG] No candidates found for the request path '/'
+2025-10-06 21:00:22.630 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:22.641 +03:00 [DBG] Connection id "0HNG508RM2ATF" received FIN.
+2025-10-06 21:00:22.647 +03:00 [DBG] Connection id "0HNG508RM2ATF" is closed. The last processed stream ID was 1.
+2025-10-06 21:00:22.648 +03:00 [DBG] Connection id "0HNG508RM2ATF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 21:00:22.657 +03:00 [DBG] The connection queue processing loop for 0HNG508RM2ATF completed.
+2025-10-06 21:00:22.659 +03:00 [DBG] Connection id "0HNG508RM2ATF" stopped.
+2025-10-06 21:00:23.198 +03:00 [DBG] Connection id "0HNG508RM2ATG" accepted.
+2025-10-06 21:00:23.199 +03:00 [DBG] Connection id "0HNG508RM2ATG" started.
+2025-10-06 21:00:23.203 +03:00 [DBG] Connection 0HNG508RM2ATG established using the following protocol: "Tls13"
+2025-10-06 21:00:23.209 +03:00 [DBG] No candidates found for the request path '/index.html'
+2025-10-06 21:00:23.209 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.291 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-06 21:00:23.293 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-06 21:00:23.298 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-06 21:00:23.299 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-06 21:00:23.397 +03:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-10-06 21:00:23.397 +03:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-10-06 21:00:23.397 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.397 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.397 +03:00 [DBG] No candidates found for the request path '/index.css'
+2025-10-06 21:00:23.397 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.472 +03:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-10-06 21:00:23.472 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.497 +03:00 [DBG] No candidates found for the request path '/index.js'
+2025-10-06 21:00:23.497 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.505 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-06 21:00:23.851 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-06 21:00:23.851 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:23.867 +03:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-10-06 21:00:23.867 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 21:00:25.273 +03:00 [DBG] Connection id "0HNG508RM2ATG" received FIN.
+2025-10-06 21:00:25.273 +03:00 [DBG] Connection id "0HNG508RM2ATG" is closed. The last processed stream ID was 19.
+2025-10-06 21:00:25.273 +03:00 [DBG] Connection id "0HNG508RM2ATG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 21:00:25.273 +03:00 [DBG] The connection queue processing loop for 0HNG508RM2ATG completed.
+2025-10-06 21:00:25.274 +03:00 [DBG] Connection id "0HNG508RM2ATG" stopped.
+2025-10-06 21:00:51.399 +03:00 [DBG] Connection id "0HNG508RM2ATH" accepted.
+2025-10-06 21:00:51.399 +03:00 [DBG] Connection id "0HNG508RM2ATH" started.
+2025-10-06 21:00:51.401 +03:00 [DBG] Connection 0HNG508RM2ATH established using the following protocol: "Tls13"
+2025-10-06 21:00:51.411 +03:00 [DBG] 1 candidate(s) found for the request path '/api/PayPal/GetToken'
+2025-10-06 21:00:51.411 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)' with route pattern 'api/PayPal/GetToken' is valid for the request path '/api/PayPal/GetToken'
+2025-10-06 21:00:51.417 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 21:00:51.423 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 21:00:51.434 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 21:00:51.434 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 21:00:51.434 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 21:00:51.434 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 21:00:51.435 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 21:00:51.435 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-06 21:00:51.443 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-06 21:00:52.076 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-06 21:00:52.078 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-06 21:00:52.078 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-06 21:00:52.078 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-06 21:00:52.078 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-06 21:00:52.078 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.

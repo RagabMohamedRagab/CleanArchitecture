@@ -1,0 +1,43 @@
+2025-10-06 21:00:20.426 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 21:00:20.649 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-06 21:00:20.649 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-06 21:00:21.641 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 21:00:21.641 +03:00 [INF] Hosting environment: Development
+2025-10-06 21:00:21.641 +03:00 [INF] Content root path: D:\Task Assignment\CleanArchitecture\CleanArchitecture.API
+2025-10-06 21:00:22.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-10-06 21:00:22.640 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 202.8004ms
+2025-10-06 21:00:23.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-06 21:00:23.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 93.9962ms
+2025-10-06 21:00:23.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-10-06 21:00:23.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-10-06 21:00:23.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-10-06 21:00:23.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 70.5565ms
+2025-10-06 21:00:23.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-10-06 21:00:23.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 90.8687ms
+2025-10-06 21:00:23.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 14.785ms
+2025-10-06 21:00:23.488 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 92.3328ms
+2025-10-06 21:00:23.496 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-10-06 21:00:23.497 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 1.0597ms
+2025-10-06 21:00:23.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 21:00:23.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.9838ms
+2025-10-06 21:00:23.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-06 21:00:23.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.6242ms
+2025-10-06 21:00:23.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-06 21:00:23.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-10-06 21:00:23.868 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 1.2516ms
+2025-10-06 21:00:23.922 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.975ms
+2025-10-06 21:00:51.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - null null
+2025-10-06 21:00:51.424 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-06 21:00:51.425 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 21:00:51.434 +03:00 [INF] Route matched with {action = "GetToken", controller = "PayPal"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token]] GetToken() on controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API).
+2025-10-06 21:00:51.446 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 21:00:51.455 +03:00 [INF] Start processing HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-06 21:00:51.457 +03:00 [INF] Sending HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-06 21:00:52.063 +03:00 [INF] Received HTTP response headers after 604.294ms - 200
+2025-10-06 21:00:52.063 +03:00 [INF] End processing HTTP request after 608.9304ms - 200
+2025-10-06 21:00:52.072 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 622.974ms.
+2025-10-06 21:00:52.079 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token'.
+2025-10-06 21:00:52.084 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) in 646.959ms
+2025-10-06 21:00:52.084 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 21:00:52.084 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-06 21:00:52.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - 200 null application/json; charset=utf-8 682.3707ms

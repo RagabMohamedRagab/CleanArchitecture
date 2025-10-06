@@ -1,0 +1,2 @@
+2025-09-30 23:43:29.015 +03:00 [ERR] This is Error log
+2025-09-30 23:45:35.324 +03:00 [ERR] This is Error log

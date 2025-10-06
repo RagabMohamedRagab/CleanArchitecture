@@ -1,0 +1,112 @@
+2025-10-01 23:33:32.670 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-01 23:33:32.737 +03:00 [DBG] Hosting starting
+2025-10-01 23:33:32.761 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-01 23:33:32.768 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-01 23:33:32.769 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-01 23:33:32.773 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-01 23:33:32.778 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-01 23:33:32.778 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-01 23:33:32.783 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-01 23:33:32.786 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-01 23:33:32.787 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-01 23:33:32.788 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-01 23:33:32.791 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-01 23:33:32.792 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-01 23:33:32.793 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-01 23:33:32.793 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-01 23:33:32.797 +03:00 [DBG] Middleware loaded
+2025-10-01 23:33:32.798 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-01 23:33:32.799 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-01 23:33:32.853 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-01 23:33:32.854 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-01 23:33:32.857 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-01 23:33:32.866 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-01 23:33:32.866 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-01 23:33:32.866 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-01 23:33:32.866 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-01 23:33:32.877 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-01 23:33:32.878 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-01 23:33:32.886 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-01 23:33:33.068 +03:00 [DBG] Connection id "0HNG157531S4V" accepted.
+2025-10-01 23:33:33.068 +03:00 [DBG] Connection id "0HNG157531S50" accepted.
+2025-10-01 23:33:33.070 +03:00 [DBG] Connection id "0HNG157531S4V" started.
+2025-10-01 23:33:33.070 +03:00 [DBG] Connection id "0HNG157531S50" started.
+2025-10-01 23:33:33.099 +03:00 [DBG] Connection id "0HNG157531S4V" received FIN.
+2025-10-01 23:33:33.099 +03:00 [DBG] Connection id "0HNG157531S50" received FIN.
+2025-10-01 23:33:33.100 +03:00 [DBG] Connection id "0HNG157531S50" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-01 23:33:33.100 +03:00 [DBG] Connection id "0HNG157531S4V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-01 23:33:33.102 +03:00 [DBG] Connection id "0HNG157531S4V" disconnecting.
+2025-10-01 23:33:33.102 +03:00 [DBG] Connection id "0HNG157531S50" disconnecting.
+2025-10-01 23:33:33.104 +03:00 [DBG] Connection id "0HNG157531S4V" stopped.
+2025-10-01 23:33:33.104 +03:00 [DBG] Connection id "0HNG157531S50" stopped.
+2025-10-01 23:33:33.428 +03:00 [DBG] Hosting started
+2025-10-01 23:33:33.500 +03:00 [DBG] Connection id "0HNG157531S51" accepted.
+2025-10-01 23:33:33.501 +03:00 [DBG] Connection id "0HNG157531S51" started.
+2025-10-01 23:33:33.781 +03:00 [DBG] No candidates found for the request path '/'
+2025-10-01 23:33:33.782 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.791 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:33.815 +03:00 [DBG] No candidates found for the request path '/index.html'
+2025-10-01 23:33:33.815 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.869 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-01 23:33:33.870 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-01 23:33:33.879 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-01 23:33:33.880 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-01 23:33:33.880 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:33.918 +03:00 [DBG] Connection id "0HNG157531S52" accepted.
+2025-10-01 23:33:33.919 +03:00 [DBG] Connection id "0HNG157531S52" started.
+2025-10-01 23:33:33.920 +03:00 [DBG] No candidates found for the request path '/index.css'
+2025-10-01 23:33:33.920 +03:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-10-01 23:33:33.920 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.920 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.921 +03:00 [DBG] Connection id "0HNG157531S53" accepted.
+2025-10-01 23:33:33.921 +03:00 [DBG] Connection id "0HNG157531S53" started.
+2025-10-01 23:33:33.922 +03:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-10-01 23:33:33.922 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.939 +03:00 [DBG] Connection id "0HNG157531S52" completed keep alive response.
+2025-10-01 23:33:33.939 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:33.949 +03:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-10-01 23:33:33.949 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.962 +03:00 [DBG] No candidates found for the request path '/index.js'
+2025-10-01 23:33:33.962 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:33.963 +03:00 [DBG] Connection id "0HNG157531S53" completed keep alive response.
+2025-10-01 23:33:33.963 +03:00 [DBG] Connection id "0HNG157531S52" completed keep alive response.
+2025-10-01 23:33:33.963 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:33.975 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-01 23:33:33.975 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:34.070 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:34.399 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-01 23:33:34.399 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:34.417 +03:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-10-01 23:33:34.417 +03:00 [DBG] Request did not match any endpoints
+2025-10-01 23:33:34.418 +03:00 [DBG] Connection id "0HNG157531S52" completed keep alive response.
+2025-10-01 23:33:34.503 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:45.236 +03:00 [DBG] 1 candidate(s) found for the request path '/api/PayPal/GetToken'
+2025-10-01 23:33:45.237 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)' with route pattern 'api/PayPal/GetToken' is valid for the request path '/api/PayPal/GetToken'
+2025-10-01 23:33:45.247 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-01 23:33:45.265 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-01 23:33:45.278 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-01 23:33:45.278 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-01 23:33:45.278 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-01 23:33:45.278 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-01 23:33:45.278 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-01 23:33:45.279 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-01 23:33:45.303 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-01 23:33:46.084 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-01 23:33:46.087 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-01 23:33:46.088 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-01 23:33:46.088 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-01 23:33:46.089 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-01 23:33:46.090 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-01 23:33:46.104 +03:00 [DBG] Connection id "0HNG157531S51" completed keep alive response.
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S53" received FIN.
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S52" received FIN.
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S51" received FIN.
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S52" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S53" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-01 23:33:49.545 +03:00 [DBG] Connection id "0HNG157531S52" disconnecting.
+2025-10-01 23:33:49.546 +03:00 [DBG] Connection id "0HNG157531S53" disconnecting.
+2025-10-01 23:33:49.546 +03:00 [DBG] Connection id "0HNG157531S51" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-01 23:33:49.546 +03:00 [DBG] Connection id "0HNG157531S51" disconnecting.
+2025-10-01 23:33:49.546 +03:00 [DBG] Connection id "0HNG157531S51" stopped.
+2025-10-01 23:33:49.560 +03:00 [DBG] Connection id "0HNG157531S53" stopped.
+2025-10-01 23:33:49.560 +03:00 [DBG] Connection id "0HNG157531S52" stopped.

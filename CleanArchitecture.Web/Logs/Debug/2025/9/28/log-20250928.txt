@@ -1,0 +1,213 @@
+2025-09-28 23:05:57.399 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Checkout/Cancel.cshtml'.
+2025-09-28 23:05:57.458 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Checkout/Success.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Index.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Home/Privacy.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_ValidationScriptsPartial.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewImports.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/_ViewStart.cshtml'.
+2025-09-28 23:05:57.459 +03:00 [DBG] Initializing Razor view compiler with compiled view: '/Views/Shared/_Layout.cshtml'.
+2025-09-28 23:05:57.469 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-09-28 23:05:57.509 +03:00 [DBG] Hosting starting
+2025-09-28 23:05:57.557 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-09-28 23:05:57.574 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-09-28 23:05:57.575 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-09-28 23:05:57.583 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-09-28 23:05:57.594 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-09-28 23:05:57.594 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-09-28 23:05:57.599 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-09-28 23:05:57.602 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-28 23:05:57.604 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-09-28 23:05:57.605 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-09-28 23:05:57.609 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-09-28 23:05:57.611 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-09-28 23:05:57.614 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-09-28 23:05:57.614 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-09-28 23:05:57.617 +03:00 [DBG] Middleware loaded
+2025-09-28 23:05:57.618 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-09-28 23:05:57.619 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-09-28 23:05:57.757 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-09-28 23:05:57.759 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-09-28 23:05:57.762 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-09-28 23:05:57.917 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.Web
+2025-09-28 23:05:57.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-09-28 23:05:57.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-09-28 23:05:57.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-09-28 23:05:57.925 +03:00 [DBG] Connection id "0HNFUP9O6HMCL" received FIN.
+2025-09-28 23:05:57.935 +03:00 [DBG] Connection id "0HNFUP9O6HMCL" accepted.
+2025-09-28 23:05:57.936 +03:00 [DBG] Connection id "0HNFUP9O6HMCL" started.
+2025-09-28 23:05:57.937 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-09-28 23:05:57.938 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-09-28 23:05:57.956 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-28 23:05:58.020 +03:00 [DBG] Connection id "0HNFUP9O6HMCL" stopped.
+2025-09-28 23:05:58.024 +03:00 [DBG] Connection id "0HNFUP9O6HMCL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-28 23:05:58.066 +03:00 [DBG] Hosting started
+2025-09-28 23:06:02.253 +03:00 [DBG] Connection id "0HNFUP9O6HMCM" accepted.
+2025-09-28 23:06:02.255 +03:00 [DBG] Connection id "0HNFUP9O6HMCM" started.
+2025-09-28 23:06:02.313 +03:00 [DBG] Connection id "0HNFUP9O6HMCM" received FIN.
+2025-09-28 23:06:02.314 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" accepted.
+2025-09-28 23:06:02.314 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" started.
+2025-09-28 23:06:02.319 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-09-28 23:06:02.321 +03:00 [DBG] Connection id "0HNFUP9O6HMCM" stopped.
+2025-09-28 23:06:02.321 +03:00 [DBG] Connection id "0HNFUP9O6HMCM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-28 23:06:02.351 +03:00 [DBG] Connection 0HNFUP9O6HMCN established using the following protocol: "Tls13"
+2025-09-28 23:06:02.787 +03:00 [DBG] 2 candidate(s) found for the request path '/'
+2025-09-28 23:06:02.789 +03:00 [DBG] Endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/'
+2025-09-28 23:06:02.795 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'null' for the request path '/'
+2025-09-28 23:06:02.795 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/'
+2025-09-28 23:06:02.796 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.Web.Controllers.HomeController.Index (CleanArchitecture.Web)'
+2025-09-28 23:06:02.814 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:02.865 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-28 23:06:02.866 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-09-28 23:06:02.866 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-09-28 23:06:02.866 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-28 23:06:02.866 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-09-28 23:06:02.872 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web)
+2025-09-28 23:06:02.874 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.Web.Controllers.HomeController (CleanArchitecture.Web)
+2025-09-28 23:06:02.889 +03:00 [DBG] This is Debug log
+2025-09-28 23:06:02.931 +03:00 [DBG] View lookup cache miss for view 'Index' in controller 'Home'.
+2025-09-28 23:06:02.953 +03:00 [DBG] The view path '/Views/Home/Index.cshtml' was found in 18.5873ms.
+2025-09-28 23:06:02.992 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Home'.
+2025-09-28 23:06:03.098 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-09-28 23:06:03.101 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-09-28 23:06:03.102 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-09-28 23:06:03.103 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-09-28 23:06:03.104 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-09-28 23:06:03.104 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-09-28 23:06:03.105 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-09-28 23:06:03.105 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-09-28 23:06:03.105 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-09-28 23:06:03.106 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-09-28 23:06:03.106 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-09-28 23:06:03.106 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-09-28 23:06:03.164 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-28 23:06:03.170 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-28 23:06:03.181 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-28 23:06:03.182 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:06:03.592 +03:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'CleanArchitecture.Web.styles.css' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'CleanArchitecture.Web.styles.css' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-09-28 23:06:03.605 +03:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:06:03.616 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2025-09-28 23:06:03.615 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.616 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.617 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:03.678 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-28 23:06:03.893 +03:00 [DBG] 3 candidate(s) found for the request path '/favicon.ico'
+2025-09-28 23:06:03.894 +03:00 [DBG] Endpoint 'null' with route pattern 'favicon.ico' is valid for the request path '/favicon.ico'
+2025-09-28 23:06:03.894 +03:00 [DBG] Endpoint 'null' with route pattern 'favicon.ico' is valid for the request path '/favicon.ico'
+2025-09-28 23:06:03.894 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/favicon.ico'
+2025-09-28 23:06:03.894 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:06:03.898 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:06:04.906 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" received FIN.
+2025-09-28 23:06:04.908 +03:00 [DBG] The connection queue processing loop for 0HNFUP9O6HMCN completed.
+2025-09-28 23:06:04.910 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" is closed. The last processed stream ID was 19.
+2025-09-28 23:06:04.911 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-09-28 23:06:04.913 +03:00 [DBG] Connection id "0HNFUP9O6HMCN" stopped.
+2025-09-28 23:09:53.262 +03:00 [DBG] Connection id "0HNFUP9O6HMCO" accepted.
+2025-09-28 23:09:53.264 +03:00 [DBG] Connection id "0HNFUP9O6HMCO" started.
+2025-09-28 23:09:53.280 +03:00 [DBG] Connection 0HNFUP9O6HMCO established using the following protocol: "Tls13"
+2025-09-28 23:09:53.308 +03:00 [DBG] 2 candidate(s) found for the request path '/checkout/success'
+2025-09-28 23:09:53.308 +03:00 [DBG] Endpoint 'CleanArchitecture.Web.Controllers.CheckoutController.Success (CleanArchitecture.Web)' with route pattern '{controller=Home}/{action=Index}/{id?}' is valid for the request path '/checkout/success'
+2025-09-28 23:09:53.309 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' was rejected by constraint 'path':'Microsoft.AspNetCore.Builder.StaticAssetDevelopmentRuntimeHandler+FileExistsConstraint' with value 'checkout/success' for the request path '/checkout/success'
+2025-09-28 23:09:53.309 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is not valid for the request path '/checkout/success'
+2025-09-28 23:09:53.309 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.Web.Controllers.CheckoutController.Success (CleanArchitecture.Web)'
+2025-09-28 23:09:53.309 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:53.312 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-09-28 23:09:53.312 +03:00 [DBG] Execution plan of resource filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-09-28 23:09:53.312 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2025-09-28 23:09:53.312 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-09-28 23:09:53.312 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+2025-09-28 23:09:53.313 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.Web.Controllers.CheckoutController (CleanArchitecture.Web)
+2025-09-28 23:09:53.313 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.Web.Controllers.CheckoutController (CleanArchitecture.Web)
+2025-09-28 23:09:56.244 +03:00 [DBG] View lookup cache miss for view 'Success' in controller 'Checkout'.
+2025-09-28 23:09:56.249 +03:00 [DBG] The view path '/Views/Checkout/Success.cshtml' was found in 5.6843ms.
+2025-09-28 23:09:56.258 +03:00 [DBG] View lookup cache miss for view '_Layout' in controller 'Checkout'.
+2025-09-28 23:09:56.264 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-09-28 23:09:56.264 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-09-28 23:09:56.264 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-09-28 23:09:56.265 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Index],controller=[Home])
+2025-09-28 23:09:56.265 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in  and 
+2025-09-28 23:09:56.265 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /
+2025-09-28 23:09:56.265 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-09-28 23:09:56.265 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-09-28 23:09:56.266 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-09-28 23:09:56.266 +03:00 [DBG] Found the endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] for address (area=[],action=[Privacy],controller=[Home])
+2025-09-28 23:09:56.266 +03:00 [DBG] Successfully processed template {controller=Home}/{action=Index}/{id?} for Route: {controller=Home}/{action=Index}/{id?} resulting in /Home/Privacy and 
+2025-09-28 23:09:56.266 +03:00 [DBG] Link generation succeeded for endpoints ["Route: {controller=Home}/{action=Index}/{id?}"] with result /Home/Privacy
+2025-09-28 23:09:56.267 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-09-28 23:09:56.267 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-09-28 23:09:56.269 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-09-28 23:09:56.269 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-09-28 23:09:56.350 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:09:56.353 +03:00 [DBG] 3 candidate(s) found for the request path '/css/site.css'
+2025-09-28 23:09:56.383 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:09:56.383 +03:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/css/bootstrap.min.css' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'null' with route pattern 'css/site.css' is valid for the request path '/css/site.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] 3 candidate(s) found for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/css/bootstrap.min.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'null' with route pattern 'CleanArchitecture.Web.styles.css' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/css/site.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'null' with route pattern 'CleanArchitecture.Web.styles.css' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.384 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:56.384 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/CleanArchitecture.Web.styles.css'
+2025-09-28 23:09:56.384 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.385 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:56.385 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:56.426 +03:00 [DBG] 3 candidate(s) found for the request path '/js/site.js'
+2025-09-28 23:09:56.426 +03:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-09-28 23:09:56.426 +03:00 [DBG] Endpoint 'null' with route pattern 'js/site.js' is valid for the request path '/js/site.js'
+2025-09-28 23:09:56.426 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/js/site.js'
+2025-09-28 23:09:56.426 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.427 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:56.434 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:09:56.434 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:09:56.434 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/jquery/dist/jquery.min.js' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:09:56.434 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/jquery/dist/jquery.min.js'
+2025-09-28 23:09:56.434 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.444 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-09-28 23:09:56.445 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-09-28 23:09:56.490 +03:00 [DBG] 3 candidate(s) found for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:09:56.491 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:09:56.491 +03:00 [DBG] Endpoint 'null' with route pattern 'lib/bootstrap/dist/js/bootstrap.bundle.min.js' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:09:56.491 +03:00 [DBG] Endpoint 'Fallback {**path:file}' with route pattern '{**path:file}' is valid for the request path '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2025-09-28 23:09:56.491 +03:00 [DBG] Request matched endpoint 'null'
+2025-09-28 23:09:56.491 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.

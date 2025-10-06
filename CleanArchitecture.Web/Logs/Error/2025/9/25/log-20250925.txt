@@ -1,0 +1,7 @@
+2025-09-25 14:01:50.114 +03:00 [ERR] This is Error log
+2025-09-25 14:03:27.215 +03:00 [ERR] This is Error log
+2025-09-25 14:03:59.614 +03:00 [ERR] This is Error log
+2025-09-25 14:06:16.375 +03:00 [ERR] This is Error log
+2025-09-25 14:07:23.495 +03:00 [ERR] This is Error log
+2025-09-25 14:09:20.925 +03:00 [ERR] This is Error log
+2025-09-25 14:09:33.931 +03:00 [ERR] This is Error log
