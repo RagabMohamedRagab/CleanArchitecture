@@ -11,3 +11,16 @@ D:\Task Assignment\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\Cle
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\refint\CleanArchitecture.Data.dll
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.pdb
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\ref\CleanArchitecture.Data.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\bin\Debug\net9.0\CleanArchitecture.Data.deps.json
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\bin\Debug\net9.0\CleanArchitecture.Data.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\bin\Debug\net9.0\CleanArchitecture.Data.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.csproj.AssemblyReference.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.AssemblyInfoInputs.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.AssemblyInfo.cs
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.csproj.CoreCompileInputs.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.sourcelink.json
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\refint\CleanArchitecture.Data.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\CleanArchitecture.Data.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Data\obj\Debug\net9.0\ref\CleanArchitecture.Data.dll

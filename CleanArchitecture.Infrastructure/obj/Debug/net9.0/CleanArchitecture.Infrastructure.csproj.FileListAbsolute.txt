@@ -21,3 +21,26 @@ D:\Task Assignment\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Resources.dll
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Resources.pdb
 D:\Task Assignment\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\ar\CleanArchitecture.Resources.resources.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Infrastructure.deps.json
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Infrastructure.runtimeconfig.json
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Infrastructure.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Data.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Resources.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Service.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Data.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Service.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\CleanArchitecture.Resources.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\ar\CleanArchitecture.Resources.resources.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.sourcelink.json
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArc.38F44B56.Up2Date
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\refint\CleanArchitecture.Infrastructure.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\ref\CleanArchitecture.Infrastructure.dll

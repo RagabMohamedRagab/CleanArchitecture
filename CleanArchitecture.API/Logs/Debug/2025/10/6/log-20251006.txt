@@ -97,3 +97,222 @@ System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport 
 2025-10-06 21:00:52.078 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
 2025-10-06 21:00:52.078 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
 2025-10-06 21:00:52.078 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-06 22:12:39.872 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-06 22:12:39.927 +03:00 [DBG] Hosting starting
+2025-10-06 22:12:39.945 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-06 22:12:39.987 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-06 22:12:40.019 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-06 22:12:40.054 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-06 22:12:40.062 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-06 22:12:40.063 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-06 22:12:40.073 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-06 22:12:40.077 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 22:12:40.079 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-06 22:12:40.080 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 22:12:40.083 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-06 22:12:40.084 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-06 22:12:40.085 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-06 22:12:40.085 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-06 22:12:40.090 +03:00 [DBG] Middleware loaded
+2025-10-06 22:12:40.092 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-06 22:12:40.094 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-06 22:12:40.145 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-06 22:12:40.146 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-06 22:12:40.147 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-06 22:12:40.192 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-06 22:12:40.192 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-06 22:12:40.192 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-06 22:12:40.192 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-06 22:12:40.198 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 22:12:40.198 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 22:12:40.205 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-06 22:12:40.255 +03:00 [DBG] Connection id "0HNG51H8S2F93" received FIN.
+2025-10-06 22:12:40.258 +03:00 [DBG] Connection id "0HNG51H8S2F93" accepted.
+2025-10-06 22:12:40.259 +03:00 [DBG] Connection id "0HNG51H8S2F93" started.
+2025-10-06 22:12:40.263 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-06 22:12:40.291 +03:00 [DBG] Connection id "0HNG51H8S2F93" stopped.
+2025-10-06 22:12:40.292 +03:00 [DBG] Connection id "0HNG51H8S2F93" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 22:12:40.467 +03:00 [DBG] Hosting started
+2025-10-06 22:12:41.883 +03:00 [DBG] Connection id "0HNG51H8S2F94" accepted.
+2025-10-06 22:12:41.883 +03:00 [DBG] Connection id "0HNG51H8S2F94" started.
+2025-10-06 22:12:41.922 +03:00 [DBG] Connection 0HNG51H8S2F94 established using the following protocol: "Tls13"
+2025-10-06 22:12:41.978 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-06 22:12:42.246 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-06 22:12:42.247 +03:00 [DBG] Request did not match any endpoints
+2025-10-06 22:12:43.147 +03:00 [DBG] Connection id "0HNG51H8S2F94" received FIN.
+2025-10-06 22:12:43.148 +03:00 [DBG] The connection queue processing loop for 0HNG51H8S2F94 completed.
+2025-10-06 22:12:43.151 +03:00 [DBG] Connection id "0HNG51H8S2F94" is closed. The last processed stream ID was 5.
+2025-10-06 22:12:43.151 +03:00 [DBG] Connection id "0HNG51H8S2F94" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 22:12:43.159 +03:00 [DBG] Connection id "0HNG51H8S2F94" stopped.
+2025-10-06 22:13:38.646 +03:00 [DBG] Connection id "0HNG51H8S2F95" accepted.
+2025-10-06 22:13:38.646 +03:00 [DBG] Connection id "0HNG51H8S2F95" started.
+2025-10-06 22:13:38.651 +03:00 [DBG] Connection 0HNG51H8S2F95 established using the following protocol: "Tls13"
+2025-10-06 22:13:38.684 +03:00 [DBG] 1 candidate(s) found for the request path '/api/PayPal/GetToken'
+2025-10-06 22:13:38.684 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)' with route pattern 'api/PayPal/GetToken' is valid for the request path '/api/PayPal/GetToken'
+2025-10-06 22:13:38.694 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 22:13:38.713 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 22:13:38.740 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 22:13:38.741 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 22:13:38.741 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:13:38.741 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 22:13:38.741 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:13:38.743 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-06 22:13:38.764 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-06 22:13:39.496 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-06 22:13:39.499 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-06 22:13:39.500 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-06 22:13:39.500 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-06 22:13:39.500 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-06 22:13:39.501 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-06 22:13:50.049 +03:00 [DBG] Connection id "0HNG51H8S2F95" received FIN.
+2025-10-06 22:13:50.049 +03:00 [DBG] Connection id "0HNG51H8S2F95" is closed. The last processed stream ID was 1.
+2025-10-06 22:13:50.049 +03:00 [DBG] Connection id "0HNG51H8S2F95" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 22:13:50.049 +03:00 [DBG] The connection queue processing loop for 0HNG51H8S2F95 completed.
+2025-10-06 22:13:50.050 +03:00 [DBG] Connection id "0HNG51H8S2F95" stopped.
+2025-10-06 22:14:33.647 +03:00 [DBG] Connection id "0HNG51H8S2F96" accepted.
+2025-10-06 22:14:33.648 +03:00 [DBG] Connection id "0HNG51H8S2F96" started.
+2025-10-06 22:14:33.651 +03:00 [DBG] Connection 0HNG51H8S2F96 established using the following protocol: "Tls13"
+2025-10-06 22:14:33.654 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:14:33.654 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:14:33.654 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:14:33.656 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 22:14:33.680 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 22:14:33.680 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 22:14:33.680 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:14:33.680 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 22:14:33.680 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:14:33.680 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:14:33.680 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:14:33.685 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:14:33.687 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-06 22:14:33.688 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-06 22:14:33.696 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000001": started reading request body.
+2025-10-06 22:14:33.696 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000001": done reading request body.
+2025-10-06 22:14:33.701 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-06 22:14:33.701 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:14:33.701 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:14:33.701 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:14:33.714 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:00.223 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:15:00.223 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:15:00.223 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:00.240 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 22:15:00.240 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 22:15:00.240 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 22:15:00.240 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:15:00.241 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 22:15:00.241 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:15:00.241 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:15:00.241 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:15:00.241 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:15:00.241 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-06 22:15:00.241 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-06 22:15:00.242 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000003": started reading request body.
+2025-10-06 22:15:00.242 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000003": done reading request body.
+2025-10-06 22:15:00.242 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-06 22:15:00.242 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:00.242 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:00.242 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:15:00.242 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:15.674 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:15:15.674 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:15:15.674 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:15.675 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 22:15:15.675 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 22:15:15.675 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 22:15:15.675 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:15:15.675 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 22:15:15.675 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:15:15.675 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:15:15.675 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:15:15.675 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:15:15.675 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-06 22:15:15.675 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-06 22:15:15.675 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000005": started reading request body.
+2025-10-06 22:15:15.675 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000005": done reading request body.
+2025-10-06 22:15:15.676 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-06 22:15:15.676 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:15.676 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:15.676 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:15:15.676 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:15:38.757 +03:00 [DBG] HttpMessageHandler expired after 120000ms for client 'PayPal'
+2025-10-06 22:15:48.757 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:15:48.759 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0157ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:15:58.760 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:15:58.760 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0063ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:16:08.770 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:16:08.771 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:16:10.539 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:16:10.539 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-06 22:16:10.539 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:16:10.540 +03:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-10-06 22:16:10.540 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-06 22:16:10.540 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-06 22:16:10.540 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:16:10.540 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-06 22:16:10.540 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-06 22:16:10.540 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:16:10.540 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-06 22:16:10.540 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:16:10.540 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-06 22:16:10.540 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-06 22:16:10.540 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000007": started reading request body.
+2025-10-06 22:16:10.540 +03:00 [DBG] Connection id "0HNG51H8S2F96", Request id "0HNG51H8S2F96:00000007": done reading request body.
+2025-10-06 22:16:10.541 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-06 22:16:10.541 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:16:10.541 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:16:10.541 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-06 22:16:10.541 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-06 22:16:11.422 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-06 22:16:11.422 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-06 22:16:11.423 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-06 22:16:11.423 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-06 22:16:11.423 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-06 22:16:11.423 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-06 22:16:18.774 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:16:18.775 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:16:28.781 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:16:28.781 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:16:38.788 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:16:38.788 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:16:46.670 +03:00 [DBG] Connection id "0HNG51H8S2F96" received FIN.
+2025-10-06 22:16:46.671 +03:00 [DBG] Connection id "0HNG51H8S2F96" is closed. The last processed stream ID was 7.
+2025-10-06 22:16:46.671 +03:00 [DBG] Connection id "0HNG51H8S2F96" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-06 22:16:46.671 +03:00 [DBG] The connection queue processing loop for 0HNG51H8S2F96 completed.
+2025-10-06 22:16:46.672 +03:00 [DBG] Connection id "0HNG51H8S2F96" stopped.
+2025-10-06 22:16:48.789 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-06 22:16:48.789 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2025-10-06 22:17:00.599 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-06 22:17:00.684 +03:00 [DBG] Hosting starting
+2025-10-06 22:17:00.711 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-06 22:17:00.715 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-06 22:17:00.716 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-06 22:17:00.719 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-06 22:17:00.724 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-06 22:17:00.724 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-06 22:17:00.731 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-06 22:17:00.735 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 22:17:00.737 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-06 22:17:00.739 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-06 22:17:00.743 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-06 22:17:00.743 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-06 22:17:00.744 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-06 22:17:00.744 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-06 22:17:00.747 +03:00 [DBG] Middleware loaded
+2025-10-06 22:17:00.748 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-06 22:17:00.749 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-06 22:17:00.788 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-06 22:17:00.789 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-06 22:17:00.790 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-06 22:17:00.838 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-06 22:17:00.838 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-06 22:17:00.838 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-06 22:17:00.838 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-06 22:17:00.844 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 22:17:00.844 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-06 22:17:00.850 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-06 22:17:01.085 +03:00 [DBG] Hosting started

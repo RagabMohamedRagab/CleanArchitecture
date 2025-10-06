@@ -41,3 +41,71 @@
 2025-10-06 21:00:52.084 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
 2025-10-06 21:00:52.084 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
 2025-10-06 21:00:52.084 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - 200 null application/json; charset=utf-8 682.3707ms
+2025-10-06 22:12:39.937 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 22:12:40.192 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-06 22:12:40.192 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-06 22:12:40.466 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 22:12:40.466 +03:00 [INF] Hosting environment: Development
+2025-10-06 22:12:40.466 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-06 22:12:41.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-06 22:12:41.968 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-06 22:12:41.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 14.4665ms
+2025-10-06 22:12:42.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.5482ms
+2025-10-06 22:12:42.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-06 22:12:42.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.3649ms
+2025-10-06 22:13:38.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - null null
+2025-10-06 22:13:38.717 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-06 22:13:38.718 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 22:13:38.738 +03:00 [INF] Route matched with {action = "GetToken", controller = "PayPal"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token]] GetToken() on controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API).
+2025-10-06 22:13:38.772 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 22:13:38.785 +03:00 [INF] Start processing HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-06 22:13:38.788 +03:00 [INF] Sending HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-06 22:13:39.465 +03:00 [INF] Received HTTP response headers after 672.5155ms - 200
+2025-10-06 22:13:39.467 +03:00 [INF] End processing HTTP request after 682.7505ms - 200
+2025-10-06 22:13:39.489 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 710.3147ms.
+2025-10-06 22:13:39.501 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token'.
+2025-10-06 22:13:39.515 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) in 768.1415ms
+2025-10-06 22:13:39.516 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-06 22:13:39.516 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-06 22:13:39.518 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - 200 null application/json; charset=utf-8 847.5601ms
+2025-10-06 22:14:33.652 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 200
+2025-10-06 22:14:33.656 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - POST
+2025-10-06 22:14:33.656 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:14:33.680 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-06 22:14:33.716 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 22:14:34.919 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 1238.7588ms
+2025-10-06 22:14:34.920 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:14:35.037 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 500 null text/plain; charset=utf-8 1384.6326ms
+2025-10-06 22:15:00.223 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 199
+2025-10-06 22:15:00.240 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - POST
+2025-10-06 22:15:00.240 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:00.240 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-06 22:15:00.242 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 22:15:00.662 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 421.8725ms
+2025-10-06 22:15:00.663 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:00.666 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 500 null text/plain; charset=utf-8 442.9267ms
+2025-10-06 22:15:15.674 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 198
+2025-10-06 22:15:15.675 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - POST
+2025-10-06 22:15:15.675 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:15.675 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-06 22:15:15.676 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 22:15:16.189 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 514.1984ms
+2025-10-06 22:15:16.190 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:15:16.196 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 500 null text/plain; charset=utf-8 522.0252ms
+2025-10-06 22:16:10.539 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 170
+2025-10-06 22:16:10.540 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - POST
+2025-10-06 22:16:10.540 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:16:10.540 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-06 22:16:10.541 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-06 22:16:11.422 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 880.5622ms.
+2025-10-06 22:16:11.423 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[Stripe.Checkout.Session, Stripe.net, Version=48.6.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-06 22:16:11.608 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 1068.0153ms
+2025-10-06 22:16:11.608 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-06 22:16:11.608 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-06 22:16:11.608 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 200 null application/json; charset=utf-8 1069.3923ms
+2025-10-06 22:17:00.698 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-06 22:17:00.838 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-06 22:17:00.838 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-06 22:17:01.085 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-06 22:17:01.085 +03:00 [INF] Hosting environment: Development
+2025-10-06 22:17:01.085 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
