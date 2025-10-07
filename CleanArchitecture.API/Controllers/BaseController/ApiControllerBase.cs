@@ -11,10 +11,10 @@ namespace CleanArchitecture.API.Controllers.BaseController
         private readonly IMediator _mediator=mediator;
 
 
-        //protected async Task<TResult> QueryAsync<TResult>(IRequest<TResult> query)
-        //{
-        //    return await _mediator.Send(query);
-        //}
+        protected async Task<TResult> QueryAsync<TResult>(IRequest<TResult> query)
+        {
+            return await _mediator.Send(query);
+        }
 
         protected async Task<TResult> CommandAsync<TResult>(IRequest<TResult> command)
         {
