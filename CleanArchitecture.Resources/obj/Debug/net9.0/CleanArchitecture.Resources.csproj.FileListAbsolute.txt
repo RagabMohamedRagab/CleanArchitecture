@@ -19,7 +19,6 @@ C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitec
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\CleanArchitecture.Resources.dll
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\CleanArchitecture.Resources.pdb
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\ar\CleanArchitecture.Resources.resources.dll
-C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.MessageService.resources
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.MessageService.ar.resources
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.csproj.GenerateResource.cache
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.GeneratedMSBuildEditorConfig.editorconfig
@@ -32,3 +31,6 @@ C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitec
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\refint\CleanArchitecture.Resources.dll
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.pdb
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\ref\CleanArchitecture.Resources.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\bin\Debug\net9.0\en\CleanArchitecture.Resources.resources.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\CleanArchitecture.Resources.MessageService.en.resources
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Resources\obj\Debug\net9.0\en\CleanArchitecture.Resources.resources.dll

@@ -71,3 +71,386 @@
 2025-10-07 11:12:19.895 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 6.5925ms
 2025-10-07 11:12:20.108 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
 2025-10-07 11:12:20.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.5336ms
+2025-10-07 22:46:28.676 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:46:29.928 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:46:29.929 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:46:29.999 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:46:29.999 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:46:29.999 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:46:30.603 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-10-07 22:46:30.907 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 310.6782ms
+2025-10-07 22:46:30.918 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-07 22:46:31.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 95.0627ms
+2025-10-07 22:46:31.065 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-10-07 22:46:31.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-10-07 22:46:31.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-10-07 22:46:31.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-10-07 22:46:31.195 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-10-07 22:46:31.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:46:31.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 143.2285ms
+2025-10-07 22:46:31.222 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:46:31.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 122.291ms
+2025-10-07 22:46:31.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 266.5848ms
+2025-10-07 22:46:31.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 272.4641ms
+2025-10-07 22:46:31.338 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 273.2406ms
+2025-10-07 22:46:31.355 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 289.3082ms
+2025-10-07 22:46:31.387 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 166.0266ms
+2025-10-07 22:46:31.829 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:46:31.857 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 28.1645ms
+2025-10-07 22:46:31.885 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-10-07 22:46:31.888 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 2.9102ms
+2025-10-07 22:46:59.543 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:46:59.720 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:46:59.720 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:46:59.787 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:46:59.787 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:46:59.787 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:47:01.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:47:01.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:47:01.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 15.2988ms
+2025-10-07 22:47:01.494 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.3105ms
+2025-10-07 22:47:01.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:47:01.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.3979ms
+2025-10-07 22:47:12.117 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:47:12.415 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:47:12.415 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:47:12.477 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:47:12.477 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:47:12.477 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:47:14.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:47:14.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:47:14.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 34.5402ms
+2025-10-07 22:47:14.219 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 100.5339ms
+2025-10-07 22:47:14.282 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:47:14.452 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 169.9066ms
+2025-10-07 22:47:24.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - null null
+2025-10-07 22:47:24.493 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:47:24.494 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:47:24.526 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "PaymobConrollers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobConrollers (CleanArchitecture.API).
+2025-10-07 22:47:24.546 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) in 7.2168ms
+2025-10-07 22:47:24.548 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:47:42.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - 500 null text/plain; charset=utf-8 17593.9969ms
+2025-10-07 22:47:50.668 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - null null
+2025-10-07 22:47:50.713 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:47:50.713 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:47:50.714 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "PaymobConrollers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobConrollers (CleanArchitecture.API).
+2025-10-07 22:47:50.716 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) in 1.0875ms
+2025-10-07 22:47:50.716 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:47:58.611 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - 500 null text/plain; charset=utf-8 7942.4589ms
+2025-10-07 22:49:33.583 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:49:33.826 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:49:33.826 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:49:33.941 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:49:33.941 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:49:33.941 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:49:35.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:49:35.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:49:35.087 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 18.9569ms
+2025-10-07 22:49:35.088 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:49:35.090 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.8007ms
+2025-10-07 22:49:35.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.5906ms
+2025-10-07 22:49:35.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:49:35.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:49:35.289 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.0889ms
+2025-10-07 22:49:35.364 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.2549ms
+2025-10-07 22:49:43.563 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - null null
+2025-10-07 22:49:43.594 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:49:43.594 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:49:43.605 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "PaymobConrollers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobConrollers (CleanArchitecture.API).
+2025-10-07 22:49:43.615 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:49:57.207 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:49:57.209 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:49:58.343 +03:00 [INF] Received HTTP response headers after 1131.6299ms - 201
+2025-10-07 22:49:58.345 +03:00 [INF] End processing HTTP request after 1138.1149ms - 201
+2025-10-07 22:52:51.076 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:52:51.321 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:52:51.321 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:52:51.369 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:52:51.369 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:52:51.369 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:52:52.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:52:52.660 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:52:52.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 60.0734ms
+2025-10-07 22:52:52.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:52:52.730 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 9.1679ms
+2025-10-07 22:52:52.784 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 128.3575ms
+2025-10-07 22:52:52.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:52:52.944 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.9838ms
+2025-10-07 22:52:52.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:52:53.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.8905ms
+2025-10-07 22:52:58.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - null null
+2025-10-07 22:52:58.561 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:52:58.562 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:52:58.579 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "PaymobConrollers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.String]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobConrollers (CleanArchitecture.API).
+2025-10-07 22:52:58.592 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:53:03.534 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:53:03.536 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:53:04.820 +03:00 [INF] Received HTTP response headers after 1282.4528ms - 201
+2025-10-07 22:53:04.821 +03:00 [INF] End processing HTTP request after 1287.6856ms - 201
+2025-10-07 22:53:24.098 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25502.7283ms.
+2025-10-07 22:53:24.104 +03:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-10-07 22:53:24.109 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) in 25525.29ms
+2025-10-07 22:53:24.109 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:53:24.109 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 22:53:24.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - 200 null text/plain; charset=utf-8 25583.2846ms
+2025-10-07 22:54:55.674 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:54:55.922 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:54:55.922 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:54:55.971 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:54:55.971 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:54:55.971 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:54:57.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:54:57.352 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:54:57.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.5365ms
+2025-10-07 22:54:57.368 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:54:57.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.2663ms
+2025-10-07 22:54:57.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 109.6951ms
+2025-10-07 22:54:57.488 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:54:57.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:54:57.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.2581ms
+2025-10-07 22:54:57.672 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.0365ms
+2025-10-07 22:55:11.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - null null
+2025-10-07 22:55:12.024 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:55:12.025 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:55:12.039 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "PaymobConrollers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobConrollers (CleanArchitecture.API).
+2025-10-07 22:55:12.051 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:55:15.044 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:55:15.046 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:55:15.807 +03:00 [INF] Received HTTP response headers after 758.7212ms - 201
+2025-10-07 22:55:15.808 +03:00 [INF] End processing HTTP request after 764.8578ms - 201
+2025-10-07 22:55:15.813 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3759.6947ms.
+2025-10-07 22:55:15.822 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 22:55:15.832 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API) in 3788.0703ms
+2025-10-07 22:55:15.833 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobConrollers.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:55:15.833 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 22:55:15.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PaymobConrollers/GetAccessToken - 200 null application/json; charset=utf-8 3839.1565ms
+2025-10-07 22:57:28.187 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:57:28.411 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:57:28.411 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:57:28.465 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:57:28.465 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:57:28.465 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:57:30.135 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:57:30.135 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:57:30.154 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 23.6224ms
+2025-10-07 22:57:30.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:57:30.157 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.9417ms
+2025-10-07 22:57:30.159 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:57:30.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.3711ms
+2025-10-07 22:57:30.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.1039ms
+2025-10-07 22:57:30.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:57:30.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:57:30.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.0304ms
+2025-10-07 22:57:30.446 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:57:30.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.835ms
+2025-10-07 22:57:30.515 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.5957ms
+2025-10-07 22:58:21.480 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 22:58:21.725 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 22:58:21.725 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 22:58:21.797 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 22:58:21.797 +03:00 [INF] Hosting environment: Development
+2025-10-07 22:58:21.797 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 22:58:23.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:58:23.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 22:58:23.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 58.873ms
+2025-10-07 22:58:23.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:58:23.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.9392ms
+2025-10-07 22:58:23.193 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:58:23.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.701ms
+2025-10-07 22:58:23.243 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.0722ms
+2025-10-07 22:58:23.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:58:23.417 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:58:23.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.9116ms
+2025-10-07 22:58:23.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:58:23.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.8576ms
+2025-10-07 22:58:23.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.1226ms
+2025-10-07 22:58:24.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 22:58:24.342 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.868ms
+2025-10-07 22:58:24.453 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 22:58:24.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.6164ms
+2025-10-07 22:58:48.564 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-07 22:58:48.595 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:58:48.595 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:58:48.606 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 22:58:48.614 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:58:50.844 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:58:50.846 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:58:52.520 +03:00 [INF] Received HTTP response headers after 1671.132ms - 201
+2025-10-07 22:58:52.520 +03:00 [INF] End processing HTTP request after 1676.955ms - 201
+2025-10-07 22:58:52.527 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3909.7969ms.
+2025-10-07 22:58:52.532 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 22:58:52.555 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 3946.5472ms
+2025-10-07 22:58:52.556 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:58:52.556 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 22:58:52.557 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 3992.6918ms
+2025-10-07 22:59:35.236 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-07 22:59:35.282 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:59:35.282 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:59:35.368 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 22:59:35.370 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:59:37.495 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:59:37.496 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:59:37.897 +03:00 [INF] Received HTTP response headers after 401.599ms - 201
+2025-10-07 22:59:37.898 +03:00 [INF] End processing HTTP request after 402.1319ms - 201
+2025-10-07 22:59:37.898 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2528.3743ms.
+2025-10-07 22:59:37.899 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 22:59:37.900 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 2531.0438ms
+2025-10-07 22:59:37.900 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:59:37.900 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 22:59:37.901 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 2664.6099ms
+2025-10-07 22:59:46.770 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-07 22:59:46.773 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 22:59:46.773 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:59:46.773 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 22:59:46.774 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 22:59:48.778 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:59:48.778 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 22:59:49.162 +03:00 [INF] Received HTTP response headers after 383.998ms - 201
+2025-10-07 22:59:49.163 +03:00 [INF] End processing HTTP request after 384.7756ms - 201
+2025-10-07 22:59:49.164 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2390.3129ms.
+2025-10-07 22:59:49.166 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 22:59:49.167 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 2394.1037ms
+2025-10-07 22:59:49.167 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 22:59:49.167 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 22:59:49.168 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 2397.724ms
+2025-10-07 23:00:07.711 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-07 23:00:07.711 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 23:00:07.711 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:00:07.711 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 23:00:07.712 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 23:00:09.672 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:00:09.672 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:00:09.902 +03:00 [INF] Received HTTP response headers after 229.874ms - 201
+2025-10-07 23:00:09.903 +03:00 [INF] End processing HTTP request after 230.6146ms - 201
+2025-10-07 23:00:58.843 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 51131.2304ms.
+2025-10-07 23:00:58.850 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 23:00:58.888 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 51176.6797ms
+2025-10-07 23:00:58.888 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:00:58.888 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 23:00:58.918 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 51178.1352ms
+2025-10-07 23:01:31.215 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-07 23:01:31.215 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - POST
+2025-10-07 23:01:31.216 +03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-10-07 23:01:31.216 +03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-10-07 23:01:31.216 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 405
+2025-10-07 23:01:31.216 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7250/api/Paymob/GetAccessToken - 405 0 null 1.0277ms
+2025-10-07 23:01:39.460 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-07 23:01:39.462 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 23:01:39.462 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:01:39.463 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 23:01:39.464 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 23:01:41.243 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:01:41.243 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:01:41.844 +03:00 [INF] Received HTTP response headers after 601.0197ms - 201
+2025-10-07 23:01:41.844 +03:00 [INF] End processing HTTP request after 601.4543ms - 201
+2025-10-07 23:01:42.579 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3115.2049ms.
+2025-10-07 23:01:42.580 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 23:01:42.580 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 3116.8888ms
+2025-10-07 23:01:42.580 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:01:42.580 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 23:01:42.580 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 3120.1236ms
+2025-10-07 23:02:19.255 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-07 23:02:19.256 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 23:04:55.917 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:04:55.918 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 23:04:55.924 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 23:04:57.933 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:04:57.933 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:04:58.502 +03:00 [INF] Received HTTP response headers after 569.3684ms - 201
+2025-10-07 23:04:58.502 +03:00 [INF] End processing HTTP request after 569.9398ms - 201
+2025-10-07 23:04:59.408 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3483.8141ms.
+2025-10-07 23:04:59.409 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 23:04:59.409 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 3490.9704ms
+2025-10-07 23:04:59.409 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:04:59.409 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 23:04:59.409 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 160154.3522ms
+2025-10-07 23:13:33.028 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 23:13:33.306 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 23:13:33.306 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 23:13:33.375 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 23:13:33.375 +03:00 [INF] Hosting environment: Development
+2025-10-07 23:13:33.375 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 23:13:34.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:13:34.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 23:13:34.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.0372ms
+2025-10-07 23:13:34.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:13:34.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.7775ms
+2025-10-07 23:13:34.538 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:13:34.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.0362ms
+2025-10-07 23:13:34.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.9589ms
+2025-10-07 23:13:34.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:13:34.765 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:13:34.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 148.1897ms
+2025-10-07 23:13:34.847 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:13:34.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.096ms
+2025-10-07 23:13:34.921 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 74.1043ms
+2025-10-07 23:13:35.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:13:35.793 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7529ms
+2025-10-07 23:13:35.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:13:36.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 63.4646ms
+2025-10-07 23:13:36.521 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:13:36.522 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7267ms
+2025-10-07 23:13:36.604 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:13:36.652 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 47.306ms
+2025-10-07 23:13:39.054 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-07 23:13:39.087 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 23:13:50.716 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:13:50.726 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 23:13:50.736 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 23:13:52.085 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:13:52.086 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:13:52.907 +03:00 [INF] Received HTTP response headers after 818.5444ms - 201
+2025-10-07 23:13:52.908 +03:00 [INF] End processing HTTP request after 824.1088ms - 201
+2025-10-07 23:13:53.762 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3021.7841ms.
+2025-10-07 23:13:53.767 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 23:13:53.777 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 3046.7193ms
+2025-10-07 23:13:53.777 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:13:53.778 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 23:13:53.778 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 14724.9339ms
+2025-10-07 23:16:14.649 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-07 23:16:14.984 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-07 23:16:14.984 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-07 23:16:15.052 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-07 23:16:15.052 +03:00 [INF] Hosting environment: Development
+2025-10-07 23:16:15.052 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-07 23:16:16.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:16.166 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-07 23:16:16.183 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 18.9863ms
+2025-10-07 23:16:16.184 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:16.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.6412ms
+2025-10-07 23:16:16.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:16.189 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.7379ms
+2025-10-07 23:16:16.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.4732ms
+2025-10-07 23:16:16.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:16.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:16.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.7013ms
+2025-10-07 23:16:16.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:16.477 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.9084ms
+2025-10-07 23:16:16.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 70.3414ms
+2025-10-07 23:16:17.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:17.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.9979ms
+2025-10-07 23:16:17.516 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:17.583 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.3044ms
+2025-10-07 23:16:18.170 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:18.171 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.684ms
+2025-10-07 23:16:18.262 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:18.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 49.2887ms
+2025-10-07 23:16:18.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-07 23:16:18.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7358ms
+2025-10-07 23:16:19.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-07 23:16:19.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.125ms
+2025-10-07 23:16:19.473 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-07 23:16:19.509 +03:00 [INF] Log info For Request Microsoft.AspNetCore.Http.DefaultHttpRequest - GET
+2025-10-07 23:16:21.569 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:16:21.582 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-07 23:16:21.607 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-07 23:16:23.567 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:16:23.569 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-07 23:16:24.313 +03:00 [INF] Received HTTP response headers after 742.5241ms - 201
+2025-10-07 23:16:24.314 +03:00 [INF] End processing HTTP request after 747.5091ms - 201
+2025-10-07 23:16:25.344 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3734.7817ms.
+2025-10-07 23:16:25.350 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-07 23:16:25.360 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 3759.2174ms
+2025-10-07 23:16:25.361 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-07 23:16:25.361 +03:00 [INF] Log info For Response Microsoft.AspNetCore.Http.DefaultHttpResponse - 200
+2025-10-07 23:16:25.362 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 5889.4523ms

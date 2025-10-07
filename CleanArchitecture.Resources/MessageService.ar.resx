@@ -120,6 +120,9 @@
   <data name="Failed_Request" xml:space="preserve">
     <value>حدث خطأ ما في الطلب</value>
   </data>
+  <data name="Sucess" xml:space="preserve">
+    <value>تم</value>
+  </data>
   <data name="Token_Failed_To_Get" xml:space="preserve">
     <value>حدث خطأ ما</value>
   </data>

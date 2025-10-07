@@ -120,6 +120,9 @@
   <data name="Failed_Request" xml:space="preserve">
     <value>Something is Wrong</value>
   </data>
+  <data name="Sucess" xml:space="preserve">
+    <value>Done</value>
+  </data>
   <data name="Token_Failed_To_Get" xml:space="preserve">
     <value>Something is Wrong</value>
   </data>

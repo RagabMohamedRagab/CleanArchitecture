@@ -8,6 +8,7 @@ namespace CleanArchitecture.Data.Enums
 {
     public enum ClientFactoryKey
     {
-        PayPal
+        PayPal,
+        Paymob
     }
 }

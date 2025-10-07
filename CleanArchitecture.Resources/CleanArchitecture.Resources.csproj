@@ -7,17 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Update="MessageService.Designer.cs">
+    <Compile Update="MessageService.en.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>MessageService.resx</DependentUpon>
+      <DependentUpon>MessageService.en.resx</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="MessageService.resx">
+    <EmbeddedResource Update="MessageService.en.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>MessageService.Designer.cs</LastGenOutput>
+      <LastGenOutput>MessageService.en.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
 

@@ -44,3 +44,4 @@ C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitec
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.pdb
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net9.0\ref\CleanArchitecture.Infrastructure.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net9.0\en\CleanArchitecture.Resources.resources.dll

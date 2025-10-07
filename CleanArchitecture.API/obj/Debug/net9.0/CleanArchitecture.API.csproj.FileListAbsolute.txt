@@ -396,3 +396,4 @@ C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitec
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API\obj\Debug\net9.0\CleanArchitecture.API.pdb
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API\obj\Debug\net9.0\CleanArchitecture.API.genruntimeconfig.cache
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API\obj\Debug\net9.0\ref\CleanArchitecture.API.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API\bin\Debug\net9.0\en\CleanArchitecture.Resources.resources.dll

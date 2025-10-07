@@ -70,6 +70,15 @@ namespace CleanArchitecture.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Done.
+        /// </summary>
+        public static string Sucess {
+            get {
+                return ResourceManager.GetString("Sucess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Something is Wrong.
         /// </summary>
         public static string Token_Failed_To_Get {

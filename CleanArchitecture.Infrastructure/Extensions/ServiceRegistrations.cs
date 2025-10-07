@@ -10,12 +10,15 @@ using CleanArchitecture.Infrastructure.ContextDB;
 using CleanArchitecture.Infrastructure.EmailService;
 using CleanArchitecture.Infrastructure.Repositories.Auth;
 using CleanArchitecture.Infrastructure.Repositories.GenericRepositories;
+using CleanArchitecture.Service.Dtos.GateWay.PaymobGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.Stripe;
 using CleanArchitecture.Service.Helpers;
 using CleanArchitecture.Service.IMangers.IAuthManger;
+using CleanArchitecture.Service.IMangers.IPaymobManger;
 using CleanArchitecture.Service.IMangers.IPayPalManager;
 using CleanArchitecture.Service.Managers.AuthService;
+using CleanArchitecture.Service.Managers.PaymobManger;
 using CleanArchitecture.Service.Managers.PayPalManager;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -71,6 +74,14 @@ namespace CleanArchitecture.Infrastructure.Extensions
             });
             #endregion
 
+            #region Paymob
+            services.AddTransient<IAuthenticateManger, AuthenticateManger>();
+            services.Configure<Paymob>(configuration.GetSection("Paymob"));
+            services.AddHttpClient(ClientFactoryKey.Paymob.ToString(),option => {
+                option.BaseAddress = new Uri(configuration["Paymob:Auth"]!);
+            });
+            #endregion
+
             #region Meditor
             //services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly()));
             services.AddMediatR(config => config.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
@@ -88,6 +99,7 @@ namespace CleanArchitecture.Infrastructure.Extensions
                 options.AddSupportedCultures(supportedCultures);
                 options.AddSupportedUICultures(supportedCultures);
             });
+
 
             #endregion
 

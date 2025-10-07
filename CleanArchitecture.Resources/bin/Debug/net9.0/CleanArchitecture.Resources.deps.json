@@ -13,6 +13,9 @@
         "resources": {
           "ar/CleanArchitecture.Resources.resources.dll": {
             "locale": "ar"
+          },
+          "en/CleanArchitecture.Resources.resources.dll": {
+            "locale": "en"
           }
         }
       }
