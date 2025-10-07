@@ -1,0 +1,272 @@
+2025-10-07 10:42:12.514 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-07 10:42:12.650 +03:00 [DBG] Hosting starting
+2025-10-07 10:42:12.690 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-07 10:42:12.712 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-07 10:42:12.713 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-07 10:42:12.717 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-07 10:42:12.727 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-07 10:42:12.728 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-07 10:42:12.733 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-07 10:42:12.739 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-07 10:42:12.741 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-07 10:42:12.743 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-07 10:42:12.746 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-07 10:42:12.747 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-07 10:42:12.747 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-07 10:42:12.748 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-07 10:42:12.753 +03:00 [DBG] Middleware loaded
+2025-10-07 10:42:12.756 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-07 10:42:12.759 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-07 10:42:12.851 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-07 10:42:12.854 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-07 10:42:12.861 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-07 10:42:12.925 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-07 10:42:12.925 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-07 10:42:12.925 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-07 10:42:12.925 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-07 10:42:12.931 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-07 10:42:12.931 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-07 10:42:12.941 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-07 10:42:13.261 +03:00 [DBG] Hosting started
+2025-10-07 10:42:13.323 +03:00 [DBG] Connection id "0HNG5EK3SLMS5" received FIN.
+2025-10-07 10:42:13.323 +03:00 [DBG] Connection id "0HNG5EK3SLMS4" received FIN.
+2025-10-07 10:42:13.328 +03:00 [DBG] Connection id "0HNG5EK3SLMS5" accepted.
+2025-10-07 10:42:13.329 +03:00 [DBG] Connection id "0HNG5EK3SLMS4" accepted.
+2025-10-07 10:42:13.329 +03:00 [DBG] Connection id "0HNG5EK3SLMS4" started.
+2025-10-07 10:42:13.329 +03:00 [DBG] Connection id "0HNG5EK3SLMS5" started.
+2025-10-07 10:42:13.345 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-07 10:42:13.345 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-07 10:42:13.371 +03:00 [DBG] Connection id "0HNG5EK3SLMS5" stopped.
+2025-10-07 10:42:13.371 +03:00 [DBG] Connection id "0HNG5EK3SLMS4" stopped.
+2025-10-07 10:42:13.374 +03:00 [DBG] Connection id "0HNG5EK3SLMS4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 10:42:13.374 +03:00 [DBG] Connection id "0HNG5EK3SLMS5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 10:42:13.578 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" accepted.
+2025-10-07 10:42:13.579 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" started.
+2025-10-07 10:42:13.613 +03:00 [DBG] Connection 0HNG5EK3SLMS6 established using the following protocol: "Tls13"
+2025-10-07 10:42:13.906 +03:00 [DBG] No candidates found for the request path '/'
+2025-10-07 10:42:13.906 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.043 +03:00 [DBG] No candidates found for the request path '/index.html'
+2025-10-07 10:42:14.044 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.114 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-07 10:42:14.116 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-07 10:42:14.124 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-07 10:42:14.125 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-07 10:42:14.214 +03:00 [DBG] No candidates found for the request path '/index.css'
+2025-10-07 10:42:14.214 +03:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-10-07 10:42:14.214 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.214 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.215 +03:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-10-07 10:42:14.215 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.217 +03:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-10-07 10:42:14.217 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.217 +03:00 [DBG] No candidates found for the request path '/index.js'
+2025-10-07 10:42:14.217 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.225 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-07 10:42:14.616 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-07 10:42:14.616 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:42:14.656 +03:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-10-07 10:42:14.656 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 10:44:26.858 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" is closing.
+2025-10-07 10:44:26.862 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" is closed. The last processed stream ID was 21.
+2025-10-07 10:44:26.863 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" received FIN.
+2025-10-07 10:44:26.864 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 10:44:26.869 +03:00 [DBG] The connection queue processing loop for 0HNG5EK3SLMS6 completed.
+2025-10-07 10:44:26.870 +03:00 [DBG] Connection id "0HNG5EK3SLMS6" stopped.
+2025-10-07 10:46:37.796 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" accepted.
+2025-10-07 10:46:37.796 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" started.
+2025-10-07 10:46:37.798 +03:00 [DBG] Connection 0HNG5EK3SLMS7 established using the following protocol: "Tls13"
+2025-10-07 10:46:37.805 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-07 10:46:37.805 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-07 10:46:37.811 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-07 10:46:37.841 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-07 10:46:37.841 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-07 10:46:37.841 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:46:37.841 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-07 10:46:37.841 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:46:37.842 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-07 10:46:37.849 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-07 10:46:37.852 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-07 10:46:37.854 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-07 10:46:37.855 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-07 10:46:37.860 +03:00 [DBG] Connection id "0HNG5EK3SLMS7", Request id "0HNG5EK3SLMS7:00000001": started reading request body.
+2025-10-07 10:46:37.860 +03:00 [DBG] Connection id "0HNG5EK3SLMS7", Request id "0HNG5EK3SLMS7:00000001": done reading request body.
+2025-10-07 10:46:37.863 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-07 10:46:37.863 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:37.863 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:37.863 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-07 10:46:37.868 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:47.700 +03:00 [DBG] 1 candidate(s) found for the request path '/api/StripePayment/StripePayment'
+2025-10-07 10:46:47.700 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)' with route pattern 'api/StripePayment/StripePayment' is valid for the request path '/api/StripePayment/StripePayment'
+2025-10-07 10:46:47.700 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-07 10:46:47.702 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-07 10:46:47.702 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-07 10:46:47.702 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:46:47.702 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-07 10:46:47.702 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:46:47.702 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-07 10:46:47.702 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API)
+2025-10-07 10:46:47.702 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-07 10:46:47.702 +03:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' using the name '' in request data ...
+2025-10-07 10:46:47.702 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-07 10:46:47.703 +03:00 [DBG] Connection id "0HNG5EK3SLMS7", Request id "0HNG5EK3SLMS7:00000003": started reading request body.
+2025-10-07 10:46:47.703 +03:00 [DBG] Connection id "0HNG5EK3SLMS7", Request id "0HNG5EK3SLMS7:00000003": done reading request body.
+2025-10-07 10:46:47.703 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'
+2025-10-07 10:46:47.703 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:47.703 +03:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:47.703 +03:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand' ...
+2025-10-07 10:46:47.703 +03:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand'.
+2025-10-07 10:46:48.217 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-07 10:46:48.218 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-07 10:46:48.219 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-07 10:46:48.219 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-07 10:46:48.219 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-07 10:46:48.219 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-07 10:47:07.428 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" received FIN.
+2025-10-07 10:47:07.428 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" is closed. The last processed stream ID was 3.
+2025-10-07 10:47:07.428 +03:00 [DBG] The connection queue processing loop for 0HNG5EK3SLMS7 completed.
+2025-10-07 10:47:07.428 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 10:47:07.434 +03:00 [DBG] Connection id "0HNG5EK3SLMS7" stopped.
+2025-10-07 10:47:28.091 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" accepted.
+2025-10-07 10:47:28.091 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" started.
+2025-10-07 10:47:28.093 +03:00 [DBG] Connection 0HNG5EK3SLMS8 established using the following protocol: "Tls13"
+2025-10-07 10:47:28.094 +03:00 [DBG] 1 candidate(s) found for the request path '/api/PayPal/GetToken'
+2025-10-07 10:47:28.094 +03:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)' with route pattern 'api/PayPal/GetToken' is valid for the request path '/api/PayPal/GetToken'
+2025-10-07 10:47:28.095 +03:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-07 10:47:28.107 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-10-07 10:47:28.107 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-10-07 10:47:28.107 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:47:28.107 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-10-07 10:47:28.107 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-10-07 10:47:28.107 +03:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-07 10:47:28.111 +03:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API)
+2025-10-07 10:47:29.075 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-10-07 10:47:29.075 +03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-10-07 10:47:29.075 +03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-10-07 10:47:29.075 +03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-07 10:47:29.075 +03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-07 10:47:29.075 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-07 10:49:28.127 +03:00 [DBG] HttpMessageHandler expired after 120000ms for client 'PayPal'
+2025-10-07 10:49:38.127 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:49:38.129 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0141ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:49:40.937 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" is closing.
+2025-10-07 10:49:40.937 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" is closed. The last processed stream ID was 1.
+2025-10-07 10:49:40.939 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" received FIN.
+2025-10-07 10:49:40.939 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 10:49:40.956 +03:00 [DBG] The connection queue processing loop for 0HNG5EK3SLMS8 completed.
+2025-10-07 10:49:40.957 +03:00 [DBG] Connection id "0HNG5EK3SLMS8" stopped.
+2025-10-07 10:49:48.123 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:49:48.123 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0058ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:49:58.125 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:49:58.125 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0052ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:08.140 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:08.141 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.2246ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:18.156 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:18.156 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0064ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:28.169 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:28.169 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1063ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:38.185 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:38.185 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:48.186 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:48.186 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:50:58.201 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:50:58.201 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0055ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:08.202 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:08.202 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.009ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:18.202 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:18.202 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:28.224 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:28.224 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:38.225 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:38.225 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0106ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:48.228 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:48.228 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:51:58.231 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:51:58.231 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:08.236 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:08.236 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:18.249 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:18.250 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:28.263 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:28.264 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:38.264 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:38.264 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:48.274 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:48.274 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0053ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:52:58.275 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:52:58.275 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:08.291 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:08.291 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0044ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:18.296 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:18.297 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:28.309 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:28.309 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:38.310 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:38.311 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:48.324 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:48.325 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:53:58.341 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:53:58.342 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0067ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:08.343 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:08.343 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:18.356 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:18.356 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:28.358 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:28.359 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:38.365 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:38.365 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0077ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:48.376 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:48.376 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:54:58.391 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:54:58.391 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:08.397 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:08.397 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:18.405 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:18.405 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:28.408 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:28.408 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:38.420 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:38.420 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:48.435 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:48.435 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:55:58.441 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:55:58.441 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:56:08.446 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:56:08.446 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-10-07 10:56:18.460 +03:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-10-07 10:56:18.461 +03:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.4233ms - processed: 1 items - remaining: 0 items
+2025-10-07 11:12:19.802 +03:00 [DBG] Connection id "0HNG5EK3SLMS9" received FIN.
+2025-10-07 11:12:19.802 +03:00 [DBG] Connection id "0HNG5EK3SLMS9" accepted.
+2025-10-07 11:12:19.802 +03:00 [DBG] Connection id "0HNG5EK3SLMS9" started.
+2025-10-07 11:12:19.803 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-10-07 11:12:19.803 +03:00 [DBG] Connection id "0HNG5EK3SLMS9" stopped.
+2025-10-07 11:12:19.803 +03:00 [DBG] Connection id "0HNG5EK3SLMS9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 11:12:19.831 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" accepted.
+2025-10-07 11:12:19.831 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" started.
+2025-10-07 11:12:19.835 +03:00 [DBG] Connection 0HNG5EK3SLMSA established using the following protocol: "Tls13"
+2025-10-07 11:12:19.840 +03:00 [DBG] No candidates found for the request path '/index.html'
+2025-10-07 11:12:19.840 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 11:12:19.841 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-07 11:12:19.841 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-07 11:12:19.841 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-07 11:12:19.841 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-07 11:12:19.889 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-07 11:12:20.108 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-07 11:12:20.108 +03:00 [DBG] Request did not match any endpoints
+2025-10-07 11:14:32.248 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" is closing.
+2025-10-07 11:14:32.249 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" is closed. The last processed stream ID was 7.
+2025-10-07 11:14:32.249 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" received FIN.
+2025-10-07 11:14:32.250 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-07 11:14:32.265 +03:00 [DBG] The connection queue processing loop for 0HNG5EK3SLMSA completed.
+2025-10-07 11:14:32.265 +03:00 [DBG] Connection id "0HNG5EK3SLMSA" stopped.
