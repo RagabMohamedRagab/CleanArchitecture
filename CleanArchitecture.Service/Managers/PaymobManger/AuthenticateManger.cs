@@ -28,7 +28,7 @@ namespace CleanArchitecture.Service.Managers.PaymobManger
                 using var doc = JsonDocument.Parse(result);
 
                 var token = doc.RootElement.GetProperty("token").GetString();
-                return new ResponseResult<string>() {  Entity=token,IsSuccessed=true,Message=MessageService.Sucess};
+                return new ResponseResult<string>() {  Entity=token,IsSuccessed=true,Message=MessageService.Sucess,Status=System.Net.HttpStatusCode.OK};
             }
             throw new BusineesException(MessageService.Token_Failed_To_Get.ToString());
 

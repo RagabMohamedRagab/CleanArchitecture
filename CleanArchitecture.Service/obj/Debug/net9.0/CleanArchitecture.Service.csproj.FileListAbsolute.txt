@@ -36,3 +36,4 @@ C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitec
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Service\obj\Debug\net9.0\refint\CleanArchitecture.Service.dll
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Service\obj\Debug\net9.0\CleanArchitecture.Service.pdb
 C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Service\obj\Debug\net9.0\ref\CleanArchitecture.Service.dll
+C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.Service\bin\Debug\net9.0\en\CleanArchitecture.Resources.resources.dll
