@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Features\PaymobFeature\CreateOrder\Queries\" />
     <Folder Include="Features\PayPalFeatures\CreateOrder\Queries\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>

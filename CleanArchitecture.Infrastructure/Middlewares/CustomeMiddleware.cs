@@ -40,6 +40,8 @@ namespace CleanArchitecture.Infrastructure.Middlewares
                     HttpStatusCode.InternalServerError,
                     businessEx.Message
                 ),
+                Exception expection=>CreateResponse(HttpStatusCode.NotFound,exception.Message
+                    )
 
                
             };

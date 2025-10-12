@@ -1,0 +1,9 @@
+2025-10-12 21:50:03.285 +03:00 [ERR] This is Error log
+2025-10-12 22:23:21.520 +03:00 [ERR] This is Error log
+2025-10-12 22:24:41.303 +03:00 [ERR] This is Error log
+2025-10-12 22:25:30.262 +03:00 [ERR] This is Error log
+2025-10-12 22:26:35.463 +03:00 [ERR] This is Error log
+2025-10-12 22:28:34.415 +03:00 [ERR] This is Error log
+2025-10-12 22:32:04.741 +03:00 [ERR] This is Error log
+2025-10-12 22:33:38.957 +03:00 [ERR] This is Error log
+2025-10-12 22:35:14.882 +03:00 [ERR] This is Error log

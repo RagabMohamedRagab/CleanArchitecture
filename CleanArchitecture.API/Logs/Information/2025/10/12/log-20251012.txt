@@ -1,0 +1,649 @@
+2025-10-12 18:21:00.659 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 18:21:00.731 +03:00 [INF] Creating key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with creation date 2025-10-12 15:21:00Z, activation date 2025-10-15 09:00:26Z, and expiration date 2026-01-10 15:21:00Z.
+2025-10-12 18:21:00.745 +03:00 [INF] Writing data to file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-10-12 18:21:01.075 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 18:21:01.075 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 18:21:01.149 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 18:21:01.149 +03:00 [INF] Hosting environment: Development
+2025-10-12 18:21:01.149 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 18:21:03.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-10-12 18:21:03.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 316.6628ms
+2025-10-12 18:21:03.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 18:21:04.083 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 143.5415ms
+2025-10-12 18:21:04.142 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-10-12 18:21:04.143 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-10-12 18:21:04.144 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-10-12 18:21:04.179 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 35.8841ms
+2025-10-12 18:21:04.190 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-10-12 18:21:04.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 60.1707ms
+2025-10-12 18:21:04.203 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 12.4455ms
+2025-10-12 18:21:04.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 63.1845ms
+2025-10-12 18:21:04.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-10-12 18:21:04.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 1.5277ms
+2025-10-12 18:21:04.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 18:21:04.234 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.6764ms
+2025-10-12 18:21:04.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 18:21:04.317 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.8135ms
+2025-10-12 18:21:04.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 18:21:04.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-10-12 18:21:04.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 1.5573ms
+2025-10-12 18:21:04.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 120.7295ms
+2025-10-12 18:21:24.575 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-12 18:21:24.616 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 18:21:24.644 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-12 18:21:24.671 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:21:24.794 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 18:21:24.797 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 18:21:25.654 +03:00 [INF] Received HTTP response headers after 847.2054ms - 201
+2025-10-12 18:21:25.658 +03:00 [INF] End processing HTTP request after 864.1074ms - 201
+2025-10-12 18:21:25.772 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1091.2529ms.
+2025-10-12 18:21:25.795 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-12 18:21:25.832 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 1173.383ms
+2025-10-12 18:21:25.833 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 18:21:25.837 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 1261.7578ms
+2025-10-12 18:21:36.151 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Home/Test - null null
+2025-10-12 18:21:36.161 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-10-12 18:21:36.164 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-10-12 18:21:36.164 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Home/Test - 302 0 null 12.4358ms
+2025-10-12 18:21:36.169 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/Account/Login?ReturnUrl=%2Fapi%2FHome%2FTest - null null
+2025-10-12 18:21:36.192 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/Account/Login?ReturnUrl=%2Fapi%2FHome%2FTest - 404 0 null 23.2145ms
+2025-10-12 18:21:36.192 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/Account/Login, Response status code: 404
+2025-10-12 18:21:47.930 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - null null
+2025-10-12 18:21:47.932 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-12 18:21:47.958 +03:00 [INF] Route matched with {action = "GetToken", controller = "PayPal"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token]] GetToken() on controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API).
+2025-10-12 18:21:47.979 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:21:47.982 +03:00 [INF] Start processing HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-12 18:21:47.983 +03:00 [INF] Sending HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-12 18:21:49.019 +03:00 [INF] Received HTTP response headers after 1036.3695ms - 200
+2025-10-12 18:21:49.020 +03:00 [INF] End processing HTTP request after 1038.0029ms - 200
+2025-10-12 18:21:49.030 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1051.2198ms.
+2025-10-12 18:21:49.031 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Token'.
+2025-10-12 18:21:49.035 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API) in 1075.6264ms
+2025-10-12 18:21:49.035 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.GetToken (CleanArchitecture.API)'
+2025-10-12 18:21:49.035 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/PayPal/GetToken - 200 null application/json; charset=utf-8 1104.6345ms
+2025-10-12 18:22:22.896 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Accounts/Authenticate - application/json 74
+2025-10-12 18:22:22.897 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v1.AccountsController.Authenticate (CleanArchitecture.API)'
+2025-10-12 18:22:22.911 +03:00 [INF] Route matched with {action = "Authenticate", controller = "Accounts"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[CleanArchitecture.Service.Dtos.AuthDtos.ResponseAuthenticatedDto]] Authenticate(CleanArchitecture.Service.Dtos.AuthDtos.LoginDto) on controller CleanArchitecture.API.Controllers.v1.AccountsController (CleanArchitecture.API).
+2025-10-12 18:22:23.280 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v1.AccountsController.Authenticate (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:22:27.493 +03:00 [INF] Executed DbCommand (302ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2025-10-12 18:22:28.270 +03:00 [INF] Executed DbCommand (212ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2025-10-12 18:22:28.875 +03:00 [INF] Executed DbCommand (534ms) [Parameters=[@__userId_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2025-10-12 18:22:28.887 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-10-12 18:22:31.008 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v1.AccountsController.Authenticate (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7728.153ms.
+2025-10-12 18:22:31.009 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[CleanArchitecture.Service.Dtos.AuthDtos.ResponseAuthenticatedDto, CleanArchitecture.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-12 18:22:31.016 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v1.AccountsController.Authenticate (CleanArchitecture.API) in 8104.623ms
+2025-10-12 18:22:31.016 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v1.AccountsController.Authenticate (CleanArchitecture.API)'
+2025-10-12 18:22:31.037 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Accounts/Authenticate - 200 null application/json; charset=utf-8 8140.5817ms
+2025-10-12 18:23:45.689 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/PayPal/CreateOrder/CreatePayPalOrder - application/json 1392
+2025-10-12 18:23:45.720 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.CreateOrder (CleanArchitecture.API)'
+2025-10-12 18:23:45.726 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "PayPal"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Order.PayPalOrderResponse]]] CreateOrder(CleanArchitecture.Service.Features.PayPalFeatures.CreateOrder.Commands.CreateOrderCommand) on controller CleanArchitecture.API.Controllers.v2.PayPalController (CleanArchitecture.API).
+2025-10-12 18:23:45.772 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PayPalController.CreateOrder (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:23:45.779 +03:00 [INF] Start processing HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-12 18:23:45.779 +03:00 [INF] Sending HTTP request POST https://api-m.sandbox.paypal.com/v1/oauth2/token
+2025-10-12 18:23:46.260 +03:00 [INF] Received HTTP response headers after 480.4489ms - 200
+2025-10-12 18:23:46.260 +03:00 [INF] End processing HTTP request after 481.3468ms - 200
+2025-10-12 18:23:46.277 +03:00 [INF] Start processing HTTP request POST https://api-m.sandbox.paypal.com/v2/checkout/orders
+2025-10-12 18:23:46.278 +03:00 [INF] Sending HTTP request POST https://api-m.sandbox.paypal.com/v2/checkout/orders
+2025-10-12 18:23:47.586 +03:00 [INF] Received HTTP response headers after 1307.9615ms - 200
+2025-10-12 18:23:47.587 +03:00 [INF] End processing HTTP request after 1309.6228ms - 200
+2025-10-12 18:23:47.602 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PayPalController.CreateOrder (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1829.9839ms.
+2025-10-12 18:23:47.604 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay.Order.PayPalOrderResponse, CleanArchitecture.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-12 18:23:47.614 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PayPalController.CreateOrder (CleanArchitecture.API) in 1886.7094ms
+2025-10-12 18:23:47.614 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PayPalController.CreateOrder (CleanArchitecture.API)'
+2025-10-12 18:23:47.615 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/PayPal/CreateOrder/CreatePayPalOrder - 200 null application/json; charset=utf-8 1925.2674ms
+2025-10-12 18:24:19.424 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 165
+2025-10-12 18:24:19.428 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:24:19.432 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 18:24:19.453 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-10-12 18:24:19.476 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 44.1639ms
+2025-10-12 18:24:19.476 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:24:19.477 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 400 null application/problem+json; charset=utf-8 52.2419ms
+2025-10-12 18:24:48.603 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 162
+2025-10-12 18:24:48.617 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:24:48.617 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 18:24:48.619 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:24:49.760 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 1141.9784ms
+2025-10-12 18:24:49.760 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:24:49.911 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 500 null text/plain; charset=utf-8 1308.3928ms
+2025-10-12 18:26:32.277 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 18:26:32.449 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 18:26:32.449 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 18:26:32.537 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 18:26:32.537 +03:00 [INF] Hosting environment: Development
+2025-10-12 18:26:32.538 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 18:27:23.324 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 18:27:23.890 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 18:27:23.890 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 18:27:24.069 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 18:27:24.069 +03:00 [INF] Hosting environment: Development
+2025-10-12 18:27:24.069 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 18:27:25.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 18:27:25.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 18:27:25.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 34.3501ms
+2025-10-12 18:27:25.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 18:27:25.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.1039ms
+2025-10-12 18:27:25.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.2604ms
+2025-10-12 18:27:26.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 18:27:26.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 18:27:26.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 182.3356ms
+2025-10-12 18:27:26.401 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 133.6531ms
+2025-10-12 18:27:56.890 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 162
+2025-10-12 18:27:56.991 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:27:57.045 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 18:27:57.130 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 18:28:17.374 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 20314.7828ms
+2025-10-12 18:28:17.376 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 18:28:24.435 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 404 null application/json; charset=utf-8 27544.7941ms
+2025-10-12 20:46:33.479 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 20:46:33.769 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 20:46:33.770 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 20:46:33.817 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 20:46:33.817 +03:00 [INF] Hosting environment: Development
+2025-10-12 20:46:33.818 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 20:46:35.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 20:46:35.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 20:46:35.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 47.8051ms
+2025-10-12 20:46:35.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 20:46:35.218 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.9195ms
+2025-10-12 20:46:35.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 88.6015ms
+2025-10-12 20:46:35.292 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 20:46:35.395 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 20:46:35.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 103.7591ms
+2025-10-12 20:46:35.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.9956ms
+2025-10-12 21:05:09.327 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 162
+2025-10-12 21:05:09.383 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:05:09.399 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 21:05:09.432 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:05:14.826 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 5421.888ms
+2025-10-12 21:05:14.826 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:05:38.776 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 404 null application/json; charset=utf-8 29448.6598ms
+2025-10-12 21:05:59.332 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 176
+2025-10-12 21:05:59.409 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:05:59.409 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 21:05:59.411 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:06:02.165 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 2755.6431ms
+2025-10-12 21:06:02.165 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:06:06.108 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 404 null application/json; charset=utf-8 6775.8236ms
+2025-10-12 21:06:20.579 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - application/json 165
+2025-10-12 21:06:20.582 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:06:20.582 +03:00 [INF] Route matched with {action = "StripePayment", controller = "StripePayment"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[Stripe.Checkout.Session]]] StripePayment(CleanArchitecture.Service.Features.StripePaymentFeature.Commands.StripePaymentCommand) on controller CleanArchitecture.API.Controllers.v2.StripePaymentController (CleanArchitecture.API).
+2025-10-12 21:06:20.583 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:06:21.124 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 538.736ms.
+2025-10-12 21:06:21.129 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[Stripe.Checkout.Session, Stripe.net, Version=48.6.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-12 21:06:21.206 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API) in 623.6931ms
+2025-10-12 21:06:21.206 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.StripePaymentController.StripePayment (CleanArchitecture.API)'
+2025-10-12 21:06:21.206 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/StripePayment/StripePayment - 200 null application/json; charset=utf-8 626.4709ms
+2025-10-12 21:49:59.960 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 21:50:00.138 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 21:50:00.138 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 21:50:00.193 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 21:50:00.193 +03:00 [INF] Hosting environment: Development
+2025-10-12 21:50:00.193 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 21:50:01.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 21:50:01.734 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 21:50:01.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 11.4872ms
+2025-10-12 21:50:01.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.9073ms
+2025-10-12 21:50:01.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 21:50:01.948 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 112.9358ms
+2025-10-12 21:50:31.096 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-12 21:50:31.125 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:50:31.133 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-12 21:50:31.143 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:50:31.150 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:50:31.152 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:50:31.995 +03:00 [INF] Received HTTP response headers after 840.7552ms - 201
+2025-10-12 21:50:31.996 +03:00 [INF] End processing HTTP request after 846.5959ms - 201
+2025-10-12 21:50:32.003 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 856.7322ms.
+2025-10-12 21:50:32.008 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-12 21:50:32.015 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 877.1664ms
+2025-10-12 21:50:32.016 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:50:32.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 920.5646ms
+2025-10-12 21:56:05.670 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - application/json 56
+2025-10-12 21:56:05.678 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:56:05.678 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-12 21:56:05.694 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:56:05.694 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:56:05.694 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:56:06.294 +03:00 [INF] Received HTTP response headers after 599.2898ms - 201
+2025-10-12 21:56:06.294 +03:00 [INF] End processing HTTP request after 599.786ms - 201
+2025-10-12 21:56:06.333 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 638.9909ms.
+2025-10-12 21:56:06.334 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-12 21:56:06.335 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 642.1154ms
+2025-10-12 21:56:06.335 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:56:06.335 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 664.8109ms
+2025-10-12 21:59:51.995 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - null null
+2025-10-12 21:59:51.997 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:59:51.997 +03:00 [INF] Route matched with {action = "GetAccessToken", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetAccessToken() on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-12 21:59:51.998 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 21:59:51.998 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:59:51.998 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 21:59:52.740 +03:00 [INF] Received HTTP response headers after 741.1116ms - 201
+2025-10-12 21:59:52.740 +03:00 [INF] End processing HTTP request after 741.6516ms - 201
+2025-10-12 21:59:52.740 +03:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 742.0579ms.
+2025-10-12 21:59:52.741 +03:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-12 21:59:52.742 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API) in 744.4804ms
+2025-10-12 21:59:52.742 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.GetAccessToken (CleanArchitecture.API)'
+2025-10-12 21:59:52.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Paymob/GetAccessToken - 200 null application/json; charset=utf-8 747.4715ms
+2025-10-12 22:06:59.464 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:06:59.584 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:06:59.584 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:06:59.624 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:06:59.624 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:06:59.625 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:06:59.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:06:59.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 139.2145ms
+2025-10-12 22:07:00.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:07:00.001 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:07:00.006 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.192ms
+2025-10-12 22:07:00.022 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6125ms
+2025-10-12 22:07:00.105 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:07:00.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.0389ms
+2025-10-12 22:07:48.389 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:07:48.503 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:07:48.503 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:07:48.544 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:07:48.544 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:07:48.544 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:07:48.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:07:49.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 169.2509ms
+2025-10-12 22:07:49.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:07:49.050 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:07:49.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 4.7468ms
+2025-10-12 22:07:49.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.6961ms
+2025-10-12 22:07:49.120 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:07:49.174 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.8273ms
+2025-10-12 22:08:59.543 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:08:59.661 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:08:59.662 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:08:59.719 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:08:59.720 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:08:59.720 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:08:59.925 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:09:00.066 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 142.3112ms
+2025-10-12 22:09:00.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:09:00.099 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:09:00.105 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 6.4767ms
+2025-10-12 22:09:00.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3695ms
+2025-10-12 22:09:00.173 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:09:00.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.7422ms
+2025-10-12 22:10:34.498 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:10:34.604 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:10:34.604 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:10:34.655 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:10:34.656 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:10:34.656 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:10:34.948 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:10:35.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 115.7041ms
+2025-10-12 22:10:35.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:10:35.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:10:35.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 8.5625ms
+2025-10-12 22:10:35.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.581ms
+2025-10-12 22:10:35.188 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:10:35.244 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 56.1783ms
+2025-10-12 22:13:00.101 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:13:00.215 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:13:00.215 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:13:00.255 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:13:00.255 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:13:00.255 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:13:00.590 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:13:00.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 148.7981ms
+2025-10-12 22:13:00.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:13:00.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:13:00.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.913ms
+2025-10-12 22:13:00.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.5935ms
+2025-10-12 22:13:00.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:13:00.895 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.5375ms
+2025-10-12 22:14:17.980 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:14:18.108 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:14:18.108 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:14:18.171 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:14:18.171 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:14:18.171 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:14:18.461 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:14:18.591 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 132.2102ms
+2025-10-12 22:14:18.628 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:14:18.628 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:14:18.639 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 10.3726ms
+2025-10-12 22:14:18.659 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.5958ms
+2025-10-12 22:14:18.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:14:18.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 66.2634ms
+2025-10-12 22:16:05.774 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:16:05.883 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:16:05.884 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:16:05.929 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:16:05.929 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:16:05.930 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:16:06.248 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:16:06.386 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 138.018ms
+2025-10-12 22:16:06.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:16:06.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:16:06.422 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 7.5027ms
+2025-10-12 22:16:06.437 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0154ms
+2025-10-12 22:16:06.493 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:16:06.545 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.2556ms
+2025-10-12 22:16:22.584 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:16:22.688 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:16:22.688 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:16:22.727 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:16:22.727 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:16:22.727 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:16:23.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:16:23.181 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 120.2849ms
+2025-10-12 22:16:23.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:16:23.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:16:23.206 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.0595ms
+2025-10-12 22:16:23.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.8133ms
+2025-10-12 22:16:23.263 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:16:23.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 50.7131ms
+2025-10-12 22:17:32.132 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:17:32.239 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:17:32.239 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:17:32.279 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:17:32.279 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:17:32.279 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:17:32.609 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:17:32.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 117.7618ms
+2025-10-12 22:17:32.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:17:32.758 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:17:32.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 4.5803ms
+2025-10-12 22:17:32.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0001ms
+2025-10-12 22:17:33.021 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:17:33.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 59.1679ms
+2025-10-12 22:17:39.023 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:17:39.135 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:17:39.135 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:17:39.179 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:17:39.179 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:17:39.179 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:17:39.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:17:39.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 125.7842ms
+2025-10-12 22:17:39.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:17:39.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:17:39.554 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.8207ms
+2025-10-12 22:17:39.576 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.5272ms
+2025-10-12 22:17:39.657 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:17:39.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 53.2765ms
+2025-10-12 22:17:44.031 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:17:44.151 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:17:44.151 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:17:44.193 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:17:44.193 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:17:44.193 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:17:44.422 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:17:44.540 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 119.4207ms
+2025-10-12 22:17:44.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:17:44.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:17:44.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.2029ms
+2025-10-12 22:17:44.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3632ms
+2025-10-12 22:17:44.634 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:17:44.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.6067ms
+2025-10-12 22:17:52.837 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:17:52.957 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:17:52.957 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:17:53.002 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:17:53.003 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:17:53.003 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:17:53.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:17:53.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 139.1952ms
+2025-10-12 22:17:53.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:17:53.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:17:53.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 6.3026ms
+2025-10-12 22:17:53.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.2192ms
+2025-10-12 22:17:53.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:17:53.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 48.7924ms
+2025-10-12 22:17:58.991 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:17:59.100 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:17:59.100 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:17:59.142 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:17:59.142 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:17:59.142 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:17:59.415 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:17:59.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 130.3528ms
+2025-10-12 22:17:59.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:17:59.573 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:17:59.578 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 4.9937ms
+2025-10-12 22:17:59.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.0778ms
+2025-10-12 22:17:59.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:17:59.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 55.3054ms
+2025-10-12 22:18:37.994 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:18:38.115 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:18:38.115 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:18:38.159 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:18:38.159 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:18:38.159 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:18:38.428 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:18:38.555 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 128.3295ms
+2025-10-12 22:18:38.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:18:38.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:18:38.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 6.8748ms
+2025-10-12 22:18:38.604 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.3745ms
+2025-10-12 22:18:38.663 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:18:38.715 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 52.7174ms
+2025-10-12 22:20:19.092 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:20:19.234 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:20:19.234 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:20:19.291 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:20:19.291 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:20:19.291 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:20:19.427 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:20:19.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 120.2112ms
+2025-10-12 22:20:19.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:20:19.576 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:20:19.582 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.3741ms
+2025-10-12 22:20:19.599 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.1325ms
+2025-10-12 22:20:19.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:20:19.712 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 64.0277ms
+2025-10-12 22:21:01.704 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:21:01.828 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:21:01.829 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:21:01.874 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:21:01.874 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:21:01.874 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:21:02.194 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:21:02.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 140.8135ms
+2025-10-12 22:21:02.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:21:02.356 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:21:02.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 5.3505ms
+2025-10-12 22:21:02.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7868ms
+2025-10-12 22:21:02.451 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:21:02.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 61.3664ms
+2025-10-12 22:21:10.158 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:21:10.264 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:21:10.264 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:21:10.310 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:21:10.310 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:21:10.310 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:21:10.647 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-12 22:21:10.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 128.8667ms
+2025-10-12 22:21:10.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:21:10.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:21:10.811 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 7.796ms
+2025-10-12 22:21:10.827 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.2262ms
+2025-10-12 22:21:10.853 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:21:10.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 54.9799ms
+2025-10-12 22:23:19.714 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:23:20.006 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:23:20.006 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:23:20.070 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:23:20.070 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:23:20.070 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:23:20.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:23:20.393 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:23:20.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 31.1694ms
+2025-10-12 22:23:20.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 73.4185ms
+2025-10-12 22:23:20.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:23:20.586 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 87.244ms
+2025-10-12 22:24:40.049 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:24:40.173 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:24:40.173 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:24:40.219 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:24:40.219 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:24:40.219 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:24:40.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:24:40.717 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:24:40.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 8.6593ms
+2025-10-12 22:24:40.756 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.6164ms
+2025-10-12 22:24:40.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:24:40.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 66.2788ms
+2025-10-12 22:24:45.150 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-10-12 22:24:45.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 12.9515ms
+2025-10-12 22:24:45.163 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-10-12 22:24:48.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:24:48.638 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 66.0761ms
+2025-10-12 22:24:48.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:24:48.655 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:24:48.656 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.9865ms
+2025-10-12 22:24:48.668 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.3586ms
+2025-10-12 22:24:48.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon.ico - null null
+2025-10-12 22:24:48.760 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon.ico - 404 0 null 4.0641ms
+2025-10-12 22:24:48.761 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/favicon.ico, Response status code: 404
+2025-10-12 22:25:13.057 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:25:13.154 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:25:13.154 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:25:13.193 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:25:13.193 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:25:13.193 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:25:28.925 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:25:29.268 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:25:29.268 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:25:29.400 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:25:29.400 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:25:29.400 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:25:29.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:25:29.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:25:29.636 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 29.2137ms
+2025-10-12 22:25:29.686 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.1449ms
+2025-10-12 22:25:29.735 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:25:29.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 105.743ms
+2025-10-12 22:25:41.946 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-10-12 22:25:42.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 55.8417ms
+2025-10-12 22:25:42.003 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-10-12 22:25:44.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:25:44.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 85.8035ms
+2025-10-12 22:25:44.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:25:44.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:25:44.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.9317ms
+2025-10-12 22:25:44.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7269ms
+2025-10-12 22:26:33.863 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:26:33.980 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:26:33.980 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:26:34.028 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:26:34.028 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:26:34.028 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:26:35.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:26:35.618 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:26:35.631 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 13.7005ms
+2025-10-12 22:26:35.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:26:35.646 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 14.1378ms
+2025-10-12 22:26:35.649 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:26:35.651 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.556ms
+2025-10-12 22:26:35.679 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.8759ms
+2025-10-12 22:26:35.787 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:26:35.790 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon.ico - null null
+2025-10-12 22:26:35.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon.ico - 404 0 null 70.4564ms
+2025-10-12 22:26:35.860 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/favicon.ico, Response status code: 404
+2025-10-12 22:26:35.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 79.1518ms
+2025-10-12 22:26:35.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:26:35.879 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 11.6579ms
+2025-10-12 22:26:40.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-10-12 22:26:40.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 1.9558ms
+2025-10-12 22:26:40.398 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-10-12 22:26:43.014 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:26:43.086 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 72.7896ms
+2025-10-12 22:26:43.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:26:43.112 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:26:43.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.8483ms
+2025-10-12 22:26:43.121 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.977ms
+2025-10-12 22:32:03.637 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:32:03.866 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:32:03.866 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:32:03.917 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:32:03.917 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:32:03.917 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:32:04.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:32:04.551 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:32:04.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 29.9182ms
+2025-10-12 22:32:04.619 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 74.9739ms
+2025-10-12 22:32:04.659 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:32:04.753 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 93.8191ms
+2025-10-12 22:32:10.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-10-12 22:32:10.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 24.906ms
+2025-10-12 22:32:10.375 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-10-12 22:32:12.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:32:12.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 88.4522ms
+2025-10-12 22:32:12.760 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:32:12.761 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:32:12.761 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7191ms
+2025-10-12 22:32:12.777 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.4178ms
+2025-10-12 22:33:37.385 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:33:37.611 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:33:37.611 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:33:37.676 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:33:37.676 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:33:37.676 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:33:39.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:33:39.254 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:33:39.344 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 92.7323ms
+2025-10-12 22:33:39.394 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 144.2577ms
+2025-10-12 22:33:39.442 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:33:39.513 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 71.8558ms
+2025-10-12 22:33:43.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-10-12 22:33:43.126 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 24.8583ms
+2025-10-12 22:33:43.126 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-10-12 22:33:45.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:33:45.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/html; charset=utf-8 92.7892ms
+2025-10-12 22:33:45.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:33:45.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:33:45.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 0.7511ms
+2025-10-12 22:33:45.655 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.8764ms
+2025-10-12 22:33:45.725 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon.ico - null null
+2025-10-12 22:33:45.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon.ico - 404 0 null 0.8724ms
+2025-10-12 22:33:45.726 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/favicon.ico, Response status code: 404
+2025-10-12 22:35:13.306 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-12 22:35:13.607 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-12 22:35:13.607 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-12 22:35:13.661 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-12 22:35:13.661 +03:00 [INF] Hosting environment: Development
+2025-10-12 22:35:13.661 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-12 22:35:15.150 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-12 22:35:15.150 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:35:15.175 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 31.3421ms
+2025-10-12 22:35:15.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:35:15.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-12 22:35:15.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 7.0254ms
+2025-10-12 22:35:15.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.7303ms
+2025-10-12 22:35:15.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.8933ms
+2025-10-12 22:35:15.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:35:15.317 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon.ico - null null
+2025-10-12 22:35:15.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon.ico - 404 0 null 85.0088ms
+2025-10-12 22:35:15.402 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7250/favicon.ico, Response status code: 404
+2025-10-12 22:35:15.455 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 166.2442ms
+2025-10-12 22:35:15.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-12 22:35:15.542 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 86.4167ms
+2025-10-12 22:35:51.872 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Paymob/CreateOrder - application/json 1003
+2025-10-12 22:35:51.916 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.CreateOrder (CleanArchitecture.API)'
+2025-10-12 22:35:51.946 +03:00 [INF] Route matched with {action = "CreateOrder", controller = "Paymob"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[CleanArchitecture.Service.Features.PaymobFeature.CreateOrder.Commands.PaymobIntentionResponse]]] CreateOrder(CleanArchitecture.Service.Features.PaymobFeature.CreateOrder.Commands.CreatePaymobOrderCommand) on controller CleanArchitecture.API.Controllers.v2.PaymobController (CleanArchitecture.API).
+2025-10-12 22:35:52.009 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.PaymobController.CreateOrder (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-12 22:36:04.401 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 22:36:04.403 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/api/auth/tokens
+2025-10-12 22:36:05.686 +03:00 [INF] Received HTTP response headers after 1280.6628ms - 201
+2025-10-12 22:36:05.687 +03:00 [INF] End processing HTTP request after 1286.5149ms - 201
+2025-10-12 22:36:31.049 +03:00 [INF] Start processing HTTP request POST https://accept.paymob.com/v1/intention
+2025-10-12 22:36:31.049 +03:00 [INF] Sending HTTP request POST https://accept.paymob.com/v1/intention
+2025-10-12 22:36:31.242 +03:00 [INF] Received HTTP response headers after 192.7319ms - 401
+2025-10-12 22:36:31.242 +03:00 [INF] End processing HTTP request after 193.4418ms - 401
+2025-10-12 22:36:54.441 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.PaymobController.CreateOrder (CleanArchitecture.API) in 62488.915ms
+2025-10-12 22:36:54.442 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.PaymobController.CreateOrder (CleanArchitecture.API)'
+2025-10-12 22:36:56.670 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Paymob/CreateOrder - 500 null application/json; charset=utf-8 64798.2146ms
