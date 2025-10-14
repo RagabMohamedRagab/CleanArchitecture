@@ -13,6 +13,6 @@ namespace CleanArchitecture.Service.Dtos.FireBaseDtos
         public string? ProjectId { get; set; }
         public string? ProjectNumber { get; set; }
         public string? GlobalScope { get; set; }
-        public string? PushNotificationScope { get; set; }
+        public string? AuthScope { get; set; }
     }
 }

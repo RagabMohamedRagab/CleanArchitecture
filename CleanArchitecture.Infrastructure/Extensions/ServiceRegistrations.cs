@@ -108,10 +108,13 @@ namespace CleanArchitecture.Infrastructure.Extensions
 
             #region FireBase
             services.Configure<FirebasePushNotifcation>(configuration.GetSection("FirebasePushNotifcation"));
-            services.AddHttpClient(ClientFactoryKey.FireBase.ToString(), option => {
+            services.AddHttpClient(ClientFactoryKey.FireBaseAuth.ToString(), option => {
                 option.BaseAddress = new Uri(configuration["FirebasePushNotifcation:GlobalScope"]!);
             });
             services.AddScoped<IFirebaseAuthenticate,FirebaseAuthenticate>();
+            services.AddHttpClient(ClientFactoryKey.FireBaseSend.ToString(), option => {
+                option.BaseAddress = new Uri($"https://fcm.googleapis.com/v1/projects/");
+            });
             #endregion
 
         }

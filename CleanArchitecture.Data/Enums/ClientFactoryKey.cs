@@ -10,6 +10,7 @@ namespace CleanArchitecture.Data.Enums
     {
         PayPal,
         Paymob,
-        FireBase
+        FireBaseAuth,
+        FireBaseSend
     }
 }

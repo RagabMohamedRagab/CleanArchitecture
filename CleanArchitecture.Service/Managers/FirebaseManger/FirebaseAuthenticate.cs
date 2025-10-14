@@ -22,7 +22,7 @@ namespace CleanArchitecture.Service.Managers.FirebaseManger
         private readonly IWebHostEnvironment _hostEnvironment =hostEnvironment;
         private readonly FirebasePushNotifcation _SettingsFirebase = options.Value;
         private readonly ILogger<FirebaseAuthenticate> _logger=logger;
-        private readonly HttpClient _httpClient = httpClientFactory.CreateClient(ClientFactoryKey.FireBase.ToString());
+        private readonly HttpClient _httpClient = httpClientFactory.CreateClient(ClientFactoryKey.FireBaseAuth.ToString());
         public async Task<ResponseResult<string>> GetAccessOAuthToken()
         {
             try {
@@ -36,7 +36,7 @@ namespace CleanArchitecture.Service.Managers.FirebaseManger
                 GoogleCredential credential;
                 using (var stream = new FileStream(fullFireBase, FileMode.Open, FileAccess.Read)) {
                     credential = GoogleCredential.FromStream(stream)
-                        .CreateScoped(_SettingsFirebase.GlobalScope);
+                        .CreateScoped(_SettingsFirebase.AuthScope);
                 }
                 
                 _logger.LogInformation($"--STEP 3: Requesting Access Token from Google OAuth--");
@@ -45,7 +45,7 @@ namespace CleanArchitecture.Service.Managers.FirebaseManger
 
                 return new ResponseResult<string>() { Entity = token, IsSuccessed = true, Message = MessageService.Sucess, Status = System.Net.HttpStatusCode.OK };
             }catch(BusineesException ex) {
-                throw new BusineesException(MessageService.Token_Failed_To_Get);
+                throw new BusineesException(ex.Message);
             }
         }
     }
