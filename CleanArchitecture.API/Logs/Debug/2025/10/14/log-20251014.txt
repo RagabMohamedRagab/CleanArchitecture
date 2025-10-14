@@ -1,0 +1,99 @@
+2025-10-14 22:32:22.504 +03:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-10-14 22:32:22.602 +03:00 [DBG] Hosting starting
+2025-10-14 22:32:22.643 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-10-14 22:32:22.648 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-10-14 22:32:22.649 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-10-14 22:32:22.649 +03:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-10-14 22:32:22.653 +03:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-10-14 22:32:22.659 +03:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-10-14 22:32:22.660 +03:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-10-14 22:32:22.660 +03:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-10-14 22:32:22.667 +03:00 [DBG] Considering key {a50b3088-be3a-45ac-b629-6e6c5e38113c} with expiration date 2025-10-15 09:00:26Z as default key.
+2025-10-14 22:32:22.673 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-14 22:32:22.675 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-14 22:32:22.687 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-14 22:32:22.692 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-14 22:32:22.693 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-14 22:32:22.694 +03:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-10-14 22:32:22.694 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-14 22:32:22.695 +03:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-10-14 22:32:22.696 +03:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-10-14 22:32:22.696 +03:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-10-14 22:32:22.696 +03:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-10-14 22:32:22.696 +03:00 [DBG] Using key {a50b3088-be3a-45ac-b629-6e6c5e38113c} as the default key.
+2025-10-14 22:32:22.697 +03:00 [DBG] Key ring with default key {a50b3088-be3a-45ac-b629-6e6c5e38113c} was loaded during application startup.
+2025-10-14 22:32:22.701 +03:00 [DBG] Middleware loaded
+2025-10-14 22:32:22.703 +03:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-10-14 22:32:22.704 +03:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-14 22:32:22.769 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-14 22:32:22.770 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-14 22:32:22.773 +03:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-14 22:32:22.861 +03:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-10-14 22:32:22.862 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-14 22:32:22.862 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-14 22:32:22.862 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-14 22:32:22.874 +03:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-14 22:32:22.875 +03:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-10-14 22:32:22.882 +03:00 [DBG] Connection id "0HNGBB1IVB5IL" accepted.
+2025-10-14 22:32:22.882 +03:00 [DBG] Connection id "0HNGBB1IVB5IM" accepted.
+2025-10-14 22:32:22.884 +03:00 [DBG] Connection id "0HNGBB1IVB5IL" started.
+2025-10-14 22:32:22.884 +03:00 [DBG] Connection id "0HNGBB1IVB5IM" started.
+2025-10-14 22:32:22.892 +03:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-10-14 22:32:22.973 +03:00 [DBG] Hosting started
+2025-10-14 22:32:24.677 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" accepted.
+2025-10-14 22:32:24.677 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" started.
+2025-10-14 22:32:24.807 +03:00 [DBG] Connection 0HNGBB1IVB5IN established using the following protocol: "Tls13"
+2025-10-14 22:32:25.257 +03:00 [DBG] No candidates found for the request path '/'
+2025-10-14 22:32:25.259 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:25.275 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" received FIN.
+2025-10-14 22:32:25.283 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" is closed. The last processed stream ID was 1.
+2025-10-14 22:32:25.284 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-14 22:32:25.300 +03:00 [DBG] The connection queue processing loop for 0HNGBB1IVB5IN completed.
+2025-10-14 22:32:25.304 +03:00 [DBG] Connection id "0HNGBB1IVB5IN" stopped.
+2025-10-14 22:32:25.827 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" accepted.
+2025-10-14 22:32:25.827 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" started.
+2025-10-14 22:32:25.833 +03:00 [DBG] Connection 0HNGBB1IVB5IO established using the following protocol: "Tls13"
+2025-10-14 22:32:25.842 +03:00 [DBG] No candidates found for the request path '/index.html'
+2025-10-14 22:32:25.842 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:25.959 +03:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-10-14 22:32:25.961 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-10-14 22:32:25.970 +03:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-10-14 22:32:25.970 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-10-14 22:32:26.043 +03:00 [DBG] No candidates found for the request path '/index.css'
+2025-10-14 22:32:26.043 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.043 +03:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-10-14 22:32:26.043 +03:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-10-14 22:32:26.044 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.046 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.115 +03:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-10-14 22:32:26.115 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.143 +03:00 [DBG] No candidates found for the request path '/index.js'
+2025-10-14 22:32:26.143 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.181 +03:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-14 22:32:26.690 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-14 22:32:26.691 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:26.709 +03:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-10-14 22:32:26.709 +03:00 [DBG] Request did not match any endpoints
+2025-10-14 22:32:27.324 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" received FIN.
+2025-10-14 22:32:27.325 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" is closed. The last processed stream ID was 19.
+2025-10-14 22:32:27.325 +03:00 [DBG] The connection queue processing loop for 0HNGBB1IVB5IO completed.
+2025-10-14 22:32:27.325 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-14 22:32:27.341 +03:00 [DBG] Connection id "0HNGBB1IVB5IO" stopped.
+2025-10-14 22:32:32.909 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-10-14 22:32:32.909 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-10-14 22:32:32.910 +03:00 [DBG] Connection id "0HNGBB1IVB5IL" stopped.
+2025-10-14 22:32:32.910 +03:00 [DBG] Connection id "0HNGBB1IVB5IM" stopped.
+2025-10-14 22:32:32.910 +03:00 [DBG] Connection id "0HNGBB1IVB5IL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-14 22:32:32.910 +03:00 [DBG] Connection id "0HNGBB1IVB5IM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-14 23:03:01.779 +03:00 [DBG] Config reload token fired. Checking for changes...
+2025-10-14 23:03:01.790 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-14 23:03:01.793 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-14 23:03:02.053 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-14 23:03:02.053 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-14 23:03:02.054 +03:00 [DBG] Config reload token fired. Checking for changes...
+2025-10-14 23:14:33.560 +03:00 [DBG] Config reload token fired. Checking for changes...
+2025-10-14 23:14:33.561 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-14 23:14:33.561 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-14 23:14:33.814 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-10-14 23:14:33.814 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-10-14 23:14:33.814 +03:00 [DBG] Config reload token fired. Checking for changes...

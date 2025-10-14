@@ -10,14 +10,17 @@ using CleanArchitecture.Infrastructure.ContextDB;
 using CleanArchitecture.Infrastructure.EmailService;
 using CleanArchitecture.Infrastructure.Repositories.Auth;
 using CleanArchitecture.Infrastructure.Repositories.GenericRepositories;
+using CleanArchitecture.Service.Dtos.FireBaseDtos;
 using CleanArchitecture.Service.Dtos.GateWay.PaymobGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.Stripe;
 using CleanArchitecture.Service.Helpers;
 using CleanArchitecture.Service.IMangers.IAuthManger;
+using CleanArchitecture.Service.IMangers.IFirebaseManager;
 using CleanArchitecture.Service.IMangers.IPaymobManger;
 using CleanArchitecture.Service.IMangers.IPayPalManager;
 using CleanArchitecture.Service.Managers.AuthService;
+using CleanArchitecture.Service.Managers.FirebaseManger;
 using CleanArchitecture.Service.Managers.PaymobManger;
 using CleanArchitecture.Service.Managers.PayPalManager;
 using MediatR;
@@ -101,6 +104,14 @@ namespace CleanArchitecture.Infrastructure.Extensions
             });
 
 
+            #endregion
+
+            #region FireBase
+            services.Configure<FirebasePushNotifcation>(configuration.GetSection("FirebasePushNotifcation"));
+            services.AddHttpClient(ClientFactoryKey.FireBase.ToString(), option => {
+                option.BaseAddress = new Uri(configuration["FirebasePushNotifcation:GlobalScope"]!);
+            });
+            services.AddScoped<IFirebaseAuthenticate,FirebaseAuthenticate>();
             #endregion
 
         }
