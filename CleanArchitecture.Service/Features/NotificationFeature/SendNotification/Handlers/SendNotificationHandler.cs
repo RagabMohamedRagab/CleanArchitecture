@@ -27,7 +27,7 @@ namespace CleanArchitecture.Service.Features.NotificationFeature.SendNotificatio
         {
             try {
                 var Token = await _firebaseAuthenticate.GetAccessOAuthToken();
-                _logger.LogInformation($"Step 1 : Get Access Token {Token}");
+                _logger.LogInformation($"Step 1 : Get Access Token {Token.Entity}");
 
                 var payload = new
                 {
@@ -86,11 +86,11 @@ namespace CleanArchitecture.Service.Features.NotificationFeature.SendNotificatio
                 _httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", Token.Entity);
 
                 var response = await _httpClient.PostAsync($"{_settingFirebase.ProjectId}/messages:send", contentBody);
-
+                
                 _logger.LogInformation($"Step 4 : Response of FireBase {response.StatusCode}");
-
+                 
                 if (response.IsSuccessStatusCode) {
-                    var result = response.Content.ReadAsStringAsync();
+                    var result =await response.Content.ReadAsStringAsync();
                     return new ResponseResult<bool>() { IsSuccessed = true, Status = response.StatusCode };
                 }
                 _logger.LogInformation($"Step 5 : Response Failed Firebase {response.StatusCode}");

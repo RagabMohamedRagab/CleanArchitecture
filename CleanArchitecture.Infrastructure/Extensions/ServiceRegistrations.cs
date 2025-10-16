@@ -115,6 +115,7 @@ namespace CleanArchitecture.Infrastructure.Extensions
             services.AddHttpClient(ClientFactoryKey.FireBaseSend.ToString(), option => {
                 option.BaseAddress = new Uri($"https://fcm.googleapis.com/v1/projects/");
             });
+
             #endregion
 
         }

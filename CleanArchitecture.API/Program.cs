@@ -3,6 +3,8 @@ using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Infrastructure.ContextDB;
 using CleanArchitecture.Infrastructure.Extensions;
 using CleanArchitecture.Infrastructure.Middlewares;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -71,6 +73,9 @@ builder.Services.AddLoggerApplication(builder);
 
 builder.Services.EnableVersion();
 builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
+FirebaseApp.Create(new AppOptions() {
+    Credential = GoogleCredential.FromFile($"{builder.Environment.WebRootPath}\\FirebaseJson\\firebase-adminsdk.json")
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
