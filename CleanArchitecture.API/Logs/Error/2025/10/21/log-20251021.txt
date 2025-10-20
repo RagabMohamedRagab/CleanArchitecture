@@ -1,0 +1,107 @@
+2025-10-21 00:15:56.668 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:15:57.329 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:15:58.151 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 00:15:58.982 +03:00 [ERR] ============================
+2025-10-21 00:25:10.246 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:25:11.457 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:25:11.470 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "Permission 'cloudmessaging.messages.create' denied on resource '//cloudresourcemanager.googleapis.com/projects/tawasol-2' (or it may not exist).",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "IAM_PERMISSION_DENIED",
+        "domain": "cloudresourcemanager.googleapis.com",
+        "metadata": {
+          "permission": "cloudmessaging.messages.create",
+          "resource": "projects/tawasol-2"
+        }
+      }
+    ]
+  }
+}
+
+2025-10-21 00:25:11.470 +03:00 [ERR] ============================
+2025-10-21 00:29:45.733 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:29:45.738 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:29:45.738 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 00:29:45.738 +03:00 [ERR] ============================
+2025-10-21 00:34:37.846 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:34:38.251 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:34:38.443 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 00:34:38.632 +03:00 [ERR] ============================
+2025-10-21 00:37:27.952 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:37:27.956 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:37:27.956 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 00:37:27.956 +03:00 [ERR] ============================
+2025-10-21 00:38:15.621 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 00:38:15.624 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 00:38:15.624 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 00:38:15.624 +03:00 [ERR] ============================

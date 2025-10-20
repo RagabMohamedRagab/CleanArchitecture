@@ -1,0 +1,361 @@
+2025-10-20 10:23:46.120 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 10:23:46.410 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 10:23:46.410 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 10:23:46.480 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 10:23:46.480 +03:00 [INF] Hosting environment: Development
+2025-10-20 10:23:46.480 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 10:23:47.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 10:23:47.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 10:23:47.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 55.6864ms
+2025-10-20 10:23:47.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 177.1232ms
+2025-10-20 10:23:47.889 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 10:23:48.112 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 223.2446ms
+2025-10-20 10:24:40.924 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 200
+2025-10-20 10:24:41.020 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2025-10-20 10:24:41.025 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 10:24:41.056 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 10:24:41.100 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 10:24:45.575 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 10:24:46.163 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 10:24:47.631 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 10:24:50.631 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0Gb3tpFq-fyGobPY5nXmlJQGjKbwRZnlE0viRaKskV6WtATx5USUGlbJQ-yNUQNxQehjfCcXn3QhIQbOPlOy6rj9tgjQ0BDce7LX7YOav4gbVP3gUoAN9zAh3QBdqX4Puc83hUO1xuxmNbZVRSjjZWFoVQHR5CJZX6ckQt3essS_jFurXsdAWyRRYqcl51SQMHrfGlYJqeSiJ_ug2Z9gS97RI6u9YRpJYjb_9NOHGozy8janU253pvjdaDc3cj0hc8Ns2mMCtbMIvrro5-3d-LIW0gfgbH2YOyzY8h-uKfrkFFCNlvNkWdCKL-MnOP0hu5Faw1SYGZ8zCXvTa9WByLoDL5ojNFmFc1m9nOUOhz_OeRv2VMx-4QG387PdVWl_F19RpnY8_puSqrvF9nU4zg5Qfsbl9wxYBb9bFjk0SgRvpxqYfJbnMsmVwu3blunBJnxZd256VO-vjqyg1I4MlSg3cJst7l-igMf8mgFM99e_1Z4naZJuSpj9qO_YmIUtSv34MSwBivJ2ui1SjhOOvp63r1X60rg7SIiShQcq9teJelMR1mbgZy2yS2-_mS2FsprJM1iruS7Vcv1q3xZpZtouOXbn8UeX5Qeh9gwqsIz4I5det0xXgu0aWbz_8wktWF62sv7YjhuXvjenYI06XZdk_7e_6yrwZzs4t44Wr6Vtkqxz46Mh8u8wJh-s0nyBg25qz-hxa3IxYyk6Jsn5etlplqtocBvmSoSubxs6_cyiB27JdleVFFFVBISOtI42JdxlOF0B6rkS8VXs1ijra_vn2zJ7pg2wikRssh6Xry-0mJOeui99qtvUfoYsrWnhqkXhVl3fjMUYZ0gYMxuS9FttXbscRvg2uYFBeZxoSixZZz4hsXM6v6i7gmr6SUwZIhF1suvxRnd9qvRXdi2bjihQgbFk74uzrhbklM4ayoQzef7Q2Xls6nUaIa_B3xrgSiUOBXOMepB1cRB75x1MQexz_pz3pV2M-86ucieIy1ll7Bhftaz
+2025-10-20 10:26:49.314 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = ggg, body = ggg }, data = { timestamp = 2025-10-20T07:26:44.7555995Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 10:26:51.479 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 10:26:54.013 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:26:54.029 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:26:54.624 +03:00 [INF] Received HTTP response headers after 586.6385ms - 403
+2025-10-20 10:26:54.627 +03:00 [INF] End processing HTTP request after 614.7789ms - 403
+2025-10-20 10:28:11.297 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 10:28:12.945 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 10:28:15.087 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 214026.6018ms
+2025-10-20 10:28:15.089 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 10:28:17.552 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 216627.7206ms
+2025-10-20 10:29:53.328 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7250/api/Notification/SendNotification - application/json 205
+2025-10-20 10:29:53.368 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 10:29:53.368 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 10:29:53.371 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 10:29:55.809 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 10:29:56.685 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 10:29:57.686 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 10:30:07.035 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GbOGWtmXQrU9_EB9L-qATvIB4KRMq9DgZGI1PiLYzurDt7dbSpA-DJ5-Kk-Llju2Oqyoyl_cxmnMPAh81fsF3NxzCNr8noiK1k_acqJW22VG3wiLD_bDWFZHcEPbO6C2Wzep5QhltUV5MXwjJD2zMA1c14s1f65j40hh1lyn9DOPX-ZG_WABgTu-qWvAQ_nNyMa5g9IcJKi77VVEeoQke1RLm7kd0fgPtwORcha84XF7fix5i08OoZPWC8JNFy4KnWLlf7In0IlUhbhEY8eLs4pZtyaMFsT-Ww0ZRAqWCTKv1mHJiXbHt5uvZRxoOBCVHIhlUQRfL-_tjRPBW9t5Fqd0DTVy1u4dZrE8GYQiIUn78bVnXZjH385A7g0k_ZS0ab9tYxFZmrpS6xRtl8zOUSzgF81mne5YOkmicB-r1WpSVt5vOJ1aB5twurIYaF8J1Ro-4akUvVeUoQQQ4YIzadB02B7-pWpbz1gzIm1bV00IXdSVyIpjf5wUXt9Jx1rx6IhehYb68a8wkFkOl9m7MnY_gvvxyMJ-i7d1v-5WB1USrJsIhmfsmbypQWm3Zsec_p3X4t88b4qY_XZzJyxVQr3xIchYlfUveWf7cz0lg1RnQ81UfmF0JXbIBdUszuVZ_b6_3gkFzUXeh_-hxVJjhz89zrwSiQzZyqYk6zz_MsR_VUoRpb51tco8l5efOWq2c0hpxmm62r5YBBludRMUzfkd_pnZY-mbUJUkzzU0ax8wngYfOQjw4rwdVd387g8x_x0IIf7f6o067x4Ol2k3YczQmjFOztWqkuptStWdrVU5J779uv_ScV6jSy7UlBnnuWnjIprYX_XQsBZjpdwqXpk3msOw4SatzbZamVS1oynt02tJu2JspYJSXxvz9aSnaU4elrcMFyzzXxbpReRxkxUcMaQdJF8OaUIBdJwhYBWi833F2-mUJ1kSRIQkY-_M84vulImhn4__yYnq2wwBZWBs7Xfm-YrSxjv76Rf-3VJyq8mfep
+2025-10-20 10:30:12.830 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = ggg, body = gg }, data = { timestamp = 2025-10-20T07:30:07.8786477Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 10:30:13.280 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 10:30:13.993 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:30:13.993 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:30:14.386 +03:00 [INF] Received HTTP response headers after 392.8655ms - 403
+2025-10-20 10:30:14.387 +03:00 [INF] End processing HTTP request after 393.4655ms - 403
+2025-10-20 10:30:15.438 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 10:30:15.438 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 10:30:17.059 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 23690.603ms
+2025-10-20 10:30:17.060 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 10:30:18.590 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 25262.8848ms
+2025-10-20 10:40:47.687 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 10:40:47.966 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 10:40:47.966 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 10:40:48.015 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 10:40:48.016 +03:00 [INF] Hosting environment: Development
+2025-10-20 10:40:48.016 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 10:40:48.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 10:40:48.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 10:40:48.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 87.591ms
+2025-10-20 10:40:48.602 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.6046ms
+2025-10-20 10:40:48.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 10:40:48.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 224.4703ms
+2025-10-20 10:40:54.787 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7250/api/Notification/SendNotification - application/json 205
+2025-10-20 10:40:54.818 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 10:40:54.834 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 10:40:54.872 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 10:40:59.060 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 10:40:59.780 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 10:41:00.707 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 10:41:02.867 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GZowpROdOP6H5eSg4fbXPs_L63mvMVgb42J3_WloOwErtJvODRsuHpiXklvoPv-l1CDOjzdiUGiP421ZsdziE_vcimaJGAOTHJZHbZaOUV10lqBXSd5IPt-2BUXdtep-9vW6DpaPxz5phDWymkAKI4JwVKERVTrcbLDrnol_U_h0lvxf2sIGJoHK7W1CAL8bzvf6e6lmU6zhbFlYnCeiOw50kj-Oa_6MUpBkd74pgFOZclq-zhb57ZvM8IT_nQ5ilF9kzHi2kYlONte1C4CsEnktpOlAn9uWu6dGsxZH7RX04DiusrH18UeOXXGSEQNT7_GhGrJyozXPVjWuKHvaQbpK0lxtoWA0_wTYVX-g5Cb5R3-mUv0G385AdZ524dt-_ut5Sldq7xXnbBflYQoYbzipUVUnloROWaYsBYYWk4mr-yZBtOnmmnpagOekyyuJubhsXfv6c2w4Xv08UBRyOs8f6c-_Xzesq4qpW2m-4I4Iohhb0FBoqZjarFJ0OB4aBiYF8XO74wd65fozcY4qZVUwwbY93UY06rVvzJ7taZd0B1R2oar3JOFv04bohRRnf9aSpdzxsus6vZnoVvOMgSsrOu3mQ3-xaBsSrzBOhntfawocZvfwwp2YwlqmZ43epy-OwXFIIW8jZdJWeZX5sgm0yW6c3S7Ov-7phMpqSF6xdJyQq4iigxwJkQWbogB8fxRfJrlYmkw738dOcrcpuMyumutdXqwBBtxWoybk4igFuqZkMqYtnFtmb-2QbsjRwcuZZQaQqr-t0l8zbpQ9-qJSs1Vp-cq6iI6tXWSV-spxc501Sea1oXqQaiz3kJzR0StqyeiyksUOvw983ul9JWjSYUaZZ65dQIJ8RZX8FwhQ1-6Yr33aimW_lqXFgpSeaIkzl3_Vw-WmmiSMrcY2VuUxql4wOdanBZxgBFFXbRvakq9UXlogef-f_9rOi98UcSaVBOz2zOahaXUmi8567OqJcUsOr0szn5q_28dlfoF4XzsWw-
+2025-10-20 10:41:05.219 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = ggg, body = gg }, data = { timestamp = 2025-10-20T07:41:03.3775387Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 10:41:06.288 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 10:41:08.304 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:41:08.305 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 10:41:08.930 +03:00 [INF] Received HTTP response headers after 622.8386ms - 403
+2025-10-20 10:41:08.931 +03:00 [INF] End processing HTTP request after 627.884ms - 403
+2025-10-20 22:24:33.015 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 22:24:33.357 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 22:24:33.357 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 22:24:33.415 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 22:24:33.415 +03:00 [INF] Hosting environment: Development
+2025-10-20 22:24:33.415 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 22:24:35.098 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-10-20 22:24:35.408 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 338.3243ms
+2025-10-20 22:24:35.615 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-20 22:24:35.685 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 69.8182ms
+2025-10-20 22:24:35.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-10-20 22:24:35.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-10-20 22:24:35.740 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-10-20 22:24:35.775 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 35.1926ms
+2025-10-20 22:24:35.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-10-20 22:24:35.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 52.0036ms
+2025-10-20 22:24:35.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 10.3863ms
+2025-10-20 22:24:35.795 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 54.0954ms
+2025-10-20 22:24:35.799 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-10-20 22:24:35.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 1.2762ms
+2025-10-20 22:24:35.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:24:35.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 22:24:35.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 4.1452ms
+2025-10-20 22:24:35.866 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 52.8185ms
+2025-10-20 22:24:36.103 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:24:36.116 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-10-20 22:24:36.117 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 1.5833ms
+2025-10-20 22:24:36.190 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.0752ms
+2025-10-20 22:26:00.084 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 22:26:00.114 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:26:00.131 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 22:26:00.174 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 22:26:02.707 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 22:26:03.526 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 22:26:04.798 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 22:26:07.478 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GYPnBNNZKIbg5VVaNdTUNpbI7jpIgrDlrxvW0-m5ldMIDsVPov48GIV7Jl1sxGX8-xxPUSYKqO-J-RRak7w-ENk9ejyUMSpIW1E3Bh5XMHUfe6jMn3u9NpYchm9lj3ZWCgDrzT8-LriKBrh3xeMNmYlFXjgikkDMUXOlj8nJxLOF2VWHP2xxjgNg9ktnq19h0c7EGH6SJLUTD6_wVyGSNXfJP4tAHjcHwBQMZAIWZgGoRoAsmzhWr83U2qgk4FEQXLPktlMuqEyk4Me9VUjIHK26-hQNR4S6bFbn7Jou_vDRXeKrPfPOwBzmOAFKa1K95xVx1taezcPkagfknR11WLS_mFouJr1CkwW1Nwy1-quSdBA2zEH384DjFVf4yiuceRpYudXp8_n0WFgVqRuV13yOwbtc0Zig2wgbgbt5vat3V2Y56R2kF7s72uylqhmJWqz6e3QogUiYjwMMVnRf8cjM1gpU-jnu9i1Yllx_jZVRpRwqlRInU23abu9let4IprrjOaXMu85qwXFxnu4FYOcBXus2o22OF9j6knttaSUdXsqo9i7bVtdk3lm4ttMubcfF4-M2Bdc7tcerYy2UVJQF0tlUO95ctRwf6h2W9Rbk-tJgJe5p1b_iBXRd7sewVIcSzt4Qef4towIR8FWJdRYmv6SYqJXR2uzf5WarzO0kiW0bv3IIgqXB1l004jnieYW2Z4drfhYbQzx0hkhctaoq3bfl1g7i391ryUhhrYtge53zYScVUm5j3Sfcjw0fZp8fda_JX6W1zcF1B4u40qcQBgvg84hQ68hzudj7mVdulfktYq34cwRosf7imXJBwknsfaf5OZd5jikdQnxgpkep8vVmtwn_BXSz9mvh1r4txphg5JBSFk8Fe9fQ4Xwem42ZdjRZosW_ioRdln70-wVhpiMZ7V_F2389_BRI2qdsU9y2MypkxeR4W3g38rt501FutI0pSj6fBrrlOepm0aV2hXpt1x-McOlQ1sZ0XUeBX7hpl-
+2025-10-20 22:26:09.650 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T19:26:07.9294639Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 22:26:10.561 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 22:26:11.077 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:26:11.078 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:26:11.419 +03:00 [INF] Received HTTP response headers after 338.2161ms - 401
+2025-10-20 22:26:11.420 +03:00 [INF] End processing HTTP request after 343.8162ms - 401
+2025-10-20 22:27:54.008 +03:00 [INF] Step 4 : Response of FireBase Unauthorized
+2025-10-20 22:27:54.913 +03:00 [INF] Step 5 : Response Failed Firebase Unauthorized
+2025-10-20 22:40:48.627 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 22:40:49.073 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 22:40:49.073 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 22:40:49.184 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 22:40:49.184 +03:00 [INF] Hosting environment: Development
+2025-10-20 22:40:49.184 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 22:40:51.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:40:51.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 22:40:51.736 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 80.6957ms
+2025-10-20 22:40:51.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:40:51.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 4.071ms
+2025-10-20 22:40:51.859 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 208.962ms
+2025-10-20 22:40:52.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:40:52.637 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 323.0872ms
+2025-10-20 22:40:52.640 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:40:52.830 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 190.3618ms
+2025-10-20 22:41:05.389 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 22:41:05.474 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:41:05.512 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 22:41:05.605 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 22:41:09.066 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 22:41:09.685 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 22:41:10.625 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 22:41:13.176 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0Gbluy2d1usFncoq6Ttrl1wSwaWfjFOmqFz7Z37Rl0rleTwjgkCpJHnAUHvQdSYYupyvsmaGrU9DGBCRKigS_zUMreyI2KP037dpfNujeVfH0R6dz699aqu6ZlZaettHVtpEZkAZRn5KbkrdkQtW8owoGOlg2hPVoGKV9XDCELfiB4OqGIZ6sotOLoXEQuJkZGBimgUM6MnBCOoQg7sBjFCxyARgHOmHKQNob-9aKvl-K3nK8lgX30QMFaRyDcGy88aM25dkfRMgJ5-ZO_PsffnXyqqCp1tbXw4FKWs8Jd59Xk4ilTRMM2RStcKkv5ZHcZExkRJ1l0ph7LRTxrzWy8NO1J93Tu842Nw5EmOSoVPCKA_XR5MjG385Pw2Fxs-IB9SrY7XvYhRRqF6v_ahZ2i8x-1c6dqcapSZm_2ZjJrclv6jJ_m0aSya3ckjcJokcY2UwVxmYkxVjXpcc-FVh5J3B9Znagws3J94X4bI4fuljn1ut6l7sMutek5uaW6a_7Q5RVtvf7a8BU4jwfpUQ0v6cYgw1Q1rth01qhIFe1mp63fYQcilqpjkel7eM_Jo7ZqjnFVdZIq-pukOkIS906S3v5hFYdqZ-Q6ps7cedgYq7RUSVfnZ3nRxsrQYBoJB80t9Udfm1988kZn9h3pRnagunsp5l34SqyhB2jt9fzt2YOgY4XURmjQ0OlrOe7juQXn9khWwruQlghB6jtvV1Mr24pYoX30UbtJjmb132V1gjifaWFW_79OoRmwwkS8tr9U3o2cVrJclgRe0iZ5gwgs71M53rcUbgIle8rqM-Qmdik7pJ9WQUikOvvs04y9wbmwsXW4i9_3IJh2rmVyoSzc9nbW0OfeaskOjyMoXJodVlB1cgo_9M4ZlkjI_FlWdz5FcZ370FXg9p2Y5YZcdJtdVgM3VpzFx0_cil8QUfd6lXIlUIgJ5XUe75-xUsQV8X2m69mp76MkMrs4g6tmUa21ewSjR3Fazv3BdwZwtt3U50s01ugpp
+2025-10-20 22:41:14.924 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T19:41:13.5601335Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 22:41:15.537 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 22:41:16.110 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:41:16.114 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:41:16.370 +03:00 [INF] Received HTTP response headers after 250.1705ms - 401
+2025-10-20 22:41:16.373 +03:00 [INF] End processing HTTP request after 263.6126ms - 401
+2025-10-20 22:41:19.893 +03:00 [INF] Step 4 : Response of FireBase Unauthorized
+2025-10-20 22:41:20.798 +03:00 [INF] Step 5 : Response Failed Firebase Unauthorized
+2025-10-20 22:41:29.670 +03:00 [INF] === Get Exception With Error -- Unauthorized 
+2025-10-20 22:41:34.001 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 28478.1562ms
+2025-10-20 22:41:34.016 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:41:36.633 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 500 null application/json; charset=utf-8 31244.4281ms
+2025-10-20 22:43:43.886 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 22:43:44.047 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 22:43:44.047 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 22:43:44.094 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 22:43:44.094 +03:00 [INF] Hosting environment: Development
+2025-10-20 22:43:44.094 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 22:43:46.108 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 22:43:46.108 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:43:46.122 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 16.1908ms
+2025-10-20 22:43:46.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:43:46.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 12.6056ms
+2025-10-20 22:43:46.168 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.1667ms
+2025-10-20 22:43:46.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:43:46.412 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:43:46.412 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.8868ms
+2025-10-20 22:43:46.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.0858ms
+2025-10-20 22:43:57.339 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 22:43:57.395 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:43:57.423 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 22:43:57.487 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 22:43:57.499 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 22:43:57.500 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 22:43:57.505 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 22:43:58.254 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GZ-riaZUn-GCk3bYVsLCq5ar4HxSo1lFBLakDawIEyeFO_t3E3Pwk2gLecHLfUIT50JoIKcTXyHCZaXDcUVMITfpwaPgwHKMpa6faiB0YPGgFHiZvICeH_qIdHaQaluHE02cQR_Suzc2rgz45ijYoXIvWvc6cjwWHepuMbR8UWGLDzMt6P6oRa927ASLVBNI4GscRlKR4RtdcgOyRtW62Z64RhkZbvy6egbi36XwoNNGkaEpxrz4W4CqWiJIwySMK6mefOjI-Twmyij6_oSDdDMqVV1v5mgcoHflpfokDue6G8Zrj9GngSAeCGM-EdMiUud00MoewQSXXsgsSaWVam2cZF0wAgXnQPhS8i2A7mrAo66LUQH384AFyJhfddlnbIOgi_glcQvRvabz7bdRhfckFag3uqSVMQoU23cYoSlq1U6ktl8W4_JbVFWXMlUrRS5Y3hwvh-v9oQjgOrW10Os0JQ3zd9OIVxd7e5WQf2z5Uf9YJyjsV74RYkU7YbR2nlOuoUXmrmzo40gQgjc7VYrx2xxVp44M487qsx8-S9tpVOp0gJ3F0SlwxotRqiaO2JoftIURdZBU9nY6smhBtc_M4r0n2wqV8h-uS9lrl9_MW5cOucmbOn7u_8x0FmO4i_sw-VMso2iZfsyI1dQjh53SdOvwIM-VVhgl_7k2wt2VXx7Qu8oqjcM5Vg4QqmcZ1UM0gpJ-9hjVnkM2oXMVyJ76hr936wRsR3q6fsduircQRmak2ItjVSq92OeUl8iY2399YMsfzgQn2qgyoU0SvRcf-2wVWv68dpd_3OFUnB_9eWtnapn28BzXbSthRUlbdhm3UYlJwb0Iex1F56q8Y_sUUbZ_aoR0v17UhusiwWnckjXVcZ_smvw_dvnFz1jpX3MxSMUUzV_iS8l0_bwsnS47qjlQ7lIn8juS3w8-wBs6yYt8XnSo56Z9s-Y-vbuqR0Jv90OtrxSXSbS313vlwRyOsZqxrw-wXUwfu3YgUJFk_i2ylX
+2025-10-20 22:43:58.274 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T19:43:58.2552605Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 22:43:58.274 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 22:43:58.276 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:43:58.279 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:43:58.502 +03:00 [INF] Received HTTP response headers after 216.7933ms - 401
+2025-10-20 22:43:58.505 +03:00 [INF] End processing HTTP request after 229.334ms - 401
+2025-10-20 22:43:58.510 +03:00 [INF] Step 4 : Response of FireBase Unauthorized
+2025-10-20 22:43:58.510 +03:00 [INF] Step 5 : Response Failed Firebase Unauthorized
+2025-10-20 22:43:58.523 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 1091.7765ms
+2025-10-20 22:43:58.524 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:43:58.538 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 500 null application/json; charset=utf-8 1199.1441ms
+2025-10-20 22:44:16.155 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 22:44:16.313 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 22:44:16.313 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 22:44:16.381 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 22:44:16.382 +03:00 [INF] Hosting environment: Development
+2025-10-20 22:44:16.382 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 22:45:45.691 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 22:45:46.106 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 22:45:46.106 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 22:45:46.186 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 22:45:46.186 +03:00 [INF] Hosting environment: Development
+2025-10-20 22:45:46.187 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 22:45:48.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:45:48.058 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 22:45:48.123 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 22:45:48.123 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 72.4769ms
+2025-10-20 22:45:48.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.1451ms
+2025-10-20 22:45:48.212 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 162.8712ms
+2025-10-20 22:45:48.283 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:45:48.485 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 22:45:48.486 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 203.1504ms
+2025-10-20 22:45:48.581 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.4093ms
+2025-10-20 22:46:00.016 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 22:46:00.121 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:46:00.158 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 22:46:00.239 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 22:46:02.354 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 22:46:02.354 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 22:46:02.360 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 22:46:03.392 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GZa9fMmBQ6Rh2jYJ_KwurLiIQQRoTW4u4A9ryt-SKX_lVJzf7E0UnYnMaQDHkr3WcxXqSZ_45lQ5ThM4_UfsdqODVZ4Qmbm1gpv3AH3zlRxpyzlmS20RyZetT7rv3D4Mwu0cIQfL8BA-fi4cOb2N-f90u3X-wTYS0t7uGJbcl1TvqEnQsYFbonQ5Z1KyYtZ2MreIFC7F_JfDdCyGtXxZ0jZhPfOBRlnN5Tjd1PRNxLWJRWLCj1uNSnx6GMeojy8z37ASO9LDAb-dECw3UrRzDC314xkBvdsH6wllGmqjVbNswNQrYRnjrIGqc5GH6mZRJNr17OL4ZhWlHml-U6RmWYyFWYi-1t1jJaUoeqR_LDi_zsxmn9XT385KkZbabyX9QxwpIevz4F1IFgWvpZBo_f6qqhthejBQJgmQB7xbizbo0hFlpJf15S3jYB9S5QFeay0k49t53zSWBQckBcy1Mz52B0gd9ymddcX_Ucy5RU_nJihS-qgRBWxgItVRy9-26JluW55veIsIQBld7J3k90rn38nM36cJgdXaI_dnJqzVUwFcd5ZIcqk0sij9vJe_yhwXq7z-RcvOb_hfMYW-_yy2X_sF0djyaF13sjm6l7XZ7XdkoeQxu5dMaqgMB55cZIsQ6SVarSRSmuhn144Wo_e9d6S1pJSB988awqJMI96BVuSukFnn1_ws7Uej6qyBqM7hUM2hVwuXRUF7i0ya3hSrJaj2lBunU-5O8k6jVxqbSzYhgqMesqrlWwMeSVWpb_gagqSQ34W-63p_wB533wcl9uxQqXi8b2bzSVd17e_dtv9XF1i69bqQQXs0p8m5iw0QlVJjszR8WF4fgoIuRub_JmkQJrcyttX90uRi3FY_opsaSg46OI-30qo7vhpJaaqjp5b33Y5M6mjQ_-21eVuMUBIhpcQW-2VJ2bw8xkqSFRWxXfvjy7u30Xsj2VWZzzIXalwRMp5Jxd6xh0hIyXYcauomppkFF2nOBJotvwzM7woso_
+2025-10-20 22:46:03.423 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T19:46:03.3928074Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 22:46:03.423 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 22:46:05.658 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:46:05.662 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 22:46:06.241 +03:00 [INF] Received HTTP response headers after 574.189ms - 403
+2025-10-20 22:46:06.243 +03:00 [INF] End processing HTTP request after 586.3082ms - 403
+2025-10-20 22:46:09.780 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 22:46:10.416 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 22:46:13.451 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 13285.2081ms
+2025-10-20 22:46:13.452 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 22:46:14.662 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 500 null application/json; charset=utf-8 14646.3005ms
+2025-10-20 23:14:20.809 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 23:14:21.226 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 23:14:21.226 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 23:14:21.321 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 23:14:21.321 +03:00 [INF] Hosting environment: Development
+2025-10-20 23:14:21.321 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 23:14:23.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 23:14:23.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:14:23.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 34.2417ms
+2025-10-20 23:14:23.359 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.2826ms
+2025-10-20 23:14:23.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:14:23.645 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 214.8009ms
+2025-10-20 23:14:51.928 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 23:14:52.006 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:14:52.044 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 23:14:52.133 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 23:14:55.063 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 23:14:55.787 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 23:14:58.058 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 23:15:06.657 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GbxFsuPBO17jMFdwzGsce1wrY4wbD6b2AoPI37zQR5-Jtjrmtf5-zgJhBrWTlYTambNSHM4L1QY0xokRoB-qzucYixC87O2AxfzRtrclrAAM7t4ffbnveVkWIV25F8cEb-yin7G3-tIVoesIqvGwXp6NP1Pg0TPSFP6x2WA9RIHv5FpBHl7p5YZp25KUAIo1fHO4-6dClmQFyAtNfY5vD3UT9-P0a8MyreVVvNWcLcb9UdQs_V0ER8V2WNoZD0xbe40xaeMgqX7kEcTHpJPtc8x8hT6vkaawlg_YdpzJnmaKlHWS0lsSZfj4wQm2Iev9joinfRsHGwYBO4_siMMChEDJc6phnYao6vvYp1o6ql72_-Sm0hOKgL387AB2h8gyu2lcZqahe6qtFYV9eoZzf4jkbgcVmj1s6F_Qncqp91qz3nOlqdRxY_6JrmBjFIrbuoiF-MludzhWe94Sb3Sc3ZUekmR1z2dIb-JrjmfmSziUxYk33cWqqt3Q_4O-RtQIx107kQ1hz-sxWMWrI4uMUy2wMMWOjySr8pi772Yyqlg7VkxwkyJ7poMkZqW-UZVcmiYMW-p_0Z3cetY-1B5Vqj2lW5yl_dlyka-USIVB_OcUazr9vZi7dSwBQdbgrF1drf8efu1cZFdh6oFs_M_u1ec1zRQybWW030bv6_S8MWW5J7VoFZv07xjob_0R2QIIvxRxyix3bxjtdiQmO7v7WWoSSjg2kSqhJ9oiXZf1I4hxo_m9ZvbBU_WegIlIgRt2jYVedyQjjk3fvcuhXsn4gkUuoqhM80biras-szZiR-XUyFzYYF5l0ysar4_90UsdMhgcxdpsX8zswhSnIyvlpUy5e5vVi22tv28qcmU5yYO9sFpb9eQRhBv4fIXqvuRYrVrfW8eOySSdxB-s-lXUygOo3jbaWsyOVQxmenOhBpag3qfncy6S0W-evdQc-zVeslM9fJ31rx_xBnYWip2b5z_4in_4hFIfcot6Ijt4rOBl7bZUqk
+2025-10-20 23:15:09.220 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T20:15:07.5563866Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 23:15:10.012 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 23:15:11.187 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:15:11.190 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:15:12.290 +03:00 [INF] Received HTTP response headers after 1093.7724ms - 403
+2025-10-20 23:15:12.292 +03:00 [INF] End processing HTTP request after 1105.9763ms - 403
+2025-10-20 23:15:23.065 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 23:15:24.033 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 23:15:25.476 +03:00 [INF] === Get Exception With Error -- Forbidden 
+2025-10-20 23:15:27.865 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 35808.5556ms
+2025-10-20 23:15:27.867 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:15:30.385 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 38456.959ms
+2025-10-20 23:18:04.759 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 224
+2025-10-20 23:18:04.814 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:18:04.815 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 23:18:04.819 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 23:18:07.377 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 23:18:07.377 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 23:18:07.385 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 23:18:07.718 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GbOBxyOObfC3P9yVoTUVT1AoXl57Vg7NZ-jxpBVDr_qbXRdUCt6BpYbgYjP-auZ18yb_d0FYYpjELRewWgUJxUExKFooc9QjKdFzlELpXSqSDRsyXUAYANdPnz1cDVihdHTF2Jq4_NszovQerC1Ye_mMBIefzbILEUwrNOTPrTGhmdW3f8ouwj8xzRfiD70Th7kYAT8Ypw-kKSkvTO6pBUpilDkEIdOkm6AXRlCkYIuJ-6Y_a-GImFXNVPGjWdBAGwBu4py_DfOrwF2UeKlRUxdyvhKmHfZs2v4TMOq33BZ968l_HWtzN9eBO9Jh89Wk4v4Sv-XT67niFNqPyH3ulNJbtinwgiXRVHewxZv2efrLJHxN4omT385DJrvI2xlqZu9fx14Oma6Mn4agq4lri9SubhaegW8Uveg9p02l210WfJ3iSs9jkxoIvj1iVnnw1cw-m0pm26tXcc5U_n7fO08aunBMwIQgw0ZetMihncidMBWwmwlcdchh9O0sq98p8zxwfIrnbbwr75b99xcgnfhdgnfMgqaXQ0Yd2k3khoBUZoSd8wOj29Jjt_ufg7892ZajlRX0vxSlpS4mzhOUn0U5k2gbMXwjVM-e--hu2n8RZi_Qbc9905gplggooU-sa1WB5XJysOqVpvw8WwhZpmujcb_OXZplvZ_7iMz6ztx4wosVVO16fMXjO9I5FFceJsg0O5VnoF8gjreotfS8wgv7QorFRqQhqtn4nFVxS5kU8oF9Y81po_aqUjjORenBlFrjWhFnUrlIdkse--ZF4_9cjdib_bhm-dX-JrxQ2J81geQ1hUumwnUuOaOau8roSkY_xxwxw8uqbchiQRbigSrl4_uSIOy1bwaxJp_94Sf8uvudqfjk2qIiw_m8xpjYmRbIV5rWwFFu8i64hWXVtz7ZRbQ_peJe9ozzqky2_5nIZY2Yg75yXFJ56vrQmb9qvRBtc8f1klWJ-tgZR-e4y8J4-WZjYgvOt4zYF7lqz5-uIgv93x
+2025-10-20 23:18:07.729 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbjjjjjjjjjjjjjjjjjjj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T20:18:07.7184440Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 23:18:07.729 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 23:18:09.966 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:18:09.967 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:18:11.867 +03:00 [INF] Received HTTP response headers after 1900.4218ms - 404
+2025-10-20 23:18:11.868 +03:00 [INF] End processing HTTP request after 1901.6147ms - 404
+2025-10-20 23:18:19.425 +03:00 [INF] Step 4 : Response of FireBase NotFound
+2025-10-20 23:18:19.425 +03:00 [INF] Step 5 : Response Failed Firebase NotFound
+2025-10-20 23:18:19.472 +03:00 [INF] === Get Exception With Error -- Not Found 
+2025-10-20 23:18:20.697 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 15881.4971ms
+2025-10-20 23:18:20.698 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:18:21.907 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 17147.4548ms
+2025-10-20 23:26:14.576 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 222
+2025-10-20 23:26:14.602 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:26:14.602 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 23:26:14.606 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 23:26:17.346 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 23:26:18.040 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 23:26:19.094 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 23:26:22.391 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GZ5PtoLfq_2vtCq9CEpSeyZ85HO0xDJeNVS9C5TRzF0R6Zii0nAvP0bQxqEBh0xGcB2y9ryxDbgPxzIp3tNHaukxPea6gP7IDq2WoopcyF4gx-3rrHOeYPiQOCFG8NQMDIGYVV2_NaRSZ4Au9XO9LcOjVfoiyBqqjoR36c8TwKUGthawbMtKkBQW5vwW6UPVG-t3fd60tT7J7dCBfdPagNaCdKIneyfqMxBzk-tE7ESu9T45HfsT5MoTyy7iYCa3hFXwjAGlcTAYZUv5qeA6UNBKhdlm7LfC185HcuOqbZ4joiY7DFHg-1d9y2mRZHl6VJFYFtv9dyI6Rz2qnTdTnp0rjxBX3L9oIAO03dIA4bSYBjLN6zjzQN387KFpurJUmsyvuhOQWuRhWIgQkS46tkYhSu0Iuoy1kOQkmMXdQY88oQbp6R2ZstXonWVi10uBFkW8lQYgba_FIBhF4uyqga08RkS5UzztonRchiymdj2_91beURUOg78krY2m6Q-WVVpp_7Sn2x2Xcto8F84ia20VomhdfhSMhqyodifaFedV4a30V3nj98pvgw2i0zmii1Q4X_B7OpdrpfSr3YOpUbrOY35vMuVi_tBJUnUWgpty08i1o4Z4jidzMg5_dOZu_chB0boc6jIOZvjOp5x-UB276hbR440a6SBSidbzynXaw_W13rMIW-0ajOtMOI3F4cbBx-XbB4vi5QXBbyWq28S6cV_6uIb4OotfqI-bbZp6kpQwW4MBnhBzzjMknaqqJcmnFMpQM3jB8p5bM3xyXXSt1IWlkRfp9uM1n0grynylSjQ18wMU-uqwJQ6bxI2pS9lwQr5htfrU9p982IUOJUuox9RqasxlcVjSOg0w0mQ8utngRqdOm01zwwulOmk4XjdB4cezBgY8aic3wUnnOsfOfXQ_Ucj9kXI5wMfaiYwcjcI2UJgsygiyq6nRF61oYUXFh-rVZ4u9ZsOisdn_fvm_XeMmjhccWflnWwtwRytk0iM3qi
+2025-10-20 23:26:24.468 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = اهلا و سهلا, body = مرحب }, data = { timestamp = 2025-10-20T20:26:22.9404420Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 23:26:25.224 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 23:26:26.581 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:26:26.581 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:26:27.149 +03:00 [INF] Received HTTP response headers after 567.7193ms - 403
+2025-10-20 23:26:27.149 +03:00 [INF] End processing HTTP request after 568.7479ms - 403
+2025-10-20 23:26:40.647 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 23:26:41.940 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 23:26:41.983 +03:00 [INF] === Get Exception With Error -- Forbidden 
+2025-10-20 23:26:46.126 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 31523.263ms
+2025-10-20 23:26:46.127 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:26:47.323 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 32747.954ms
+2025-10-20 23:33:09.421 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 23:33:09.807 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 23:33:09.807 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 23:33:09.935 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 23:33:09.935 +03:00 [INF] Hosting environment: Development
+2025-10-20 23:33:09.936 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 23:33:11.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:33:11.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 23:33:12.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 49.8876ms
+2025-10-20 23:33:12.006 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:33:12.010 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.7852ms
+2025-10-20 23:33:12.073 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 119.7054ms
+2025-10-20 23:33:12.130 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:33:12.377 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:33:12.378 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 247.6546ms
+2025-10-20 23:33:12.508 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 131.3115ms
+2025-10-20 23:34:20.650 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 206
+2025-10-20 23:34:20.715 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:34:20.744 +03:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-10-20 23:34:20.828 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-10-20 23:34:23.784 +03:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-10-20 23:34:24.373 +03:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-10-20 23:34:25.870 +03:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-10-20 23:34:32.057 +03:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GaQaznRcLvYQS6pmHqF-leYDxoVHrwmWDFXmsQTZVB_6d3ZuuwYKivHYunVOPlDh8MOnWM7vCJM0h4YxbM-m--JZ3-B16y3ZZ39KYZMFEsgTSpzX-xS0-paxf0JYFuCMF4FCdqWe8jmwFqiNZM_QrkzjX2LreWCaTNCDsFaSAxy_mCurLcEA71ImcqrKTHsURRLfcyrNemEWXUWd5CXivRDCnSehzx1JLJNMDRCcSJgaIsyPM9GJQIK7LjuCePELdIdEY9risSYf9AqX2sB65KBgrij1IoSXdSvbkEBM-g_INJTNAQkXJft5yecwipLSqRb3yi6Ojw1f1VV3i0tWIgS0BCbiCXNBUwsgjwRRwkQYm_u4k0DT385Cajpqgi5gf4RU6mSeBb3atFOMkn5Z1oX1X3XScwOhlbRSB-r177gOb9dvhaZe5t1VYwkQzhJBudcggOqrbt-Xi5lq3RhlYcIa552BvrW-QFq7Q-qjzn1n9aVloRV76UfOBwrlc38vftoRsigZYy_3e9OsWUmetRjB7UhXRMvnX8Rc2t_sk46ljl5wsF4-x8ne3Wc19t_s-fbqzfqrYzv9fyZjt41nFJ1vwrVFfm60ghlq2Bj9kJ7ZVvumnFekQrmy81J2hR4M8MRY1n2M8Z8h9gMoOVUtsIgVWW0iwrQ5xuuOkdpBw6hWpIMY-gIxo4sBSSkIVIqd8gid6s4oj0OBUkQQ3lsj_duFrfyw5940jYJJjqR1ljoun2wY3i4vrVBd2xpzjc0j6VdMdIaepvz4SQj2U4yJFVFIMyqOukhUcaxM5MnaF5p8026gwZjb0I1R-c2rQQtxpwg8gzt4J2sllmiscJXZ6pp-furgyW5hyzmp1RWvgsrSm-9mYt8jlxgJZpiFdo0qhUp531gOjsQ1YqOv9cfarmWl1YWhggvep_UIknuray3fi88FrzarwSyXYSxzv_kI5RWzBlUXf1w72jtUUnO6YuzshkR8xg_SrFOzrFx1Y1yX-vvmq6
+2025-10-20 23:34:34.224 +03:00 [INF] Step 2 : Build Body Of Notification { message = { token = cKqwxyr2Tq-iCQkaDbj0ZN:APA91bFk39LqQU0T1lJKC-YTh6gLhKw6zqPfd0GyQHNpa6qH0oYBxSh37eBXNZy0n8MPBegEHBIH3B1FwAP5uCgcBlDV2IK3l6CqdLWMx4a2376dlShj-8s, notification = { title = string, body = string }, data = { timestamp = 2025-10-20T20:34:32.4026165Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-10-20 23:34:34.944 +03:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-10-20 23:34:36.419 +03:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:34:36.422 +03:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-10-20 23:34:36.759 +03:00 [INF] Received HTTP response headers after 331.2811ms - 403
+2025-10-20 23:34:36.761 +03:00 [INF] End processing HTTP request after 343.8261ms - 403
+2025-10-20 23:34:40.698 +03:00 [INF] Step 4 : Response of FireBase Forbidden
+2025-10-20 23:34:41.563 +03:00 [INF] Step 5 : Response Failed Firebase Forbidden
+2025-10-20 23:34:42.965 +03:00 [INF] === Get Exception With Error -- Forbidden 
+2025-10-20 23:34:44.414 +03:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 23658.836ms
+2025-10-20 23:34:44.415 +03:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-10-20 23:34:45.485 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 24834.5104ms
+2025-10-20 23:57:09.732 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-20 23:57:10.139 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-20 23:57:10.139 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-20 23:57:10.239 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-20 23:57:10.239 +03:00 [INF] Hosting environment: Development
+2025-10-20 23:57:10.239 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-20 23:57:12.077 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-20 23:57:12.078 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:57:12.139 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 34.9232ms
+2025-10-20 23:57:12.140 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:57:12.144 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.4213ms
+2025-10-20 23:57:12.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-20 23:57:12.159 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 10.477ms
+2025-10-20 23:57:12.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.105ms
+2025-10-20 23:57:12.290 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:57:12.500 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:57:12.501 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.7767ms
+2025-10-20 23:57:12.617 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-20 23:57:12.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.568ms
+2025-10-20 23:57:12.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 121.7206ms

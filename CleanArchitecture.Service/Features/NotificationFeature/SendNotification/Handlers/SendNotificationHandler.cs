@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -88,15 +89,31 @@ namespace CleanArchitecture.Service.Features.NotificationFeature.SendNotificatio
                 var response = await _httpClient.PostAsync($"{_settingFirebase.ProjectId}/messages:send", contentBody);
                 
                 _logger.LogInformation($"Step 4 : Response of FireBase {response.StatusCode}");
-                 
-                if (response.IsSuccessStatusCode) {
-                    var result =await response.Content.ReadAsStringAsync();
-                    return new ResponseResult<bool>() { IsSuccessed = true, Status = response.StatusCode };
+
+               
+                var responseContent = await response.Content.ReadAsStringAsync();
+
+                _logger.LogError($"===== FIREBASE RESPONSE =====");
+                _logger.LogError($"Status Code: {response.StatusCode}");
+                _logger.LogError($"Response Body: {responseContent}");
+                _logger.LogError($"============================");
+
+                if (!response.IsSuccessStatusCode) {
+                    using var doc = JsonDocument.Parse(responseContent);
+                    var message = doc.RootElement
+                                    .GetProperty("error")      // أول حاجة ادخل على "error"
+                                    .GetProperty("message")    // بعدين اجيب "message"
+                                    .GetString();
+                    throw new BusineesException(message!);
                 }
-                _logger.LogInformation($"Step 5 : Response Failed Firebase {response.StatusCode}");
-                throw new BusineesException(MessageService.Failed_Request);
-            }catch(Exception ex) {
-                throw new Exception(ex.Message);
+                return new ResponseResult<bool>() { IsSuccessed = true, Status = response.StatusCode };
+
+            }
+            catch (Exception ex) {
+                var error = ex.InnerException is null ? ex.Message : ex.InnerException.Message;
+
+                _logger.LogInformation($"=== Get Exception With Error -- {error} ");
+                throw new Exception(error);
             }
         }
     }
