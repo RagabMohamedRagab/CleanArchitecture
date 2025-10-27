@@ -1,0 +1,68 @@
+2025-10-27 23:06:08.995 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-27 23:06:09.236 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-27 23:06:09.236 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-27 23:06:09.279 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-27 23:06:09.279 +03:00 [INF] Hosting environment: Development
+2025-10-27 23:06:09.279 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-27 23:06:10.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-10-27 23:06:11.088 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 282.2945ms
+2025-10-27 23:06:11.333 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-10-27 23:06:11.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 62.6777ms
+2025-10-27 23:06:11.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-10-27 23:06:11.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-10-27 23:06:11.434 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-10-27 23:06:11.499 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 65.7183ms
+2025-10-27 23:06:11.506 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-10-27 23:06:11.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 78.074ms
+2025-10-27 23:06:11.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 5.2807ms
+2025-10-27 23:06:11.512 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 78.9034ms
+2025-10-27 23:06:11.520 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-10-27 23:06:11.521 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 1.0898ms
+2025-10-27 23:06:11.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-27 23:06:11.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 2.9887ms
+2025-10-27 23:06:11.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-27 23:06:11.671 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 140.1752ms
+2025-10-27 23:06:11.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-27 23:06:11.844 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-10-27 23:06:11.845 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 0.9072ms
+2025-10-27 23:06:11.895 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9278ms
+2025-10-27 23:44:32.609 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-27 23:44:33.129 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-27 23:44:33.130 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-27 23:44:33.245 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-27 23:44:33.245 +03:00 [INF] Hosting environment: Development
+2025-10-27 23:44:33.245 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-27 23:44:33.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-27 23:44:33.857 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-27 23:44:34.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 399.3478ms
+2025-10-27 23:44:34.295 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 443.9152ms
+2025-10-27 23:44:34.331 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-27 23:44:34.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 66.7606ms
+2025-10-27 23:44:58.494 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-27 23:44:58.708 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-27 23:44:58.708 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-27 23:44:58.754 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-27 23:44:58.754 +03:00 [INF] Hosting environment: Development
+2025-10-27 23:44:58.754 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-27 23:45:00.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-27 23:45:00.722 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-27 23:45:00.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 20.0771ms
+2025-10-27 23:45:00.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2913ms
+2025-10-27 23:45:00.811 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-27 23:45:00.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 128.4126ms
+2025-10-27 23:47:19.721 +03:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-10-27 23:47:19.962 +03:00 [INF] Now listening on: https://localhost:7250
+2025-10-27 23:47:19.962 +03:00 [INF] Now listening on: http://localhost:5030
+2025-10-27 23:47:20.012 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-27 23:47:20.012 +03:00 [INF] Hosting environment: Development
+2025-10-27 23:47:20.012 +03:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-10-27 23:47:21.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-10-27 23:47:21.350 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-10-27 23:47:21.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 23.5952ms
+2025-10-27 23:47:21.403 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.065ms
+2025-10-27 23:47:21.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-10-27 23:47:21.551 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.3964ms
+2025-10-27 23:47:39.668 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/ElasticSeach/CreateDepartMentDocument - application/json 29
+2025-10-27 23:47:39.719 +03:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.ElasticSeachController.CreateDepartMentDocument (CleanArchitecture.API)'
+2025-10-27 23:47:39.737 +03:00 [INF] Route matched with {action = "CreateDepartMentDocument", controller = "ElasticSeach"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateDepartMentDocument(CleanArchitecture.Service.Dtos.ElasticSearchDtos.DepartmentElasticSearch) on controller CleanArchitecture.API.Controllers.v3.ElasticSeachController (CleanArchitecture.API).
+2025-10-27 23:47:39.767 +03:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.ElasticSeachController.CreateDepartMentDocument (CleanArchitecture.API) - Validation state: "Valid"

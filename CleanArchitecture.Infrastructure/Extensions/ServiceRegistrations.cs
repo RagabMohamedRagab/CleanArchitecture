@@ -1,4 +1,5 @@
 ﻿
+using System.Configuration;
 using System.Reflection;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Data.Enums;
@@ -14,6 +15,8 @@ using CleanArchitecture.Service.Dtos.FireBaseDtos;
 using CleanArchitecture.Service.Dtos.GateWay.PaymobGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.Stripe;
+using CleanArchitecture.Service.ElasticSearch;
+using CleanArchitecture.Service.ElasticSearchManager;
 using CleanArchitecture.Service.Helpers;
 using CleanArchitecture.Service.IMangers.IAuthManger;
 using CleanArchitecture.Service.IMangers.IFirebaseManager;
@@ -29,12 +32,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Nest;
 
 namespace CleanArchitecture.Infrastructure.Extensions
 {
     public static class ServiceRegistrations
     {
-        public  static void ConfigureServices(this IServiceCollection services, IConfiguration configuration)
+        public static void ConfigureServices(this IServiceCollection services, IConfiguration configuration)
         {
             #region GenericRepository
             services.AddScoped(typeof(IReadGenericRepository<>), typeof(ReadGenericRepository<>));
@@ -43,7 +47,7 @@ namespace CleanArchitecture.Infrastructure.Extensions
 
             #region Regsiter Repository
             services.AddScoped<IAuthRepository, AuthRepository>();
-            services.AddScoped<IAuthRepository,AuthRepository>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
             #endregion
 
             #region Add Identity and DbContext
@@ -55,8 +59,8 @@ namespace CleanArchitecture.Infrastructure.Extensions
             services.AddScoped<AuthJwt>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IEmailSender, EmailSender>();
-            services.AddScoped<IPayPalAuthentication,PayPalAuthentication>();
-            
+            services.AddScoped<IPayPalAuthentication, PayPalAuthentication>();
+
             #endregion
 
             #region Email Configuration
@@ -67,12 +71,12 @@ namespace CleanArchitecture.Infrastructure.Extensions
             #endregion
 
             #region Stripe
-             services.Configure<StripePayment>(configuration.GetSection("StripePayment"));
+            services.Configure<StripePayment>(configuration.GetSection("StripePayment"));
             #endregion
 
             #region Paypal
             services.Configure<PaypalPayment>(configuration.GetSection("PaypalPayment"));
-            services.AddHttpClient(ClientFactoryKey.PayPal.ToString(),option => {
+            services.AddHttpClient(ClientFactoryKey.PayPal.ToString(), option => {
                 option.BaseAddress = new Uri(configuration["PaypalPayment:Url"]!);
             });
             #endregion
@@ -80,7 +84,7 @@ namespace CleanArchitecture.Infrastructure.Extensions
             #region Paymob
             services.AddTransient<IAuthenticateManger, AuthenticateManger>();
             services.Configure<Paymob>(configuration.GetSection("Paymob"));
-            services.AddHttpClient(ClientFactoryKey.Paymob.ToString(),option => {
+            services.AddHttpClient(ClientFactoryKey.Paymob.ToString(), option => {
                 option.BaseAddress = new Uri(configuration["Paymob:Auth"]!);
             });
             #endregion
@@ -95,8 +99,7 @@ namespace CleanArchitecture.Infrastructure.Extensions
             #region Cultures
             services.AddLocalization(options => options.ResourcesPath = "Resources");
 
-            services.Configure<RequestLocalizationOptions>(options =>
-            {
+            services.Configure<RequestLocalizationOptions>(options => {
                 var supportedCultures = new[] { "en", "ar" };
                 options.SetDefaultCulture("en");
                 options.AddSupportedCultures(supportedCultures);
@@ -111,13 +114,20 @@ namespace CleanArchitecture.Infrastructure.Extensions
             services.AddHttpClient(ClientFactoryKey.FireBaseAuth.ToString(), option => {
                 option.BaseAddress = new Uri(configuration["FirebasePushNotifcation:GlobalScope"]!);
             });
-            services.AddScoped<IFirebaseAuthenticate,FirebaseAuthenticate>();
+            services.AddScoped<IFirebaseAuthenticate, FirebaseAuthenticate>();
             services.AddHttpClient(ClientFactoryKey.FireBaseSend.ToString(), option => {
                 option.BaseAddress = new Uri($"https://fcm.googleapis.com/v1/projects/");
             });
 
             #endregion
 
+            #region ElasticSearch
+            var settings = new ConnectionSettings(new Uri(configuration["ElasticSearch:ElasticUrl"]!));
+            var clients = new ElasticClient(settings);
+            services.AddSingleton(clients);
+            services.AddScoped(typeof(IElasticSearch<>), typeof(ElasticSearch<>));        
+            #endregion
+            
         }
 
     }

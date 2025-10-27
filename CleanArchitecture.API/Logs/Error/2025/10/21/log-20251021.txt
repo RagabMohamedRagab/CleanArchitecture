@@ -105,3 +105,37 @@
 }
 
 2025-10-21 00:38:15.624 +03:00 [ERR] ============================
+2025-10-21 10:36:27.806 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 10:36:27.824 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 10:36:27.824 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 10:36:27.824 +03:00 [ERR] ============================
+2025-10-21 10:51:12.205 +03:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-10-21 10:51:12.211 +03:00 [ERR] Status Code: Forbidden
+2025-10-21 10:51:12.211 +03:00 [ERR] Response Body: {
+  "error": {
+    "code": 403,
+    "message": "SenderId mismatch",
+    "status": "PERMISSION_DENIED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "SENDER_ID_MISMATCH"
+      }
+    ]
+  }
+}
+
+2025-10-21 10:51:12.211 +03:00 [ERR] ============================

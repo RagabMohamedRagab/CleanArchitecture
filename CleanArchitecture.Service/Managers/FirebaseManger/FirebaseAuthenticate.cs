@@ -36,7 +36,7 @@ namespace CleanArchitecture.Service.Managers.FirebaseManger
                 GoogleCredential credential;
                 using (var stream = new FileStream(fullFireBase, FileMode.Open, FileAccess.Read)) {
                     credential = GoogleCredential.FromStream(stream)
-                        .CreateScoped(_SettingsFirebase.GlobalScope);
+                        .CreateScoped(_SettingsFirebase.AuthScope);
                 }
                 
                 _logger.LogInformation($"--STEP 3: Requesting Access Token from Google OAuth--");
