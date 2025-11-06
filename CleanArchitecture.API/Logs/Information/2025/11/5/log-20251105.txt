@@ -1,0 +1,166 @@
+2025-11-05 22:21:19.480 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-05 22:21:19.746 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-05 22:21:19.746 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-05 22:21:19.827 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-05 22:21:19.827 +02:00 [INF] Hosting environment: Development
+2025-11-05 22:21:19.827 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-05 22:21:21.691 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-11-05 22:21:22.185 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 497.8289ms
+2025-11-05 22:21:22.574 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-11-05 22:21:22.698 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 123.6533ms
+2025-11-05 22:21:22.747 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-11-05 22:21:22.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-11-05 22:21:22.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-11-05 22:21:22.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-11-05 22:21:22.749 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-11-05 22:21:22.749 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:21:22.750 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 1.7974ms
+2025-11-05 22:21:22.751 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-05 22:21:22.764 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 14.4438ms
+2025-11-05 22:21:22.777 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 29.1933ms
+2025-11-05 22:21:22.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 33.7488ms
+2025-11-05 22:21:22.787 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 38.4744ms
+2025-11-05 22:21:22.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 43.8754ms
+2025-11-05 22:21:23.050 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 298.8628ms
+2025-11-05 22:21:23.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:21:23.277 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-11-05 22:21:23.283 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 5.9855ms
+2025-11-05 22:21:23.428 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 191.1166ms
+2025-11-05 22:21:47.965 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:21:48.010 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:21:48.024 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:21:48.045 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:21:48.126 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:21:48.126 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:21:48.132 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:21:48.533 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) in 503.5906ms
+2025-11-05 22:21:48.534 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:21:48.542 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - 404 null application/json; charset=utf-8 576.8909ms
+2025-11-05 22:22:06.878 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:22:06.882 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:22:06.882 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:22:06.883 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:22:06.883 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:22:06.883 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:22:06.886 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:22:07.470 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) in 587.7089ms
+2025-11-05 22:22:07.470 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:22:07.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - 404 null application/json; charset=utf-8 593.7129ms
+2025-11-05 22:22:20.878 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-05 22:22:21.217 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-05 22:22:21.217 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-05 22:22:21.286 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-05 22:22:21.286 +02:00 [INF] Hosting environment: Development
+2025-11-05 22:22:21.286 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-05 22:22:23.415 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-05 22:22:23.415 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:22:23.448 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 38.3623ms
+2025-11-05 22:22:23.491 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.4606ms
+2025-11-05 22:22:23.617 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:22:23.801 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 184.039ms
+2025-11-05 22:22:42.693 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:22:42.766 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:22:42.801 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:22:42.847 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:22:50.505 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:22:56.695 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:23:05.193 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:23:22.605 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) in 39794.0778ms
+2025-11-05 22:23:22.607 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:23:22.927 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - 404 null application/json; charset=utf-8 40234.1436ms
+2025-11-05 22:39:10.740 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-05 22:39:11.235 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-05 22:39:11.236 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-05 22:39:11.290 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-05 22:39:11.290 +02:00 [INF] Hosting environment: Development
+2025-11-05 22:39:11.291 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-05 22:39:13.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:39:13.622 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-05 22:39:13.654 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 39.8338ms
+2025-11-05 22:39:13.655 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:39:13.659 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.9546ms
+2025-11-05 22:39:13.713 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.4463ms
+2025-11-05 22:39:13.838 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:39:14.173 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:39:14.186 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 347.9068ms
+2025-11-05 22:39:14.393 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 219.8128ms
+2025-11-05 22:39:25.445 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:39:25.511 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:39:25.539 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:39:25.587 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:39:31.413 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:39:32.857 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:39:37.097 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:41:25.586 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-05 22:41:26.043 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-05 22:41:26.043 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-05 22:41:26.153 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-05 22:41:26.153 +02:00 [INF] Hosting environment: Development
+2025-11-05 22:41:26.153 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-05 22:41:28.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:41:28.002 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-05 22:41:28.029 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 35.3603ms
+2025-11-05 22:41:28.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:41:28.036 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.2649ms
+2025-11-05 22:41:28.087 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 93.9782ms
+2025-11-05 22:41:28.137 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:41:28.323 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:41:28.327 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 190.1757ms
+2025-11-05 22:41:28.404 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.8789ms
+2025-11-05 22:41:40.161 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:41:40.236 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:41:40.263 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:41:40.308 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:41:44.992 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:41:45.926 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:41:47.921 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:41:54.060 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) in 13785.5075ms
+2025-11-05 22:41:54.061 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:41:54.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - 404 null application/json; charset=utf-8 14185.8972ms
+2025-11-05 22:43:25.403 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-05 22:43:25.853 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-05 22:43:25.853 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-05 22:43:25.950 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-05 22:43:25.950 +02:00 [INF] Hosting environment: Development
+2025-11-05 22:43:25.950 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-05 22:43:27.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-05 22:43:27.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:43:27.542 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 30.3661ms
+2025-11-05 22:43:27.542 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-05 22:43:27.546 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 3.2171ms
+2025-11-05 22:43:27.597 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.9931ms
+2025-11-05 22:43:27.651 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:43:27.833 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-05 22:43:27.838 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.6749ms
+2025-11-05 22:43:27.939 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 105.5608ms
+2025-11-05 22:44:21.778 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - null null
+2025-11-05 22:44:21.853 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:44:21.889 +02:00 [INF] Route matched with {action = "GetOAuthToken", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.String]]] GetOAuthToken() on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:44:21.939 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:44:25.540 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:44:26.179 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:44:26.984 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:44:30.730 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 8784.8128ms.
+2025-11-05 22:44:30.744 +02:00 [INF] Executing OkObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-05 22:44:30.762 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API) in 8864.7722ms
+2025-11-05 22:44:30.762 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:44:30.765 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Notification/GetOAuthToken - 200 null application/json; charset=utf-8 8986.5109ms
+2025-11-05 22:45:41.352 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - application/json 178
+2025-11-05 22:45:41.379 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-11-05 22:45:41.412 +02:00 [INF] Route matched with {action = "SendNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]]] SendNotification(CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand) on controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API).
+2025-11-05 22:45:41.456 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-05 22:45:47.391 +02:00 [INF] --- Step 1 : Enter Function GetToken with https://www.googleapis.com/auth/cloud-platform and Build Direct
+2025-11-05 22:45:48.296 +02:00 [INF] --STEP 2: Creating Google Credential with cloud-platform scope https://www.googleapis.com/auth/cloud-platform--
+2025-11-05 22:45:48.585 +02:00 [INF] --STEP 3: Requesting Access Token from Google OAuth--
+2025-11-05 22:45:51.500 +02:00 [INF] Step 1 : Get Access Token ya29.c.c0ASRK0GZ1oNnjTKjMH2GAEUsRwm-kQNWY03r8vpO9PDJf8mbkTbRPpCarE-59qKmEMiG7zoIu8MyBYnYnYMJCxurSMEnZ_L_OmfacpFhNri1VKM7qQ_i2N8Cgjfnh-lO_p9Xg4JDIpOzR2ZeY9BjeE898rpfb1pRHgijLjih4bmrSUytJU_jvYNUPGS9WbILx2-OZTe2NNAB0HHt_6TWNiTzqV2Ezh5m8cPcXb29wjRZpZ0q3mMipOQplhYSidysUU6YbLkbYn5DPs-TptT96lcbZT45zWIn3_Vv8UOXFpoby5IjqNW7A-1McNjBna62zN1rAsWnUkTLtnLkBqHEu25NaqNXx1bMD0VlK83d__fXYDKsCIfoUuZUEiQN387AjQUgBz3yR_-trJXn30SxJkqel4wQBFn3p_3uOY7FpR9b5jRZmsd0kl-W1n-xctSipW1y9Vb9qt3vaczynopBShrfU8O53qI5wOjfVOOfZmFiaoBn3vSzShMXeF1hbzhaOWvv49jBMSi1Yl94Rge1g2h58z9y1co_B2BfIBhF7SviUfhlrUIZvk7bvMmz2awIiz2B7xzy5OWkRhWmiWMulJh0zI_zJzOSXBl6zJk7YJqrIvhojontgU4quSsxrqOb_12S734p0FgYcRQb1q_905F2FWRmVM_ovy94jk493qJWklfub4WFygMyn2UckV2teoomgpaz6U5us_UJz1n9wwpiM8vsMzZRXqnmz6bk7je9X6oO9X_0XIhjqq9xVWtdr2j2luW1J6W75ur0FVBikMJwQ0rQaVSqRJOSXaFx2Bq8sBMXV-UWg4_8Rxp9Sf1s-WlmXk51XW_O3tgX0XvFcYSci2hSWdZi7BfpR4i8ldkoIrqapvvnvhlvMOvrS3nczpqzFV8d9yrwlnXZ0jQ9g_VFY3f5F7JbRZm7bvOUk77BcSbv4MpqRY0enesyJU7_rVxe68QV7SrFpmY_1SVZ71JpwXWUkmQ2uQBvvf2S9wlab1tcodQ4k_yI
+2025-11-05 22:45:54.190 +02:00 [INF] Step 2 : Build Body Of Notification { message = { token = BNhZX8kJ3mN5oP7qR9sT1uV3wX5yZ7aB9cD1eF3gH5iJ7kL9mN1oP3qR5sT7uV9wX1yZ3aB5cD7eF9gH1iJ3kL5mN7oP9qR1sT3uV5wX7yZ9aB1cD3, notification = { title = string, body = string }, data = { timestamp = 2025-11-05T20:45:52.0989098Z, type = notification }, android = { priority = high, notification = { sound = default, color = #FF0000 } }, apns = { headers = { apns_priority = 10 }, payload = { aps = { sound = default, badge = 1 } } } } }
+2025-11-05 22:45:55.303 +02:00 [INF] Step 3 : Firebase URl https://fcm.googleapis.com/v1/projects/
+2025-11-05 22:45:56.959 +02:00 [INF] Start processing HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-11-05 22:45:56.977 +02:00 [INF] Sending HTTP request POST https://fcm.googleapis.com/v1/projects/pushnotification-5a8a4/messages:send
+2025-11-05 22:45:57.284 +02:00 [INF] Received HTTP response headers after 302.3255ms - 400
+2025-11-05 22:45:57.285 +02:00 [INF] End processing HTTP request after 327.294ms - 400
+2025-11-05 22:46:09.040 +02:00 [INF] Step 4 : Response of FireBase BadRequest
+2025-11-05 22:46:09.130 +02:00 [INF] === Get Exception With Error -- The registration token is not a valid FCM registration token 
+2025-11-05 22:46:18.107 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API) in 36694.4749ms
+2025-11-05 22:46:18.109 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-11-05 22:46:18.304 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Notification/SendNotification - 404 null application/json; charset=utf-8 36951.8508ms

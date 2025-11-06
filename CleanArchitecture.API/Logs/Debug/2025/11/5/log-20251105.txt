@@ -1,0 +1,521 @@
+2025-11-05 22:21:19.369 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-05 22:21:19.459 +02:00 [DBG] Hosting starting
+2025-11-05 22:21:19.498 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-05 22:21:19.518 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-05 22:21:19.520 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-05 22:21:19.521 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-05 22:21:19.528 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-05 22:21:19.539 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-05 22:21:19.540 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-05 22:21:19.540 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-05 22:21:19.548 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-05 22:21:19.552 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:21:19.554 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-05 22:21:19.556 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:21:19.561 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-05 22:21:19.562 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-05 22:21:19.563 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-05 22:21:19.564 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-05 22:21:19.570 +02:00 [DBG] Middleware loaded
+2025-11-05 22:21:19.572 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-05 22:21:19.573 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-05 22:21:19.661 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-05 22:21:19.662 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-05 22:21:19.663 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-05 22:21:19.746 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-05 22:21:19.746 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-05 22:21:19.746 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-05 22:21:19.746 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-05 22:21:19.755 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:21:19.756 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:21:19.769 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-05 22:21:19.827 +02:00 [DBG] Hosting started
+2025-11-05 22:21:20.120 +02:00 [DBG] Connection id "0HNGSL3GSE96S" accepted.
+2025-11-05 22:21:20.121 +02:00 [DBG] Connection id "0HNGSL3GSE96S" started.
+2025-11-05 22:21:20.144 +02:00 [DBG] Connection id "0HNGSL3GSE96S" received FIN.
+2025-11-05 22:21:20.151 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:21:20.181 +02:00 [DBG] Connection id "0HNGSL3GSE96S" stopped.
+2025-11-05 22:21:20.183 +02:00 [DBG] Connection id "0HNGSL3GSE96S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:21:21.425 +02:00 [DBG] Connection id "0HNGSL3GSE96T" accepted.
+2025-11-05 22:21:21.426 +02:00 [DBG] Connection id "0HNGSL3GSE96T" started.
+2025-11-05 22:21:21.547 +02:00 [DBG] Connection 0HNGSL3GSE96T established using the following protocol: "Tls13"
+2025-11-05 22:21:22.158 +02:00 [DBG] No candidates found for the request path '/'
+2025-11-05 22:21:22.159 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.187 +02:00 [DBG] Connection id "0HNGSL3GSE96T" received FIN.
+2025-11-05 22:21:22.195 +02:00 [DBG] Connection id "0HNGSL3GSE96T" is closed. The last processed stream ID was 1.
+2025-11-05 22:21:22.195 +02:00 [DBG] Connection id "0HNGSL3GSE96T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:21:22.209 +02:00 [DBG] The connection queue processing loop for 0HNGSL3GSE96T completed.
+2025-11-05 22:21:22.211 +02:00 [DBG] Connection id "0HNGSL3GSE96T" stopped.
+2025-11-05 22:21:22.549 +02:00 [DBG] Connection id "0HNGSL3GSE96U" accepted.
+2025-11-05 22:21:22.550 +02:00 [DBG] Connection id "0HNGSL3GSE96U" started.
+2025-11-05 22:21:22.557 +02:00 [DBG] Connection 0HNGSL3GSE96U established using the following protocol: "Tls13"
+2025-11-05 22:21:22.581 +02:00 [DBG] No candidates found for the request path '/index.html'
+2025-11-05 22:21:22.581 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.687 +02:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-05 22:21:22.688 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-05 22:21:22.697 +02:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-05 22:21:22.697 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-05 22:21:22.749 +02:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-11-05 22:21:22.749 +02:00 [DBG] No candidates found for the request path '/index.js'
+2025-11-05 22:21:22.749 +02:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-11-05 22:21:22.749 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.749 +02:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-11-05 22:21:22.749 +02:00 [DBG] No candidates found for the request path '/index.css'
+2025-11-05 22:21:22.749 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.749 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.749 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.749 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:22.763 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:21:23.237 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:21:23.237 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:23.278 +02:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-11-05 22:21:23.278 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:21:24.294 +02:00 [DBG] Connection id "0HNGSL3GSE96U" received FIN.
+2025-11-05 22:21:24.295 +02:00 [DBG] The connection queue processing loop for 0HNGSL3GSE96U completed.
+2025-11-05 22:21:24.296 +02:00 [DBG] Connection id "0HNGSL3GSE96U" is closed. The last processed stream ID was 19.
+2025-11-05 22:21:24.296 +02:00 [DBG] Connection id "0HNGSL3GSE96U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:21:24.302 +02:00 [DBG] Connection id "0HNGSL3GSE96U" stopped.
+2025-11-05 22:21:47.961 +02:00 [DBG] Connection id "0HNGSL3GSE96V" accepted.
+2025-11-05 22:21:47.961 +02:00 [DBG] Connection id "0HNGSL3GSE96V" started.
+2025-11-05 22:21:47.964 +02:00 [DBG] Connection 0HNGSL3GSE96V established using the following protocol: "Tls13"
+2025-11-05 22:21:47.976 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:21:47.977 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:21:47.986 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:21:48.008 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:21:48.024 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:21:48.025 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:21:48.026 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:21:48.026 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:21:48.026 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:21:48.027 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:21:48.041 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:22:06.880 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:22:06.880 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:22:06.880 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:22:06.882 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:22:06.882 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:22:06.882 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:22:06.882 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:22:06.882 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:22:06.882 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:22:06.883 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:22:06.883 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:22:13.619 +02:00 [DBG] Connection id "0HNGSL3GSE96V" received FIN.
+2025-11-05 22:22:13.620 +02:00 [DBG] Connection id "0HNGSL3GSE96V" is closed. The last processed stream ID was 3.
+2025-11-05 22:22:13.620 +02:00 [DBG] Connection id "0HNGSL3GSE96V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:22:13.621 +02:00 [DBG] The connection queue processing loop for 0HNGSL3GSE96V completed.
+2025-11-05 22:22:13.622 +02:00 [DBG] Connection id "0HNGSL3GSE96V" stopped.
+2025-11-05 22:22:20.771 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-05 22:22:20.863 +02:00 [DBG] Hosting starting
+2025-11-05 22:22:20.898 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-05 22:22:20.909 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-05 22:22:20.910 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-05 22:22:20.910 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-05 22:22:20.917 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-05 22:22:20.930 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-05 22:22:20.930 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-05 22:22:20.930 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-05 22:22:20.940 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-05 22:22:20.943 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:22:20.945 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-05 22:22:20.946 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:22:20.950 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-05 22:22:20.951 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-05 22:22:20.952 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-05 22:22:20.953 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-05 22:22:20.959 +02:00 [DBG] Middleware loaded
+2025-11-05 22:22:20.962 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-05 22:22:20.962 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-05 22:22:21.109 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-05 22:22:21.109 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-05 22:22:21.111 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-05 22:22:21.217 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-05 22:22:21.217 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-05 22:22:21.217 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-05 22:22:21.217 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-05 22:22:21.223 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:22:21.223 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:22:21.234 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-05 22:22:21.286 +02:00 [DBG] Hosting started
+2025-11-05 22:22:21.565 +02:00 [DBG] Connection id "0HNGSL436DP8U" accepted.
+2025-11-05 22:22:21.566 +02:00 [DBG] Connection id "0HNGSL436DP8U" started.
+2025-11-05 22:22:21.568 +02:00 [DBG] Connection id "0HNGSL436DP8V" accepted.
+2025-11-05 22:22:21.568 +02:00 [DBG] Connection id "0HNGSL436DP8V" started.
+2025-11-05 22:22:21.594 +02:00 [DBG] Connection id "0HNGSL436DP8V" received FIN.
+2025-11-05 22:22:21.594 +02:00 [DBG] Connection id "0HNGSL436DP8U" received FIN.
+2025-11-05 22:22:21.640 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:22:21.640 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:22:21.683 +02:00 [DBG] Connection id "0HNGSL436DP8U" stopped.
+2025-11-05 22:22:21.683 +02:00 [DBG] Connection id "0HNGSL436DP8V" stopped.
+2025-11-05 22:22:21.685 +02:00 [DBG] Connection id "0HNGSL436DP8U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:22:21.685 +02:00 [DBG] Connection id "0HNGSL436DP8V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:22:23.317 +02:00 [DBG] Connection id "0HNGSL436DP90" accepted.
+2025-11-05 22:22:23.317 +02:00 [DBG] Connection id "0HNGSL436DP90" started.
+2025-11-05 22:22:23.352 +02:00 [DBG] Connection 0HNGSL436DP90 established using the following protocol: "Tls13"
+2025-11-05 22:22:23.443 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:22:23.681 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:22:23.681 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:22:25.209 +02:00 [DBG] Connection id "0HNGSL436DP90" received FIN.
+2025-11-05 22:22:25.211 +02:00 [DBG] The connection queue processing loop for 0HNGSL436DP90 completed.
+2025-11-05 22:22:25.214 +02:00 [DBG] Connection id "0HNGSL436DP90" is closed. The last processed stream ID was 5.
+2025-11-05 22:22:25.214 +02:00 [DBG] Connection id "0HNGSL436DP90" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:22:25.223 +02:00 [DBG] Connection id "0HNGSL436DP90" stopped.
+2025-11-05 22:22:42.669 +02:00 [DBG] Connection id "0HNGSL436DP91" accepted.
+2025-11-05 22:22:42.669 +02:00 [DBG] Connection id "0HNGSL436DP91" started.
+2025-11-05 22:22:42.688 +02:00 [DBG] Connection 0HNGSL436DP91 established using the following protocol: "Tls13"
+2025-11-05 22:22:42.706 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:22:42.707 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:22:42.719 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:22:42.760 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:22:42.803 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:22:42.803 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:22:42.805 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:22:42.805 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:22:42.805 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:22:42.807 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:22:42.838 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:23:32.349 +02:00 [DBG] Connection id "0HNGSL436DP91" received FIN.
+2025-11-05 22:23:32.350 +02:00 [DBG] Connection id "0HNGSL436DP91" is closed. The last processed stream ID was 1.
+2025-11-05 22:23:32.350 +02:00 [DBG] The connection queue processing loop for 0HNGSL436DP91 completed.
+2025-11-05 22:23:32.350 +02:00 [DBG] Connection id "0HNGSL436DP91" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:23:32.366 +02:00 [DBG] Connection id "0HNGSL436DP91" stopped.
+2025-11-05 22:24:42.864 +02:00 [DBG] HttpMessageHandler expired after 120000ms for client 'FireBaseAuth'
+2025-11-05 22:24:52.881 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:24:52.890 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.1223ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:02.890 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:02.891 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0074ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:12.897 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:12.897 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:22.899 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:22.900 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0074ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:32.901 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:32.902 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0115ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:42.911 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:42.911 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:25:52.920 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:25:52.920 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:02.926 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:02.926 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0067ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:12.946 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:12.946 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:22.955 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:22.956 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.006ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:32.968 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:32.968 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0051ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:42.983 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:42.983 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0061ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:26:52.986 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:26:52.986 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:27:02.995 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:27:02.995 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:27:13.035 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:27:13.036 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0079ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:27:23.055 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:27:23.056 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:27:33.060 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:27:33.061 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0056ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:39:10.604 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-05 22:39:10.717 +02:00 [DBG] Hosting starting
+2025-11-05 22:39:10.760 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-05 22:39:10.768 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-05 22:39:10.768 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-05 22:39:10.768 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-05 22:39:10.772 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-05 22:39:10.776 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-05 22:39:10.777 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-05 22:39:10.777 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-05 22:39:10.782 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-05 22:39:10.784 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:39:10.786 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-05 22:39:10.787 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:39:10.790 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-05 22:39:10.790 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-05 22:39:10.791 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-05 22:39:10.792 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-05 22:39:10.797 +02:00 [DBG] Middleware loaded
+2025-11-05 22:39:10.798 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-05 22:39:10.799 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-05 22:39:10.972 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-05 22:39:10.974 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-05 22:39:10.977 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-05 22:39:11.236 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-05 22:39:11.236 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-05 22:39:11.236 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-05 22:39:11.236 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-05 22:39:11.242 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:39:11.242 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:39:11.252 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-05 22:39:11.291 +02:00 [DBG] Hosting started
+2025-11-05 22:39:11.495 +02:00 [DBG] Connection id "0HNGSLDG5S1BU" accepted.
+2025-11-05 22:39:11.496 +02:00 [DBG] Connection id "0HNGSLDG5S1BU" started.
+2025-11-05 22:39:11.503 +02:00 [DBG] Connection id "0HNGSLDG5S1BV" accepted.
+2025-11-05 22:39:11.503 +02:00 [DBG] Connection id "0HNGSLDG5S1BV" started.
+2025-11-05 22:39:11.519 +02:00 [DBG] Connection id "0HNGSLDG5S1BU" received FIN.
+2025-11-05 22:39:11.519 +02:00 [DBG] Connection id "0HNGSLDG5S1BV" received FIN.
+2025-11-05 22:39:11.567 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:39:11.567 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:39:11.656 +02:00 [DBG] Connection id "0HNGSLDG5S1BU" stopped.
+2025-11-05 22:39:11.656 +02:00 [DBG] Connection id "0HNGSLDG5S1BV" stopped.
+2025-11-05 22:39:11.658 +02:00 [DBG] Connection id "0HNGSLDG5S1BU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:39:11.658 +02:00 [DBG] Connection id "0HNGSLDG5S1BV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:39:13.403 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" accepted.
+2025-11-05 22:39:13.404 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" started.
+2025-11-05 22:39:13.455 +02:00 [DBG] Connection 0HNGSLDG5S1C0 established using the following protocol: "Tls13"
+2025-11-05 22:39:13.650 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:39:13.658 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:39:13.962 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:39:13.963 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:39:14.175 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:39:14.175 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:39:14.394 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" received FIN.
+2025-11-05 22:39:14.400 +02:00 [DBG] The connection queue processing loop for 0HNGSLDG5S1C0 completed.
+2025-11-05 22:39:14.402 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" is closed. The last processed stream ID was 9.
+2025-11-05 22:39:14.403 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:39:14.412 +02:00 [DBG] Connection id "0HNGSLDG5S1C0" stopped.
+2025-11-05 22:39:25.440 +02:00 [DBG] Connection id "0HNGSLDG5S1C1" accepted.
+2025-11-05 22:39:25.440 +02:00 [DBG] Connection id "0HNGSLDG5S1C1" started.
+2025-11-05 22:39:25.444 +02:00 [DBG] Connection 0HNGSLDG5S1C1 established using the following protocol: "Tls13"
+2025-11-05 22:39:25.453 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:39:25.453 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:39:25.459 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:39:25.506 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:39:25.541 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:39:25.541 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:39:25.543 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:39:25.543 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:39:25.543 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:39:25.545 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:39:25.576 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:41:25.459 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-05 22:41:25.571 +02:00 [DBG] Hosting starting
+2025-11-05 22:41:25.607 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-05 22:41:25.614 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-05 22:41:25.615 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-05 22:41:25.615 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-05 22:41:25.619 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-05 22:41:25.625 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-05 22:41:25.625 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-05 22:41:25.625 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-05 22:41:25.632 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-05 22:41:25.635 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:41:25.637 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-05 22:41:25.638 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:41:25.642 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-05 22:41:25.642 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-05 22:41:25.643 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-05 22:41:25.644 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-05 22:41:25.650 +02:00 [DBG] Middleware loaded
+2025-11-05 22:41:25.653 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-05 22:41:25.654 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-05 22:41:25.831 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-05 22:41:25.832 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-05 22:41:25.834 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-05 22:41:26.018 +02:00 [DBG] Connection id "0HNGSLEO8P0A1" received FIN.
+2025-11-05 22:41:26.018 +02:00 [DBG] Connection id "0HNGSLEO8P0A0" received FIN.
+2025-11-05 22:41:26.026 +02:00 [DBG] Connection id "0HNGSLEO8P0A1" accepted.
+2025-11-05 22:41:26.026 +02:00 [DBG] Connection id "0HNGSLEO8P0A0" accepted.
+2025-11-05 22:41:26.027 +02:00 [DBG] Connection id "0HNGSLEO8P0A0" started.
+2025-11-05 22:41:26.027 +02:00 [DBG] Connection id "0HNGSLEO8P0A1" started.
+2025-11-05 22:41:26.043 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-05 22:41:26.043 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-05 22:41:26.043 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-05 22:41:26.043 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-05 22:41:26.052 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:41:26.052 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:41:26.074 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:41:26.081 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:41:26.084 +02:00 [DBG] Connection id "0HNGSLEO8P0A0" stopped.
+2025-11-05 22:41:26.084 +02:00 [DBG] Connection id "0HNGSLEO8P0A1" stopped.
+2025-11-05 22:41:26.087 +02:00 [DBG] Connection id "0HNGSLEO8P0A0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:41:26.087 +02:00 [DBG] Connection id "0HNGSLEO8P0A1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:41:26.093 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-05 22:41:26.153 +02:00 [DBG] Hosting started
+2025-11-05 22:41:27.884 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" accepted.
+2025-11-05 22:41:27.884 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" started.
+2025-11-05 22:41:27.926 +02:00 [DBG] Connection 0HNGSLEO8P0A2 established using the following protocol: "Tls13"
+2025-11-05 22:41:28.026 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:41:28.033 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:41:28.235 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:41:28.236 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:41:28.324 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:41:28.324 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:41:28.895 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" received FIN.
+2025-11-05 22:41:28.899 +02:00 [DBG] The connection queue processing loop for 0HNGSLEO8P0A2 completed.
+2025-11-05 22:41:28.901 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" is closed. The last processed stream ID was 9.
+2025-11-05 22:41:28.902 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:41:28.905 +02:00 [DBG] Connection id "0HNGSLEO8P0A2" stopped.
+2025-11-05 22:41:40.155 +02:00 [DBG] Connection id "0HNGSLEO8P0A3" accepted.
+2025-11-05 22:41:40.156 +02:00 [DBG] Connection id "0HNGSLEO8P0A3" started.
+2025-11-05 22:41:40.160 +02:00 [DBG] Connection 0HNGSLEO8P0A3 established using the following protocol: "Tls13"
+2025-11-05 22:41:40.175 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:41:40.176 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:41:40.189 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:41:40.232 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:41:40.265 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:41:40.266 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:41:40.267 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:41:40.267 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:41:40.267 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:41:40.270 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:41:40.299 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:43:25.303 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-05 22:43:25.387 +02:00 [DBG] Hosting starting
+2025-11-05 22:43:25.429 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-05 22:43:25.437 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-05 22:43:25.438 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-05 22:43:25.438 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-05 22:43:25.444 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-05 22:43:25.455 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-05 22:43:25.455 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-05 22:43:25.455 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-05 22:43:25.466 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-05 22:43:25.470 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:43:25.472 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-05 22:43:25.474 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-05 22:43:25.480 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-05 22:43:25.482 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-05 22:43:25.483 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-05 22:43:25.485 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-05 22:43:25.496 +02:00 [DBG] Middleware loaded
+2025-11-05 22:43:25.500 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-05 22:43:25.501 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-05 22:43:25.627 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-05 22:43:25.628 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-05 22:43:25.629 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-05 22:43:25.831 +02:00 [DBG] Connection id "0HNGSLFRVD87E" received FIN.
+2025-11-05 22:43:25.831 +02:00 [DBG] Connection id "0HNGSLFRVD87D" received FIN.
+2025-11-05 22:43:25.841 +02:00 [DBG] Connection id "0HNGSLFRVD87E" accepted.
+2025-11-05 22:43:25.842 +02:00 [DBG] Connection id "0HNGSLFRVD87D" accepted.
+2025-11-05 22:43:25.842 +02:00 [DBG] Connection id "0HNGSLFRVD87D" started.
+2025-11-05 22:43:25.843 +02:00 [DBG] Connection id "0HNGSLFRVD87E" started.
+2025-11-05 22:43:25.853 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-05 22:43:25.853 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-05 22:43:25.853 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-05 22:43:25.853 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-05 22:43:25.865 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:43:25.867 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:43:25.865 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-05 22:43:25.892 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-05 22:43:25.896 +02:00 [DBG] Connection id "0HNGSLFRVD87D" stopped.
+2025-11-05 22:43:25.896 +02:00 [DBG] Connection id "0HNGSLFRVD87E" stopped.
+2025-11-05 22:43:25.899 +02:00 [DBG] Connection id "0HNGSLFRVD87E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:43:25.899 +02:00 [DBG] Connection id "0HNGSLFRVD87D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:43:25.907 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-05 22:43:25.950 +02:00 [DBG] Hosting started
+2025-11-05 22:43:27.405 +02:00 [DBG] Connection id "0HNGSLFRVD87F" accepted.
+2025-11-05 22:43:27.405 +02:00 [DBG] Connection id "0HNGSLFRVD87F" started.
+2025-11-05 22:43:27.455 +02:00 [DBG] Connection 0HNGSLFRVD87F established using the following protocol: "Tls13"
+2025-11-05 22:43:27.538 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:43:27.545 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-05 22:43:27.730 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:43:27.731 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:43:27.834 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-05 22:43:27.834 +02:00 [DBG] Request did not match any endpoints
+2025-11-05 22:43:29.673 +02:00 [DBG] Connection id "0HNGSLFRVD87F" received FIN.
+2025-11-05 22:43:29.675 +02:00 [DBG] The connection queue processing loop for 0HNGSLFRVD87F completed.
+2025-11-05 22:43:29.678 +02:00 [DBG] Connection id "0HNGSLFRVD87F" is closed. The last processed stream ID was 9.
+2025-11-05 22:43:29.678 +02:00 [DBG] Connection id "0HNGSLFRVD87F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:43:29.689 +02:00 [DBG] Connection id "0HNGSLFRVD87F" stopped.
+2025-11-05 22:44:21.734 +02:00 [DBG] Connection id "0HNGSLFRVD87G" accepted.
+2025-11-05 22:44:21.751 +02:00 [DBG] Connection id "0HNGSLFRVD87G" started.
+2025-11-05 22:44:21.761 +02:00 [DBG] Connection 0HNGSLFRVD87G established using the following protocol: "Tls13"
+2025-11-05 22:44:21.789 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:44:21.791 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)' with route pattern 'api/Notification/GetOAuthToken' is valid for the request path '/api/Notification/GetOAuthToken'
+2025-11-05 22:44:21.803 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.GetOAuthToken (CleanArchitecture.API)'
+2025-11-05 22:44:21.849 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:44:21.892 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:44:21.892 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:44:21.893 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:44:21.893 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:44:21.894 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:44:21.896 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:44:21.929 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:44:30.739 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-05 22:44:30.742 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-05 22:44:30.743 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-05 22:44:30.743 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-05 22:44:30.743 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-05 22:44:30.744 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-05 22:45:41.366 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Notification/SendNotification'
+2025-11-05 22:45:41.366 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)' with route pattern 'api/Notification/SendNotification' is valid for the request path '/api/Notification/SendNotification'
+2025-11-05 22:45:41.366 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v2.NotificationController.SendNotification (CleanArchitecture.API)'
+2025-11-05 22:45:41.375 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-05 22:45:41.412 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-05 22:45:41.412 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-05 22:45:41.413 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:45:41.413 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-05 22:45:41.413 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-05 22:45:41.413 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:45:41.413 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v2.NotificationController (CleanArchitecture.API)
+2025-11-05 22:45:41.421 +02:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand' ...
+2025-11-05 22:45:41.424 +02:00 [DBG] Attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand' using the name '' in request data ...
+2025-11-05 22:45:41.425 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-05 22:45:41.433 +02:00 [DBG] Connection id "0HNGSLFRVD87G", Request id "0HNGSLFRVD87G:00000003": started reading request body.
+2025-11-05 22:45:41.434 +02:00 [DBG] Connection id "0HNGSLFRVD87G", Request id "0HNGSLFRVD87G:00000003": done reading request body.
+2025-11-05 22:45:41.439 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand'
+2025-11-05 22:45:41.439 +02:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand'.
+2025-11-05 22:45:41.439 +02:00 [DBG] Done attempting to bind parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand'.
+2025-11-05 22:45:41.439 +02:00 [DBG] Attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand' ...
+2025-11-05 22:45:41.453 +02:00 [DBG] Done attempting to validate the bound parameter 'command' of type 'CleanArchitecture.Service.Features.NotificationFeature.SendNotification.Commands.SendNotificationCommand'.
+2025-11-05 22:46:21.953 +02:00 [DBG] HttpMessageHandler expired after 120000ms for client 'FireBaseAuth'
+2025-11-05 22:46:31.965 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:46:31.967 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0295ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:46:41.971 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:46:41.971 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:46:51.981 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:46:51.981 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0084ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:47:01.998 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:47:01.998 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:47:12.005 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:47:12.005 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:47:22.015 +02:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-11-05 22:47:22.015 +02:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0065ms - processed: 0 items - remaining: 1 items
+2025-11-05 22:47:23.331 +02:00 [DBG] Connection id "0HNGSLFRVD87G" received FIN.
+2025-11-05 22:47:23.331 +02:00 [DBG] Connection id "0HNGSLFRVD87G" is closed. The last processed stream ID was 3.
+2025-11-05 22:47:23.331 +02:00 [DBG] Connection id "0HNGSLFRVD87G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-05 22:47:23.364 +02:00 [DBG] The connection queue processing loop for 0HNGSLFRVD87G completed.
+2025-11-05 22:47:23.364 +02:00 [DBG] Connection id "0HNGSLFRVD87G" stopped.

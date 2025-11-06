@@ -1,0 +1,17 @@
+2025-11-05 22:46:09.041 +02:00 [ERR] ===== FIREBASE RESPONSE =====
+2025-11-05 22:46:09.051 +02:00 [ERR] Status Code: BadRequest
+2025-11-05 22:46:09.051 +02:00 [ERR] Response Body: {
+  "error": {
+    "code": 400,
+    "message": "The registration token is not a valid FCM registration token",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.firebase.fcm.v1.FcmError",
+        "errorCode": "INVALID_ARGUMENT"
+      }
+    ]
+  }
+}
+
+2025-11-05 22:46:09.051 +02:00 [ERR] ============================

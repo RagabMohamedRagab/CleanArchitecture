@@ -33,12 +33,9 @@ namespace CleanArchitecture.Service.Managers.FirebaseManger
 
                 _logger.LogInformation($"--STEP 2: Creating Google Credential with cloud-platform scope {_SettingsFirebase.GlobalScope}--");
 
-                GoogleCredential credential;
-                using (var stream = new FileStream(fullFireBase, FileMode.Open, FileAccess.Read)) {
-                    credential = GoogleCredential.FromStream(stream)
-                        .CreateScoped(_SettingsFirebase.AuthScope);
-                }
-                
+                GoogleCredential credential = GoogleCredential.FromFile(fullFireBase)
+             .CreateScoped(_SettingsFirebase.AuthScope, _SettingsFirebase.GlobalScope);
+
                 _logger.LogInformation($"--STEP 3: Requesting Access Token from Google OAuth--");
 
                 var token = await credential.UnderlyingCredential.GetAccessTokenForRequestAsync();
