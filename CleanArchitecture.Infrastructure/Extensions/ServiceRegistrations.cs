@@ -125,9 +125,15 @@ namespace CleanArchitecture.Infrastructure.Extensions
             var settings = new ConnectionSettings(new Uri(configuration["ElasticSearch:ElasticUrl"]!));
             var clients = new ElasticClient(settings);
             services.AddSingleton(clients);
-            services.AddScoped(typeof(IElasticSearch<>), typeof(ElasticSearch<>));        
+            services.AddScoped(typeof(IElasticSearch<>), typeof(ElasticSearch<>));
             #endregion
-            
+
+
+            #region Redis Cache
+            services.AddStackExchangeRedisCache(option => {
+                option.Configuration = configuration["Redis:Url"];
+            });
+            #endregion
         }
 
     }

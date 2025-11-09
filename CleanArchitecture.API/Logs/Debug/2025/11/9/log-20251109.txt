@@ -1,0 +1,330 @@
+2025-11-09 23:18:00.558 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-09 23:18:00.628 +02:00 [DBG] Hosting starting
+2025-11-09 23:18:00.662 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-09 23:18:00.685 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-09 23:18:00.686 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-09 23:18:00.686 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-09 23:18:00.689 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-09 23:18:00.696 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-09 23:18:00.696 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-09 23:18:00.696 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-09 23:18:00.701 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-09 23:18:00.703 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-09 23:18:00.704 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-09 23:18:00.705 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-09 23:18:00.707 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-09 23:18:00.708 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-09 23:18:00.708 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-09 23:18:00.709 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-09 23:18:00.715 +02:00 [DBG] Middleware loaded
+2025-11-09 23:18:00.717 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-09 23:18:00.717 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-09 23:18:00.828 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-09 23:18:00.829 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-09 23:18:00.830 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-09 23:18:00.956 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-09 23:18:00.956 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-09 23:18:00.956 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-09 23:18:00.956 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-09 23:18:00.962 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-09 23:18:00.963 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-09 23:18:00.973 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-09 23:18:01.021 +02:00 [DBG] Hosting started
+2025-11-09 23:18:01.347 +02:00 [DBG] Connection id "0HNGVQLRBGKKD" accepted.
+2025-11-09 23:18:01.347 +02:00 [DBG] Connection id "0HNGVQLRBGKKC" accepted.
+2025-11-09 23:18:01.348 +02:00 [DBG] Connection id "0HNGVQLRBGKKC" started.
+2025-11-09 23:18:01.349 +02:00 [DBG] Connection id "0HNGVQLRBGKKD" started.
+2025-11-09 23:18:01.356 +02:00 [DBG] Connection id "0HNGVQLRBGKKC" received FIN.
+2025-11-09 23:18:01.356 +02:00 [DBG] Connection id "0HNGVQLRBGKKD" received FIN.
+2025-11-09 23:18:01.372 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-09 23:18:01.372 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-09 23:18:01.400 +02:00 [DBG] Connection id "0HNGVQLRBGKKC" stopped.
+2025-11-09 23:18:01.400 +02:00 [DBG] Connection id "0HNGVQLRBGKKD" stopped.
+2025-11-09 23:18:01.402 +02:00 [DBG] Connection id "0HNGVQLRBGKKC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:18:01.402 +02:00 [DBG] Connection id "0HNGVQLRBGKKD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:18:02.487 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" accepted.
+2025-11-09 23:18:02.488 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" started.
+2025-11-09 23:18:02.574 +02:00 [DBG] Connection 0HNGVQLRBGKKE established using the following protocol: "Tls13"
+2025-11-09 23:18:02.956 +02:00 [DBG] No candidates found for the request path '/'
+2025-11-09 23:18:02.956 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.215 +02:00 [DBG] No candidates found for the request path '/index.html'
+2025-11-09 23:18:03.215 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.270 +02:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-11-09 23:18:03.272 +02:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-11-09 23:18:03.277 +02:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-11-09 23:18:03.277 +02:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-11-09 23:18:03.313 +02:00 [DBG] No candidates found for the request path '/swagger-ui-standalone-preset.js'
+2025-11-09 23:18:03.313 +02:00 [DBG] No candidates found for the request path '/swagger-ui-bundle.js'
+2025-11-09 23:18:03.313 +02:00 [DBG] No candidates found for the request path '/swagger-ui.css'
+2025-11-09 23:18:03.340 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.342 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.313 +02:00 [DBG] No candidates found for the request path '/index.css'
+2025-11-09 23:18:03.370 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.370 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.370 +02:00 [DBG] No candidates found for the request path '/index.js'
+2025-11-09 23:18:03.370 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.471 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-09 23:18:03.784 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" received FIN.
+2025-11-09 23:18:03.788 +02:00 [DBG] The connection queue processing loop for 0HNGVQLRBGKKE completed.
+2025-11-09 23:18:03.789 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" is closed. The last processed stream ID was 17.
+2025-11-09 23:18:03.789 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:18:03.802 +02:00 [DBG] Connection id "0HNGVQLRBGKKE" stopped.
+2025-11-09 23:18:03.845 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" accepted.
+2025-11-09 23:18:03.845 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" started.
+2025-11-09 23:18:03.850 +02:00 [DBG] Connection 0HNGVQLRBGKKF established using the following protocol: "Tls13"
+2025-11-09 23:18:03.852 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-09 23:18:03.852 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:03.885 +02:00 [DBG] No candidates found for the request path '/favicon-32x32.png'
+2025-11-09 23:18:03.885 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:18:04.897 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" received FIN.
+2025-11-09 23:18:04.899 +02:00 [DBG] The connection queue processing loop for 0HNGVQLRBGKKF completed.
+2025-11-09 23:18:04.899 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" is closed. The last processed stream ID was 3.
+2025-11-09 23:18:04.899 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:18:04.911 +02:00 [DBG] Connection id "0HNGVQLRBGKKF" stopped.
+2025-11-09 23:18:36.525 +02:00 [DBG] Connection id "0HNGVQLRBGKKG" accepted.
+2025-11-09 23:18:36.537 +02:00 [DBG] Connection id "0HNGVQLRBGKKG" started.
+2025-11-09 23:18:36.541 +02:00 [DBG] Connection 0HNGVQLRBGKKG established using the following protocol: "Tls13"
+2025-11-09 23:18:36.576 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/AddCache/A'
+2025-11-09 23:18:36.577 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)' with route pattern 'api/Redis/AddCache/{key}' is valid for the request path '/api/Redis/AddCache/A'
+2025-11-09 23:18:36.582 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:18:36.599 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:18:36.631 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:18:36.631 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:18:36.633 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:18:36.633 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:18:36.633 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:18:36.634 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:18:36.636 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:18:36.638 +02:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2025-11-09 23:18:36.639 +02:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2025-11-09 23:18:36.640 +02:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-11-09 23:18:36.640 +02:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-11-09 23:18:36.640 +02:00 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2025-11-09 23:18:36.645 +02:00 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2025-11-09 23:18:36.646 +02:00 [DBG] Attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' ...
+2025-11-09 23:18:36.646 +02:00 [DBG] Attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' using the name '' in request data ...
+2025-11-09 23:18:36.647 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-09 23:18:36.653 +02:00 [DBG] Connection id "0HNGVQLRBGKKG", Request id "0HNGVQLRBGKKG:00000001": started reading request body.
+2025-11-09 23:18:36.653 +02:00 [DBG] Connection id "0HNGVQLRBGKKG", Request id "0HNGVQLRBGKKG:00000001": done reading request body.
+2025-11-09 23:18:36.655 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'
+2025-11-09 23:18:36.655 +02:00 [DBG] Done attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:18:36.655 +02:00 [DBG] Done attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:18:36.655 +02:00 [DBG] Attempting to validate the bound parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' ...
+2025-11-09 23:18:36.657 +02:00 [DBG] Done attempting to validate the bound parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:19:01.744 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:19:01.746 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:19:01.746 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:19:01.746 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:19:01.746 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:19:01.747 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:19:14.951 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/GetByKey/A'
+2025-11-09 23:19:14.952 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)' with route pattern 'api/Redis/GetByKey/{Key}' is valid for the request path '/api/Redis/GetByKey/A'
+2025-11-09 23:19:14.952 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:19:14.952 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:19:14.957 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:19:14.957 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:19:14.957 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:14.957 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:19:14.957 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:14.957 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:14.957 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:14.958 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:14.958 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' using the name 'Key' in request data ...
+2025-11-09 23:19:14.958 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:14.958 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:14.958 +02:00 [DBG] Attempting to validate the bound parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:14.958 +02:00 [DBG] Done attempting to validate the bound parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:29.631 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:19:29.631 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:19:29.631 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:19:29.631 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:19:29.631 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:19:29.631 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:19:42.636 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/RemoveByKey/{key}'
+2025-11-09 23:19:42.636 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)' with route pattern 'api/Redis/RemoveByKey/{key}' is valid for the request path '/api/Redis/RemoveByKey/{key}'
+2025-11-09 23:19:42.636 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:19:42.638 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:19:42.643 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:19:42.643 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:19:42.644 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:42.644 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:19:42.644 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:42.644 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:42.644 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:42.644 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:42.644 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' using the name 'Key' in request data ...
+2025-11-09 23:19:42.644 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:42.644 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:42.644 +02:00 [DBG] Attempting to validate the bound parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:42.644 +02:00 [DBG] Done attempting to validate the bound parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:49.663 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:19:49.663 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:19:49.663 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:19:49.663 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:19:49.663 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:19:49.664 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:19:56.120 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/GetByKey/A'
+2025-11-09 23:19:56.120 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)' with route pattern 'api/Redis/GetByKey/{Key}' is valid for the request path '/api/Redis/GetByKey/A'
+2025-11-09 23:19:56.120 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:19:56.121 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:19:56.121 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:19:56.121 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:19:56.121 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:56.121 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:19:56.121 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:19:56.121 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:56.121 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:19:56.121 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:56.121 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' using the name 'Key' in request data ...
+2025-11-09 23:19:56.121 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:56.121 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:19:56.121 +02:00 [DBG] Attempting to validate the bound parameter 'Key' of type 'System.String' ...
+2025-11-09 23:19:56.122 +02:00 [DBG] Done attempting to validate the bound parameter 'Key' of type 'System.String'.
+2025-11-09 23:20:10.085 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:20:10.085 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:20:10.085 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:20:10.085 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:20:10.085 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:20:10.085 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:20:18.097 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/RemoveByKey/{key}'
+2025-11-09 23:20:18.097 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)' with route pattern 'api/Redis/RemoveByKey/{key}' is valid for the request path '/api/Redis/RemoveByKey/{key}'
+2025-11-09 23:20:18.097 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:20:18.097 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:20:18.097 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:20:18.098 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:20:18.098 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:20:18.098 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:20:18.098 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:20:18.098 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:20:18.098 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:20:18.098 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' ...
+2025-11-09 23:20:18.098 +02:00 [DBG] Attempting to bind parameter 'Key' of type 'System.String' using the name 'Key' in request data ...
+2025-11-09 23:20:18.098 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:20:18.098 +02:00 [DBG] Done attempting to bind parameter 'Key' of type 'System.String'.
+2025-11-09 23:20:18.098 +02:00 [DBG] Attempting to validate the bound parameter 'Key' of type 'System.String' ...
+2025-11-09 23:20:18.098 +02:00 [DBG] Done attempting to validate the bound parameter 'Key' of type 'System.String'.
+2025-11-09 23:20:31.791 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:20:31.791 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:20:31.791 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:20:31.791 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:20:31.791 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:20:31.791 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:22:27.828 +02:00 [DBG] Registered model binder providers, in the following order: ["Asp.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-11-09 23:22:27.905 +02:00 [DBG] Hosting starting
+2025-11-09 23:22:27.931 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-a50b3088-be3a-45ac-b629-6e6c5e38113c.xml'.
+2025-11-09 23:22:27.936 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73.xml'.
+2025-11-09 23:22:27.936 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-ed35be8c-7197-48c7-8a10-2754c288bdfb.xml'.
+2025-11-09 23:22:27.936 +02:00 [DBG] Reading data from file 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys\key-f0d6a912-063c-4b82-8182-241a4fdaff46.xml'.
+2025-11-09 23:22:27.939 +02:00 [DBG] Found key {a50b3088-be3a-45ac-b629-6e6c5e38113c}.
+2025-11-09 23:22:27.944 +02:00 [DBG] Found key {d7cdf9b5-7bb2-484a-bdc0-eb19bc21fa73}.
+2025-11-09 23:22:27.944 +02:00 [DBG] Found key {ed35be8c-7197-48c7-8a10-2754c288bdfb}.
+2025-11-09 23:22:27.944 +02:00 [DBG] Found key {f0d6a912-063c-4b82-8182-241a4fdaff46}.
+2025-11-09 23:22:27.948 +02:00 [DBG] Considering key {ed35be8c-7197-48c7-8a10-2754c288bdfb} with expiration date 2026-01-10 15:21:00Z as default key.
+2025-11-09 23:22:27.950 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-09 23:22:27.951 +02:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-11-09 23:22:27.953 +02:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=9.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-11-09 23:22:27.956 +02:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-11-09 23:22:27.956 +02:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-11-09 23:22:27.957 +02:00 [DBG] Using key {ed35be8c-7197-48c7-8a10-2754c288bdfb} as the default key.
+2025-11-09 23:22:27.958 +02:00 [DBG] Key ring with default key {ed35be8c-7197-48c7-8a10-2754c288bdfb} was loaded during application startup.
+2025-11-09 23:22:27.963 +02:00 [DBG] Middleware loaded
+2025-11-09 23:22:27.964 +02:00 [DBG] Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16527 B).
+2025-11-09 23:22:27.964 +02:00 [DBG] Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-11-09 23:22:28.035 +02:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-11-09 23:22:28.035 +02:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-11-09 23:22:28.037 +02:00 [DBG] Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=null, __ASPNETCORE_BROWSER_TOOLS=true
+2025-11-09 23:22:28.109 +02:00 [DBG] Loaded hosting startup assembly CleanArchitecture.API
+2025-11-09 23:22:28.109 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-11-09 23:22:28.109 +02:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-11-09 23:22:28.109 +02:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-11-09 23:22:28.114 +02:00 [DBG] Executing API description provider 'EndpointMetadataApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-09 23:22:28.115 +02:00 [DBG] Executing API description provider 'DefaultApiDescriptionProvider' from assembly Microsoft.AspNetCore.Mvc.ApiExplorer v9.0.0.0.
+2025-11-09 23:22:28.123 +02:00 [DBG] Executing API description provider 'VersionedApiDescriptionProvider' from assembly Asp.Versioning.Mvc.ApiExplorer v8.1.0.0.
+2025-11-09 23:22:28.157 +02:00 [DBG] Hosting started
+2025-11-09 23:22:28.571 +02:00 [DBG] Connection id "0HNGVQOAVUSCA" accepted.
+2025-11-09 23:22:28.571 +02:00 [DBG] Connection id "0HNGVQOAVUSC9" accepted.
+2025-11-09 23:22:28.572 +02:00 [DBG] Connection id "0HNGVQOAVUSCA" started.
+2025-11-09 23:22:28.572 +02:00 [DBG] Connection id "0HNGVQOAVUSC9" started.
+2025-11-09 23:22:28.574 +02:00 [DBG] Connection id "0HNGVQOAVUSC9" received FIN.
+2025-11-09 23:22:28.574 +02:00 [DBG] Connection id "0HNGVQOAVUSCA" received FIN.
+2025-11-09 23:22:28.587 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-09 23:22:28.587 +02:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-11-09 23:22:28.608 +02:00 [DBG] Connection id "0HNGVQOAVUSCA" stopped.
+2025-11-09 23:22:28.608 +02:00 [DBG] Connection id "0HNGVQOAVUSC9" stopped.
+2025-11-09 23:22:28.609 +02:00 [DBG] Connection id "0HNGVQOAVUSCA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:22:28.609 +02:00 [DBG] Connection id "0HNGVQOAVUSC9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:22:30.104 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" accepted.
+2025-11-09 23:22:30.104 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" started.
+2025-11-09 23:22:30.143 +02:00 [DBG] Connection 0HNGVQOAVUSCB established using the following protocol: "Tls13"
+2025-11-09 23:22:30.205 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-09 23:22:30.209 +02:00 [DBG] Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-11-09 23:22:30.380 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-09 23:22:30.381 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:22:30.464 +02:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-11-09 23:22:30.464 +02:00 [DBG] Request did not match any endpoints
+2025-11-09 23:22:31.342 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" received FIN.
+2025-11-09 23:22:31.343 +02:00 [DBG] The connection queue processing loop for 0HNGVQOAVUSCB completed.
+2025-11-09 23:22:31.344 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" is closed. The last processed stream ID was 9.
+2025-11-09 23:22:31.345 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:22:31.354 +02:00 [DBG] Connection id "0HNGVQOAVUSCB" stopped.
+2025-11-09 23:22:49.472 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" accepted.
+2025-11-09 23:22:49.472 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" started.
+2025-11-09 23:22:49.476 +02:00 [DBG] Connection 0HNGVQOAVUSCC established using the following protocol: "Tls13"
+2025-11-09 23:22:49.486 +02:00 [DBG] 1 candidate(s) found for the request path '/api/Redis/AddCache/A'
+2025-11-09 23:22:49.487 +02:00 [DBG] Endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)' with route pattern 'api/Redis/AddCache/{key}' is valid for the request path '/api/Redis/AddCache/A'
+2025-11-09 23:22:49.498 +02:00 [DBG] Request matched endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:22:49.520 +02:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2025-11-09 23:22:49.537 +02:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-11-09 23:22:49.537 +02:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-11-09 23:22:49.538 +02:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:22:49.538 +02:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-11-09 23:22:49.538 +02:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Asp.Versioning.ReportApiVersionsAttribute (Order: 0)"]
+2025-11-09 23:22:49.539 +02:00 [DBG] Executing controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:22:49.540 +02:00 [DBG] Executed controller factory for controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API)
+2025-11-09 23:22:49.542 +02:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' ...
+2025-11-09 23:22:49.543 +02:00 [DBG] Attempting to bind parameter 'key' of type 'System.String' using the name 'key' in request data ...
+2025-11-09 23:22:49.543 +02:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-11-09 23:22:49.543 +02:00 [DBG] Done attempting to bind parameter 'key' of type 'System.String'.
+2025-11-09 23:22:49.543 +02:00 [DBG] Attempting to validate the bound parameter 'key' of type 'System.String' ...
+2025-11-09 23:22:49.547 +02:00 [DBG] Done attempting to validate the bound parameter 'key' of type 'System.String'.
+2025-11-09 23:22:49.548 +02:00 [DBG] Attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' ...
+2025-11-09 23:22:49.548 +02:00 [DBG] Attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' using the name '' in request data ...
+2025-11-09 23:22:49.549 +02:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-11-09 23:22:49.552 +02:00 [DBG] Connection id "0HNGVQOAVUSCC", Request id "0HNGVQOAVUSCC:00000001": started reading request body.
+2025-11-09 23:22:49.552 +02:00 [DBG] Connection id "0HNGVQOAVUSCC", Request id "0HNGVQOAVUSCC:00000001": done reading request body.
+2025-11-09 23:22:49.554 +02:00 [DBG] JSON input formatter succeeded, deserializing to type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'
+2025-11-09 23:22:49.554 +02:00 [DBG] Done attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:22:49.554 +02:00 [DBG] Done attempting to bind parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:22:49.554 +02:00 [DBG] Attempting to validate the bound parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject' ...
+2025-11-09 23:22:49.556 +02:00 [DBG] Done attempting to validate the bound parameter 'redisObject' of type 'CleanArchitecture.Service.Dtos.RedisDtos.RedisObject'.
+2025-11-09 23:23:22.912 +02:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-11-09 23:23:22.913 +02:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-11-09 23:23:22.914 +02:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-11-09 23:23:22.914 +02:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-11-09 23:23:22.914 +02:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-11-09 23:23:22.915 +02:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-11-09 23:23:37.218 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" received FIN.
+2025-11-09 23:23:37.218 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" is closed. The last processed stream ID was 1.
+2025-11-09 23:23:37.218 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-11-09 23:23:37.218 +02:00 [DBG] The connection queue processing loop for 0HNGVQOAVUSCC completed.
+2025-11-09 23:23:37.218 +02:00 [DBG] Connection id "0HNGVQOAVUSCC" stopped.

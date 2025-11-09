@@ -1,0 +1,98 @@
+2025-11-09 23:18:00.645 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-09 23:18:00.956 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-09 23:18:00.956 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-09 23:18:01.021 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 23:18:01.021 +02:00 [INF] Hosting environment: Development
+2025-11-09 23:18:01.021 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-09 23:18:02.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/ - null null
+2025-11-09 23:18:02.971 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/ - 301 0 null 292.7144ms
+2025-11-09 23:18:03.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.html - null null
+2025-11-09 23:18:03.277 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.html - 200 null text/html;charset=utf-8 67.7324ms
+2025-11-09 23:18:03.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui.css - null null
+2025-11-09 23:18:03.311 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.css - null null
+2025-11-09 23:18:03.312 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - null null
+2025-11-09 23:18:03.312 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - null null
+2025-11-09 23:18:03.342 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/index.js - null null
+2025-11-09 23:18:03.401 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-09 23:18:03.401 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-09 23:18:03.417 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.js - 200 null application/javascript;charset=utf-8 103.7892ms
+2025-11-09 23:18:03.472 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 71.7005ms
+2025-11-09 23:18:03.485 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/index.css - 200 152 text/css 173.8861ms
+2025-11-09 23:18:03.497 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui.css - 200 23647 text/css 185.4245ms
+2025-11-09 23:18:03.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-standalone-preset.js - 200 70860 text/javascript 189.4329ms
+2025-11-09 23:18:03.520 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger-ui-bundle.js - 200 417980 text/javascript 208.2845ms
+2025-11-09 23:18:03.567 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 165.3532ms
+2025-11-09 23:18:03.851 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-09 23:18:03.885 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/favicon-32x32.png - null null
+2025-11-09 23:18:03.887 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/favicon-32x32.png - 200 628 image/png 2.3179ms
+2025-11-09 23:18:03.997 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 145.7112ms
+2025-11-09 23:18:36.556 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Redis/AddCache/A - application/json 69
+2025-11-09 23:18:36.602 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:18:36.630 +02:00 [INF] Route matched with {action = "AddCache", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]] AddCacheAsync(System.String, CleanArchitecture.Service.Dtos.RedisDtos.RedisObject) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:18:36.662 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:19:01.741 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25076.786ms.
+2025-11-09 23:19:01.747 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-09 23:19:01.755 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API) in 25119.9952ms
+2025-11-09 23:19:01.755 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:19:01.755 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Redis/AddCache/A - 200 null application/json; charset=utf-8 25198.9669ms
+2025-11-09 23:19:14.949 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Redis/GetByKey/A - null null
+2025-11-09 23:19:14.952 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:19:14.956 +02:00 [INF] Route matched with {action = "GetByKey", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[CleanArchitecture.Service.Dtos.RedisDtos.RedisObject]] GetByKey(System.String) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:19:14.959 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:19:29.630 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 14671.211ms.
+2025-11-09 23:19:29.631 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[CleanArchitecture.Service.Dtos.RedisDtos.RedisObject, CleanArchitecture.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-09 23:19:29.633 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API) in 14675.9339ms
+2025-11-09 23:19:29.633 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:19:29.633 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Redis/GetByKey/A - 200 null application/json; charset=utf-8 14683.9196ms
+2025-11-09 23:19:42.635 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7250/api/Redis/RemoveByKey/{key} - null null
+2025-11-09 23:19:42.639 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:19:42.643 +02:00 [INF] Route matched with {action = "RemoveByKey", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]] RemoveByKey(System.String) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:19:42.644 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:19:49.663 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7018.4256ms.
+2025-11-09 23:19:49.664 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-09 23:19:49.664 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API) in 7020.3919ms
+2025-11-09 23:19:49.664 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:19:49.664 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7250/api/Redis/RemoveByKey/{key} - 200 null application/json; charset=utf-8 7029.2845ms
+2025-11-09 23:19:56.120 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/api/Redis/GetByKey/A - null null
+2025-11-09 23:19:56.121 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:19:56.121 +02:00 [INF] Route matched with {action = "GetByKey", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[CleanArchitecture.Service.Dtos.RedisDtos.RedisObject]] GetByKey(System.String) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:19:56.122 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:20:10.085 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13963.1757ms.
+2025-11-09 23:20:10.085 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[CleanArchitecture.Service.Dtos.RedisDtos.RedisObject, CleanArchitecture.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-11-09 23:20:10.086 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API) in 13964.5256ms
+2025-11-09 23:20:10.086 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.GetByKey (CleanArchitecture.API)'
+2025-11-09 23:20:10.086 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/api/Redis/GetByKey/A - 200 null application/json; charset=utf-8 13966.2102ms
+2025-11-09 23:20:18.097 +02:00 [INF] Request starting HTTP/2 DELETE https://localhost:7250/api/Redis/RemoveByKey/{key} - null null
+2025-11-09 23:20:18.097 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:20:18.097 +02:00 [INF] Route matched with {action = "RemoveByKey", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]] RemoveByKey(System.String) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:20:18.098 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:20:31.790 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13692.2543ms.
+2025-11-09 23:20:31.791 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-09 23:20:31.791 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API) in 13693.3158ms
+2025-11-09 23:20:31.791 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.RemoveByKey (CleanArchitecture.API)'
+2025-11-09 23:20:31.791 +02:00 [INF] Request finished HTTP/2 DELETE https://localhost:7250/api/Redis/RemoveByKey/{key} - 200 null application/json; charset=utf-8 13694.4491ms
+2025-11-09 23:22:27.917 +02:00 [INF] User profile is available. Using 'C:\Users\itblocks\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-11-09 23:22:28.109 +02:00 [INF] Now listening on: https://localhost:7250
+2025-11-09 23:22:28.109 +02:00 [INF] Now listening on: http://localhost:5030
+2025-11-09 23:22:28.157 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-11-09 23:22:28.157 +02:00 [INF] Hosting environment: Development
+2025-11-09 23:22:28.157 +02:00 [INF] Content root path: C:\Users\itblocks\source\repos\RagabMohamedRagab\CleanArchitecture\CleanArchitecture.API
+2025-11-09 23:22:30.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-09 23:22:30.189 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_vs/browserLink - null null
+2025-11-09 23:22:30.207 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 21.2595ms
+2025-11-09 23:22:30.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - null null
+2025-11-09 23:22:30.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_framework/aspnetcore-browser-refresh.js - 200 16527 application/javascript; charset=utf-8 1.6425ms
+2025-11-09 23:22:30.244 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.4698ms
+2025-11-09 23:22:30.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-09 23:22:30.464 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - null null
+2025-11-09 23:22:30.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.942ms
+2025-11-09 23:22:30.531 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7250/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.5926ms
+2025-11-09 23:22:49.477 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7250/api/Redis/AddCache/A - application/json 60
+2025-11-09 23:22:49.521 +02:00 [INF] Executing endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:22:49.537 +02:00 [INF] Route matched with {action = "AddCache", controller = "Redis"}. Executing controller action with signature System.Threading.Tasks.Task`1[CleanArchitecture.Service.Responseobject.ResponseResult`1[System.Boolean]] AddCacheAsync(System.String, CleanArchitecture.Service.Dtos.RedisDtos.RedisObject) on controller CleanArchitecture.API.Controllers.v3.RedisController (CleanArchitecture.API).
+2025-11-09 23:22:49.559 +02:00 [INF] Executing action method CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API) - Validation state: "Valid"
+2025-11-09 23:23:10.594 +02:00 [INF] Executed action method CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 21022.61ms.
+2025-11-09 23:23:22.915 +02:00 [INF] Executing ObjectResult, writing value of type 'CleanArchitecture.Service.Responseobject.ResponseResult`1[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-11-09 23:23:22.925 +02:00 [INF] Executed action CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API) in 33383.7576ms
+2025-11-09 23:23:22.925 +02:00 [INF] Executed endpoint 'CleanArchitecture.API.Controllers.v3.RedisController.AddCacheAsync (CleanArchitecture.API)'
+2025-11-09 23:23:22.925 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7250/api/Redis/AddCache/A - 200 null application/json; charset=utf-8 33447.991ms
