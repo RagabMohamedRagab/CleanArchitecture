@@ -54,10 +54,5 @@ namespace CleanArchitecture.API.Controllers.v3
                 return new ResponseResult<bool>(false);
             }
         }
-
-
-
-
-
     }
 }

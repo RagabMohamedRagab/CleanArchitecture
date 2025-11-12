@@ -1,6 +1,8 @@
 ﻿
 using System.Configuration;
+using System.Net;
 using System.Reflection;
+using System.Threading.RateLimiting;
 using CleanArchitecture.Data.Entities.Identities;
 using CleanArchitecture.Data.Enums;
 using CleanArchitecture.Data.IEmailService;
@@ -11,6 +13,7 @@ using CleanArchitecture.Infrastructure.ContextDB;
 using CleanArchitecture.Infrastructure.EmailService;
 using CleanArchitecture.Infrastructure.Repositories.Auth;
 using CleanArchitecture.Infrastructure.Repositories.GenericRepositories;
+using CleanArchitecture.Service.Dtos;
 using CleanArchitecture.Service.Dtos.FireBaseDtos;
 using CleanArchitecture.Service.Dtos.GateWay.PaymobGateWay;
 using CleanArchitecture.Service.Dtos.GateWay.PayPalGateWay;
@@ -29,6 +32,7 @@ using CleanArchitecture.Service.Managers.PayPalManager;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -128,10 +132,62 @@ namespace CleanArchitecture.Infrastructure.Extensions
             services.AddScoped(typeof(IElasticSearch<>), typeof(ElasticSearch<>));
             #endregion
 
-
             #region Redis Cache
             services.AddStackExchangeRedisCache(option => {
                 option.Configuration = configuration["Redis:Url"];
+            });
+            #endregion
+
+
+            #region RabbitMQ
+            services.Configure<RabbitMQConfig>(configuration.GetSection("RabbitMQ"));
+            #endregion
+
+
+
+            #region Rate Limiting
+            // Add rate limiting
+           services.AddRateLimiter(options =>
+            {
+                options.RejectionStatusCode = (int)HttpStatusCode.TooManyRequests;
+
+                // 1️⃣ Fixed Window Limiter
+                options.AddFixedWindowLimiter("Fixed", limiterOptions =>
+                {
+                    limiterOptions.PermitLimit = 5; // max 5 requests
+                    limiterOptions.Window = TimeSpan.FromSeconds(10); // per 10 seconds
+                    limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                    limiterOptions.QueueLimit = 2; // optional: queue 2 extra requests
+                });
+
+                // 2️⃣ Sliding Window Limiter
+                options.AddSlidingWindowLimiter("Slide", limiterOptions =>
+                {
+                    limiterOptions.PermitLimit = 5; // max 5 requests
+                    limiterOptions.Window = TimeSpan.FromSeconds(10); // sliding 10s window
+                    limiterOptions.SegmentsPerWindow = 5; // divide window into 5 segments
+                    limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                    limiterOptions.QueueLimit = 2;
+                });
+
+                // 3️⃣ Token Bucket Limiter
+                options.AddTokenBucketLimiter("Token", limiterOptions =>
+                {
+                    limiterOptions.TokenLimit = 10; // max tokens
+                    limiterOptions.TokensPerPeriod = 5; // tokens added each period
+                    limiterOptions.ReplenishmentPeriod = TimeSpan.FromSeconds(10); // refill period
+                    limiterOptions.AutoReplenishment = true;
+                    limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                    limiterOptions.QueueLimit = 2;
+                });
+
+                // 4️⃣ Concurrency Limiter
+                options.AddConcurrencyLimiter("Concurrency", limiterOptions =>
+                {
+                    limiterOptions.PermitLimit = 2; // max concurrent requests
+                    limiterOptions.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+                    limiterOptions.QueueLimit = 2; // optional: queue extra requests
+                });
             });
             #endregion
         }
